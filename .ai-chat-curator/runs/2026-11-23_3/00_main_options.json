@@ -1,0 +1,12 @@
+{
+  "run_id": "2026-11-23_3",
+  "spec": "004",
+  "mode": "auto",
+  "request": "ai-chat-curator 자동 실행",
+  "period": {"from": "2026-11-17", "to": "2026-11-23", "label": "최근 7일"},
+  "draft_count": {"min": 3, "max": 5},
+  "type_focus": null,
+  "tool_focus": null,
+  "perspectives": ["a", "b", "c", "d"],
+  "output_dir": "outputs/2026-11-23_3"
+}
