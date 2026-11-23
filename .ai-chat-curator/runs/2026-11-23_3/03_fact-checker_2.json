@@ -1,0 +1,60 @@
+{
+  "results": [
+    {
+      "cid": "C02",
+      "status": "확인됨",
+      "evidence": [
+        {"url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes", "source_type": "공식", "published": "2026-11-18", "what": "11-18 항목 'Accounting workflows in ChatGPT': 회계 플러그인이 거래 대조·청구 항목 초안·월말 보고 준비를 지원. macOS·Windows 데스크톱 앱에서 컴퓨터 사용을 설정한 뒤 플러그인 목록에서 설치. Enterprise 워크스페이스는 관리자가 승인해야 구성원이 설치 가능."}
+      ],
+      "freshness_ok": true,
+      "caveats": "macOS·Windows 데스크톱 앱 한정. 설치 가능 여부는 요금제·워크스페이스에 따라 다름(Install plugin이 보일 때). Enterprise는 관리자 승인 필수. 한국 제공 여부는 해당 항목에 명시 없음. 릴리스 노트 앞 100,000자만 확인(최신순 배열), 이후 정정 항목은 못 봄.",
+      "corrected_claim": null,
+      "note": "근거 URL이 릴리스 노트 전체 페이지라 개별 항목 앵커 없음. 문안 링크는 이 페이지로 쓰되 '11-18 항목'을 본문에 밝히면 좋음."
+    },
+    {
+      "cid": "C04",
+      "status": "부분 확인",
+      "evidence": [
+        {"url": "https://www.itechpost.com/articles/237829/20261118/oregon-takes-legal-action-against-openai-over-chatgpt-child-safety-concerns.htm", "source_type": "언론", "published": "2026-11-18", "what": "Rayfield 법무장관이 11-17 발표, 최소 20억 3,500만 달러 청구, 멀트노마 카운티 순회법원. 10월 애리조나·아칸소·아이다호·아이오와·캔자스·몬태나·네브래스카·웨스트버지니아 8개 주가 각각 소송. OpenAI 대변인은 추가 안전장치를 마련 중이라고 밝힘."},
+        {"url": "https://www.opb.org/article/2026/11/17/oregon-ag-sues-openai-claims-company-knowingly-endangers-teens/", "source_type": "언론", "published": "2026-11-17", "what": "검색 결과 요약만 확인(페이지 직접 열람 안 함): 11-17 오리건 소송 제기, 멀트노마 카운티. 직접 열람한 근거로는 쓰지 않음."}
+      ],
+      "freshness_ok": true,
+      "caveats": "공식 출처(오리건 법무부 보도자료) 미열람이라 매체 보도만으로 판정. 소송 주장 단계이며 판결·인정된 사실이 아님. 청구액은 요구액이지 확정액이 아님. 8개 주 소송은 '각자 별도 소송'. 문안에 쓴다면 OpenAI 반박(안전장치·부모 통제 등)을 함께 써야 공정.",
+      "corrected_claim": null,
+      "note": "iTech Post 한 곳만 직접 열람. 검색 결과상 OPB·KPTV·Engadget·TechRepublic 등 다수 매체가 같은 내용을 보도(날짜·금액·법원 일치). 한국 직장인 업무 관련성은 낮음(큐레이터 판단 유지)."
+    },
+    {
+      "cid": "C07",
+      "status": "부분 확인",
+      "evidence": [
+        {"url": "https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/", "source_type": "공식", "published": "2026-11-16", "what": "본문에 'the vast majority of our code (~90%) is written and reviewed by Claude'라고 적혀 있음. 작성자는 Addy Osmani로 표기."}
+      ],
+      "freshness_ok": true,
+      "caveats": "주당 수천 건 PR 병합 주장은 해당 페이지에서 찾지 못함(PR 수치 없음). claude.dev 도메인이 Anthropic 공식 도메인인지, 작성자 표기가 Claude Code 팀 소속과 맞는지 확인하지 못함. 게시일은 11-16으로 기간(11-17~) 하루 전이나 내용은 현재 유효.",
+      "corrected_claim": "Claude Code 팀은 코드의 약 90%를 Claude가 쓰고 검토한다고 밝혔다. (주당 수천 건 PR 병합은 확인되지 않음)",
+      "note": "커뮤니티 출발 후보라 공식 도메인 확인 없이는 확인됨 불가. 도메인 진위 미확인이므로 '공식'으로 단정하지 말 것. 관련도 하라 추천 제외 유지 권장."
+    },
+    {
+      "cid": "C09",
+      "status": "확인됨",
+      "evidence": [
+        {"url": "https://workspaceupdates.googleblog.com/2026/11/share-skills-add-files-from-Drive-Notebook-Photos-to-skills-Gemini-app.html", "source_type": "공식", "published": "2026-11-16", "what": "Gemini 앱 스킬 페이지에서 보기·편집 권한으로 스킬 공유 가능(수신자는 이메일 받고 설치 전 검토). 스킬 생성·업로드 시 Drive·Gemini 노트북·포토 파일 추가 가능. 모든 Google Workspace 고객과 개인 구글 계정 사용자 대상."}
+      ],
+      "freshness_ok": true,
+      "caveats": "공유·권한 관리는 Gemini 웹 앱에서만 가능(모바일 앱 불가). 스킬당 업로드 파일 100MB 한도. 스킬에 넣은 Drive 파일은 수신자도 별도 접근 권한이 있어야 함. Workspace 관리자가 공유를 끌 수 있고(기본 켜짐) Drive 외부 공유 설정을 따름. 11-12부터 순차 적용, 표시까지 최대 15일. 한국 등 지역 제한은 명시 없음.",
+      "corrected_claim": null,
+      "note": "게시일이 후보의 published(11-20)와 다름: 실제 11-16(기간 하루 전). 지금 유효하고 순차 적용 중이라 freshness_ok 참. 후보 primary.published를 11-16으로 정정 권장."
+    },
+    {
+      "cid": "C10",
+      "status": "확인됨",
+      "evidence": [
+        {"url": "https://workspaceupdates.googleblog.com/2026/11/transform-your-notes-and-research-into-dynamic-tools-with-Gemini-Notebook.html", "source_type": "공식", "published": "2026-11-18", "what": "Gemini 노트북 채팅에 'make me a site'를 입력하고 원하는 내용을 설명한 뒤 'Open in a new tab'을 고르면 소스를 인터랙티브 사이트로 변환. 완성된 사이트는 다른 사람과 공유 가능. 예시: 시험 대비 설명, 분기 매출 대시보드, 프로젝트 트래커."}
+      ],
+      "freshness_ok": true,
+      "caveats": "모든 Workspace 고객, Workspace Individual 구독자, 만 18세 이상 개인 구글 계정에 제공. 웹에서 전 세계 제공, 모바일은 '곧 제공'. 11-16부터 순차 적용, 표시까지 최대 15일이라 아직 안 보일 수 있음. 관리자는 Gemini 노트북 사용 자체만 제어 가능. 공유 시 접근 범위(링크 공개 등) 세부는 페이지에 없음.",
+      "corrected_claim": null,
+      "note": "게시일이 후보의 published(11-20)와 다름: 실제 11-18. 후보 primary.published를 11-18로 정정 권장."
+    }
+  ]
+}

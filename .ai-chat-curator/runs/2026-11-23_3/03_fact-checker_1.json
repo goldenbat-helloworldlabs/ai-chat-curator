@@ -1,0 +1,61 @@
+{
+  "results": [
+    {
+      "cid": "C01",
+      "status": "확인됨",
+      "evidence": [{"url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes", "source_type": "공식", "published": "2026-11-18", "what": "릴리스 노트 11-18 항목: Live Dictation이 iOS·Android·웹·데스크톱 앱의 모든 ChatGPT 요금제에 전 세계 순차 제공, 10분 녹음 제한 제거"}],
+      "freshness_ok": true,
+      "caveats": "순차 적용 중이라 계정에 따라 아직 안 보일 수 있다. 한국 별도 제외 언급은 없고 전 세계 제공으로 적혀 있다. 개별 도움말 URL은 못 찾아 릴리스 노트 전체 URL만 확인했다(문안 링크는 이 URL 사용).",
+      "corrected_claim": null,
+      "note": "반대 근거(철회·롤백) 검색은 따로 하지 않았음. 릴리스 노트에 이후 수정 항목은 열람 범위(앞 100000자)에서 발견되지 않음."
+    },
+    {
+      "cid": "C03",
+      "status": "확인됨",
+      "evidence": [
+        {"url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes", "source_type": "공식", "published": "2026-11-17", "what": "11-17 항목: GPT-6.2 Astra·Sol이 Work와 Codex 데스크톱에서 미리보기로 제공, Plus·Pro는 Work 모델 선택기/Codex 선택기에서 고름, 관리형 워크스페이스는 좌석·설정에 따라 다름, 'Regular Chat keeps its existing model choices'"},
+        {"url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/", "source_type": "공식", "published": "2026-11-17", "what": "발표문: 'Starting today' Plus·Pro·Enterprise·Edu 사용자가 ChatGPT Work·Codex에서 사용 가능. 페이지에 날짜 표기는 없고 트윗·보도 기준 11-17(검색 결과, 직접 열람 아님)"}
+      ],
+      "freshness_ok": true,
+      "caveats": "일반 Chat 모델 선택은 그대로다. 공식 발표문은 Plus·Pro·Enterprise·Edu 모두 언급, 릴리스 노트는 Plus·Pro 선택 방법 중심이라 문안에는 'Plus·Pro 등 유료'로 쓰는 편이 안전. Enterprise·Edu는 관리자 설정에 따라 다름. 미리보기 표현은 릴리스 노트 기준.",
+      "corrected_claim": null,
+      "note": "수집 b가 남긴 '단일 출처·공식 노트에 없음' 상충 정보는 해소됨: 공식 노트와 발표문 모두 확인. 반대 근거 검색에서 철회·연기 없음(출시 후 초기 체감 평가가 나쁘다는 보도만 있음). 네 번째 주장(Astra·Sol 용도 평)은 커뮤니티 평으로 확인 대상 아님, 문안에서 사실처럼 단정하지 말고 질문으로 쓸 것."
+    },
+    {
+      "cid": "C05",
+      "status": "확인됨",
+      "evidence": [{"url": "https://support.claude.com/en/articles/12138966-release-notes", "source_type": "공식", "published": "2026-11-20", "what": "11-20 항목: 컴퓨터 사용(베타)이 Team·Enterprise 요금제에서 베타로 제공, 조직에 점진적 순차 제공. 'Computer access'가 켜진 상태에서 Claude Desktop·웹·모바일에서 작동, 설정 안내 문서 링크"}],
+      "freshness_ok": true,
+      "caveats": "Team·Enterprise 한정이고 조직별로 순차 적용이라 아직 안 보일 수 있다. 개인 요금제(Free·Pro·Max)는 해당 없음. 컴퓨터 접근 설정을 켜야 한다. 한국 적용 여부는 문서에 별도 언급 없음.",
+      "corrected_claim": null,
+      "note": "반대 근거 검색: 컴퓨터 사용 롤백·중단 보도 없음."
+    },
+    {
+      "cid": "C06",
+      "status": "확인됨",
+      "evidence": [{"url": "https://support.claude.com/en/articles/12138966-release-notes", "source_type": "공식", "published": "2026-11-17", "what": "11-17 항목: Claude Desktop에서 릴리스 채널 선택. 'Stable stays the default and gets new versions less often, after more testing', 'Latest gets a new version about once a day'"}],
+      "freshness_ok": true,
+      "caveats": "Claude Desktop 앱 한정(웹·모바일 해당 없음). 요금제·한국 제한 언급은 열람 범위에서 없음. 채널을 바꾸는 메뉴 경로는 확인 못 했으므로 문안에 쓰지 말 것.",
+      "corrected_claim": null,
+      "note": "'팀에서 동작을 일정하게 하려면 Stable이 맞다'는 문안 추천 문장은 공식 설명을 바탕으로 한 해석임. 단정하지 말고 '더 검증된 버전'으로 표현."
+    },
+    {
+      "cid": "C08",
+      "status": "확인됨",
+      "evidence": [{"url": "https://workspaceupdates.googleblog.com/2026/11/customize-and-extend-workspace-with-apps-script.html", "source_type": "공식", "published": "2026-11-16", "what": "Apps Script의 Gemini 사이드 패널 정식 출시(GA), 'no coding experience required'로 스크립트 생성·문제 해결. 11-12부터 순차 적용(가시화까지 최대 15일)"}],
+      "freshness_ok": true,
+      "caveats": "제공 대상: Business Standard·Plus, Enterprise Standard·Plus, AI Expanded Access 애드온, Google AI Pro for Education, 개인용 Google AI Pro·Ultra. 무료 개인 계정은 목록에 없음. 순차 적용(최대 15일)이라 아직 안 보일 수 있다. 한국 적용 여부는 문서에 별도 언급 없음.",
+      "corrected_claim": null,
+      "note": "게시일이 후보에 적힌 11-20이 아니라 페이지상 11-16(기간 시작 하루 전, 11-12부터 순차 적용 중)이다. 현재 유효해 freshness_ok는 참으로 두되 문안에서 '이번 주 정식 출시'처럼 쓰지 말 것. 11-20은 같은 블로그 다른 글 날짜와 혼동됐을 수 있음."
+    },
+    {
+      "cid": "C11",
+      "status": "부분 확인",
+      "evidence": [{"url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/", "source_type": "공식", "published": "2026-11-18", "what": "Neon은 Gemini 앱 Pro·Ultra 구독자가 모델 드롭다운에서 선택 가능. 기본 높은 사고 수준에서 작업당 비용이 Carbon보다 32% 낮음. 일부 벤치마크에서 Carbon과 동등하거나 앞섬. 무료 사용자 언급 없음"}],
+      "freshness_ok": true,
+      "caveats": "무료 사용자 이용 여부는 공식 글에 없음. Carbon은 Ultra 전용, Pro에서는 Neon이 Argon을 대체했다는 보도가 있어(검색 결과 요약만 확인, 기사 직접 열람 안 함) 월 20달러 요금제에서 Carbon·Argon이 안 보이는 현상은 오류가 아니라 정책일 가능성이 높으나 공식 요금제 페이지로 확인하지 못함.",
+      "corrected_claim": "구글은 Gemini 4 Neon이 높은 사고 수준에서 Carbon보다 작업당 비용이 32% 낮고 일부 벤치마크에서 동등하거나 앞선다고 밝혔다. Gemini 앱에서는 AI Pro·Ultra 구독자가 고를 수 있다. ('3배 속도·60% 비용' 수치는 공식 글에서 확인되지 않음)",
+      "note": "첫 주장의 '3배 속도·60% 비용'은 공식 글과 맞지 않아 사용 금지. 세 번째 주장(월 20달러 요금제 사용자 보고)은 커뮤니티 보고라 공식 확인 안 됨. 문안에서는 뺄 것. 반대 근거 검색에서 철회·연기 없음."
+    }
+  ]
+}
