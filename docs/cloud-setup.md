@@ -8,7 +8,25 @@
 
 ## 2. 슬랙 Incoming Webhook
 
-1. api.slack.com/apps → **Create New App** → From scratch → 이름(예: 글감 봇), 워크스페이스 선택
+1. api.slack.com/apps → **Create New App** → **Paste a manifest** → 워크스페이스 선택 → YAML로 아래를 붙여 넣고 Create
+
+   ```yaml
+   display_information:
+     name: 글감 봇
+     description: 매일 10시 AI 글감 1건을 개인 DM으로 보내는 알림
+   features:
+     bot_user:
+       display_name: 글감 봇
+       always_online: false
+   oauth_config:
+     scopes:
+       bot:
+         - incoming-webhook
+   settings:
+     org_deploy_enabled: false
+     socket_mode_enabled: false
+     token_rotation_enabled: false
+   ```
 2. 왼쪽 **Incoming Webhooks** → 켜기 → **Add New Webhook to Workspace**
 3. 게시할 곳으로 **본인 DM**(목록에서 자기 이름)을 고르고 허용
    - 목록에 본인 DM이 없거나 워크스페이스 정책상 앱 설치가 막혀 있으면 본인만 있는 비공개 채널을 만들어 그 채널을 고른다
@@ -16,9 +34,9 @@
 
 ## 3. 클라우드 환경
 
-claude.ai/code → 환경(Environment) 설정에서:
+claude.ai/code → 입력창 아래 환경 이름(기본 `Default`) → 환경 설정(톱니바퀴) 또는 **Add environment**에서:
 
-- **환경 변수(비밀값)**: `SLACK_WEBHOOK_URL` = 위 주소
+- **Environment variables** 칸에 `.env` 형식으로 한 줄: `SLACK_WEBHOOK_URL=https://hooks.slack.com/services/...` (따옴표 없이)
 - **네트워크 접근**: 사용자 지정 허용 목록에 `hooks.slack.com` 추가
 - 예약 실행(routine) 설정에서 **main 브랜치에 push 허용**(제한 없는 브랜치 push). 막혀 있으면 게시 기록이 다음 날로 이어지지 않아 같은 글이 다시 나올 수 있다
 
