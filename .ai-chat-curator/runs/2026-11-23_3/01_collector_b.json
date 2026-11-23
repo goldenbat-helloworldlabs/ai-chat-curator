@@ -1,0 +1,52 @@
+{
+  "perspective": "b",
+  "period": {"from": "2026-11-17", "to": "2026-11-23"},
+  "queries": [
+    "ChatGPT 기업 도입 업무 AI 2026년 11월",
+    "Claude Anthropic enterprise news November 2026",
+    "Gemini Workspace 업데이트 직장인 보고서 메일 2026.11",
+    "OpenAI ChatGPT new feature this week TechCrunch The Verge",
+    "AI타임스 챗GPT 클로드 제미나이 업무 새 기능 출시",
+    "Anthropic Claude Meetings Whiteboards Sheets Enterprise launch",
+    "Google Gemini news November 20 2026",
+    "OpenAI ChatGPT announcement November 2026 workers privacy lawsuit regulation AI",
+    "ChatGPT Work Codex desktop app combines Chat Work Codex launch news",
+    "구글 제미나이 지메일 AI 요약 전 직장인 확대 기사",
+    "앤트로픽 클로드 미팅 화이트보드 시트 출시 기사",
+    "OpenAI ChatGPT dot Enterprise launch admins November 18 company knowledge GPT-5.6",
+    "AI chatbot news workplace Claude ChatGPT Gemini November 19 2026",
+    "Anthropic IPO Claude price Thanksgiving week news enterprise"
+  ],
+  "items": [
+    {
+      "id": "b-01",
+      "title": "오리건주, 미성년자 보호 부실 이유로 OpenAI 소송",
+      "summary": "오리건주 법무장관이 ChatGPT가 청소년에게 유해 콘텐츠를 노출하고 보호 장치(부모 통제·연령 예측)가 우회될 수 있다며 OpenAI를 상대로 최소 20억 달러대 손해배상 소송을 냈다. 앞서 10월 8개 주가 비슷한 소송을 냈다고 한다. 아직 주장 단계이며 법원 판단은 없다. 회사는 기존 보호 조치를 들어 반박했다.",
+      "type_guess": "주의할 점",
+      "tools": ["ChatGPT"],
+      "url": "https://www.itechpost.com/articles/237829/20261118/oregon-takes-legal-action-against-openai-over-chatgpt-child-safety-concerns.htm",
+      "source_name": "iTechPost",
+      "source_type": "언론",
+      "published": "2026-11-18",
+      "original_source_url": null,
+      "claims": [
+        "오리건주 법무장관이 2026-11-17 OpenAI를 상대로 최소 20억 3,500만 달러를 청구하는 소송을 멀트노마 카운티 법원에 제기했다",
+        "오리건주 외에 2026년 10월 8개 주가 OpenAI를 상대로 소송을 냈다"
+      ],
+      "work_use": "사내 AI 사용 지침을 만들 때 벤더가 말하는 안전장치를 그대로 믿지 말고 점검하고, 18세 미만 인턴·실습생의 사용 여부를 정할 근거가 된다. 업무 직접 영향은 간접적이라 관련도는 중간 이하."
+    }
+  ],
+  "skipped": [
+    {"url": "https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/", "reason": "작성일 2026-11-10, 기간 밖"},
+    {"url": "https://www.computerworld.com/?p=4247466", "reason": "작성일 2026-11-11, 기간 밖 (Claude Meetings, 관리자·동의 절차 주의점 포함)"},
+    {"url": "https://aibusiness.com/generative-ai/anthropic-launches-new-ai-models", "reason": "작성일 2026-11-11, 기간 밖"},
+    {"url": "https://www.koreabizreview.com/articles/global-radar-ai-tech-ai-11-18-20261108-1mlz", "reason": "작성일 2026-11-09 기간 밖이며 유료 기사(일부만 공개)"},
+    {"url": "https://wikitree.co.kr/articles/1160326", "reason": "작성일 2026-09-17, 기간 밖"},
+    {"url": "https://mixed-news.com/en/?p=38069", "reason": "열리지 않음(404), 확인 불가"},
+    {"url": "https://www.digitaltoday.co.kr/en/view/123803/openai-anthropic-gain-momentum-expanding-into-ai-powered-collaboration-platforms", "reason": "본문을 가져오지 못해 날짜·내용 확인 불가"},
+    {"url": "https://workspaceupdates.googleblog.com/2026/11/expanding-gemini-in-gmail-to-more-Google-Workspace-users.html?m=1", "reason": "공식 발표(언론 관점 아님)이고 작성일 2026-11-10, 기간 밖"},
+    {"url": "https://larwell.com/blog/ai-news-this-week-november-22-2026", "reason": "개인 블로그형 모음 글(1차 출처 불명), 언론 기사로 보기 어렵고 주장 상충"},
+    {"url": "https://gemini.google/release-notes/", "reason": "이미 제안·게시한 링크"}
+  ],
+  "notes": "기간(11-17~23) 안에 작성일이 확인된 언론 기사는 b-01 한 건뿐이다. 세 도구 모두 검색했으나 Gemini는 기간 내 언론 보도를 찾지 못했다. 기간 직전(11-10~11) 보도지만 기간 안에 효력이 생기는 사안이 있어 참고로 남긴다: (1) Claude Data(구 대시보드)가 Enterprise에서 11-19 기본 켜짐, Whiteboards·Sheets는 Enterprise에서 기본 꺼짐, Meetings는 Team·Enterprise 베타이며 외부 참석자 회의는 관리자 승인 필요. 지원 플랫폼은 TechCrunch는 Google Meet만, Computerworld 인용 대변인은 Meet·Teams 둘 다 예정이라 보도가 엇갈린다(출처: TechCrunch 2026-11-10, Computerworld 2026-11-11). (2) OpenAI가 11-04 Enterprise·Edu·Healthcare에 개인용 dot을 제공했고 관리자의 사전 허용·거부 기간이 11-18까지였다는 보도(코리아비즈리뷰 11-09, 유료, 공식 확인 필요). 집계·블로그형 글에만 나오는 주장은 사실 확인 전이므로 가져오지 않았다: Claude 화면 조작(computer use) 베타 11-20, Gemini 4 Neon 11-18, GPT-6.2 11-17(단일 출처, 다른 글은 공식 릴리스 노트에서 11월 항목을 못 찾았다고 함). 공식 관점(a)에서 확인해 볼 만하다."
+}
