@@ -47,3 +47,4 @@
 | 2026-11-23 | 저장소 | git@github.com-corp:goldenbat-helloworldlabs/ai-chat-curator.git main push(사용자 실행) |
 | 2026-11-23 | 알림 교체 | scripts/slack.py(selftest OK, 11-23 실행 3번 dry-run OK), kakao.py 삭제, auto-mode.md·SKILL.md·CLAUDE.md·docs/cloud-setup.md 갱신 |
 | 2026-11-23 | 대기 | 슬랙 웹훅·클라우드 환경 설정(사용자) → 예약 실행 등록 후 Done |
+| 2026-11-23 | 예약 등록 | 루틴 trig_015bAfEPNtTQyhgKsxGCeADU, 매일 0 1 * * * UTC(10:00 KST), 환경 ai-chat-curator, Sonnet 5.5, 커넥터 없음. 첫 실행 2026-11-24 |
