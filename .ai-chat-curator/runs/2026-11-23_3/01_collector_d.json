@@ -1,0 +1,37 @@
+{
+  "perspective": "d",
+  "period": {"from": "2026-11-17", "to": "2026-11-23"},
+  "queries": [
+    "ChatGPT 업무 활용 후기 보고서 회의록 2026년 11월 브런치",
+    "Claude 엑셀 PPT 업무 자동화 실무 경험 velog 2026.11",
+    "Gemini 구글 워크스페이스 메일 요약 업무 활용 팁 블로그 2026년 11월",
+    "how I use Claude ChatGPT Gemini at work workflow November 2026 substack",
+    "클로드 업무 활용 후기 직장인 2026.11.20 AI 활용",
+    "챗GPT 클로드 제미나이 업무 활용 후기 회의록 보고서 메일 (브런치·velog·티스토리·gpters·스티비·메일리)",
+    "Gemini 3 업무 활용 실무 후기 제미나이 스프레드시트 메일 정리",
+    "gpters 11월 AI 활용 사례 Claude ChatGPT Gemini 업무 시간 단축",
+    "Claude Opus 5 / Gemini 3.5 / GPT-5.5 써보니 직장인 업무 후기 11월 셋째 주",
+    "Claude Cowork 업무 자동화 직접 써본 후기 팀 보고 폴더 정리",
+    "ChatGPT Work Space shared projects my team workflow lessons week of November 17 2026"
+  ],
+  "items": [],
+  "skipped": [
+    {"url": "https://www.gpters.org/nocode/post/nondeveloper-office-worker-shared", "reason": "작성일 2026-11-12로 기간(11-17~11-23) 밖. 내용(Claude 회의록·액션아이템 프롬프트 구조, 30~40분→3분)은 업무 팁으로 유효"},
+    {"url": "https://www.gpters.org/nocode/post/claude-excelppt-addin-update-92YjPePXWkd0oSw", "reason": "작성일 2026-03-12로 기간 밖, 페이지에 기업교육 문의 CTA"},
+    {"url": "https://tilnote.io/pages/699f63d7b689b0e6650e0c1f", "reason": "작성일 2026-02-25로 기간 밖"},
+    {"url": "https://www.techloy.com/claude-and-chatgpt-replaced-my-busywork-heres-how-it-actually-works.md", "reason": "2025-06-13 작성, 기간 밖이며 Chatronix 제휴·광고성 (Partner 표기)"},
+    {"url": "https://www.gpters.org/llm-service/post/writing-consultation-conclusion-report-BEDYBK2iiadamWq", "reason": "작성일 2026-01-27로 기간 밖"},
+    {"url": "https://www.gpters.org/dev/post/meeting-minutes-organizing-has-uABPPXgZfVFrmW8", "reason": "작성일 2026-03-25로 기간 밖"},
+    {"url": "https://brunch.co.kr/@rhdwhtjdwkd4mbd/41", "reason": "작성일 2025-12-01로 기간 밖, 글 하단 교육·컨설팅 문의 안내"},
+    {"url": "https://www.gpters.org/marketing/post/caesgpt-gemini-claude-bigyo-hwalyonggi---naege-gajang-gangryeoghan-doguneun-OOkv9AsSP9jJsTg", "reason": "작성일 2025-05-03로 기간 밖"},
+    {"url": "https://brunch.co.kr/@2a50c213d2ac47c/160", "reason": "작성일 2026-09-28로 기간 밖"},
+    {"url": "https://brunch.co.kr/@kk2daddy/164", "reason": "작성일 2026-07-03로 기간 밖"},
+    {"url": "https://www.gpters.org/nocode/post/review-company-ceo-who-XaCKhUiUGfVP8nb", "reason": "작성일 2026-06-05로 기간 밖"},
+    {"url": "https://brunch.co.kr/@f1f75b7743d443a/85", "reason": "작성일 2026-05 무렵으로 기간 밖"},
+    {"url": "https://www.tomsguide.com/ai/i-stopped-over-prompting-ai-here-are-3-routines-that-saved-me-10-hours-a-week", "reason": "본문이 열리지 않아 작성일·내용 확인 불가"},
+    {"url": "https://patrickschaber.substack.com/p/i-built-a-gtm-campaign-hq-in-chatgpt", "reason": "검색 결과상 약 35일 전 글로 기간 밖(본문 미열람)"},
+    {"url": "https://dev.to/ahtisham_lala_a1af953f29b/chatgpt-remix-lets-you-fork-a-teammates-ai-built-site-in-chat-heres-what-it-means-for-people-1i6f", "reason": "11월 초 글로 기간 밖, 실무 경험담보다 기능 해설"},
+    {"url": "blog.naver.com", "reason": "검색 도구가 접근 불가 도메인으로 응답해 재시도하지 않음"}
+  ],
+  "notes": "기간(11-17~11-23) 안에 작성된 실무자 글을 확인하지 못해 수집 0건. 검색 결과 날짜와 열어 본 작성일이 모두 기간 밖이었다. 기간에 가장 가까운 것은 gpters 2026-11-12 글(Claude 회의록 프롬프트: 역할·목표·원칙·출력포맷 지정, 결정 사항과 논의 중 구분, 액션아이템 표, 30~40분→3분은 작성자 자체 추정)로, 기간 밖이지만 지금도 유효한 업무 팁이다. 필요하면 오케스트레이터가 기간 예외로 쓸지 판단. 이미 제안한 gpters 교안 검토 글과 같은 사이트라 중복 소지는 없음. gpters 페이지는 사이트 차원의 기업교육 CTA 배너가 있으나 본문은 판매 유도 없음. 출처 목록 메모: 브런치·gpters는 검색에 잡히나 날짜 필터가 약해 최신 글 탐색에 한계가 있었고, blog.naver.com은 접근 불가."
+}
