@@ -1,0 +1,38 @@
+{
+  "perspective": "a",
+  "period": {"from": "2026-11-17", "to": "2026-11-23"},
+  "queries": [
+    "ChatGPT release notes November 2026 new feature business",
+    "Claude 새 기능 업데이트 2026년 11월 Anthropic",
+    "Gemini Workspace update November 2026 Docs Sheets Gmail"
+  ],
+  "items": [
+    {
+      "id": "a-01",
+      "title": "Claude 플랫폼 연결 결제(베타): API 키 공유 없이 외부 도구 사용량 청구",
+      "summary": "Claude Platform 조직을 외부 도구(코딩 에이전트, 업무 자동화 서비스 등)에 연결하면 그 도구가 쓴 Claude 사용량이 내 조직 결제로 잡히는 베타 기능이다. 소유자·관리자·결제 담당 권한자가 연결을 승인해야 하고, 월 지출 한도를 설정하거나 언제든 연결을 해제할 수 있다. 외부 도구의 요청은 도구 쪽 조직에서 실행되어 내 조직의 IP 허용 목록·데이터 보관 설정이 적용되지 않는다.",
+      "type_guess": "주의할 점",
+      "tools": ["Claude"],
+      "url": "https://claude.com/resources/articles/linked-billing-on-claude-platform",
+      "source_name": "Claude 공식 사이트(제품 업데이트)",
+      "source_type": "공식",
+      "published": "2026-11-17",
+      "original_source_url": null,
+      "claims": [
+        "Claude Platform의 연결 결제(linked billing)가 2026-11-17 베타로 공개되었다",
+        "연결 결제로 쓰인 요청에는 고객 조직의 IP 허용 목록·암호화 키·데이터 보관 설정이 적용되지 않는다"
+      ],
+      "work_use": "회사 Claude API 계정을 외부 자동화·에이전트 도구에 연결할 때 비용 통제와 데이터 설정 차이를 알아 둘 담당자용"
+    }
+  ],
+  "skipped": [
+    {"url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes", "reason": "세션 네트워크 허용 목록 밖이라 열리지 않음(호스트 해석 실패). ChatGPT 릴리스 노트 직접 확인 불가"},
+    {"url": "https://workspaceupdates.googleblog.com/", "reason": "세션 네트워크 허용 목록 밖이라 열리지 않음"},
+    {"url": "https://blog.google/products/gemini/", "reason": "세션 네트워크 허용 목록 밖이라 열리지 않음"},
+    {"url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering", "reason": "Anthropic IPO 가격 결정(11-18) 공지. 직장인 업무 활용과 무관"},
+    {"url": "https://www.anthropic.com/news/ipo-close", "reason": "Anthropic IPO 마감(11-20) 공지. 업무 활용과 무관"},
+    {"url": "https://workspaceupdates.googleblog.com/2026/11/expanding-gemini-in-gmail-to-more-Google-Workspace-users.html", "reason": "작성일 11-10으로 기간 밖(검색 결과 요약으로만 확인, 열어 보지 못함)"},
+    {"url": "https://emergent.sh/news/google-gemini-workspace-integration-now", "reason": "비공식 2차 출처이고 열어 보지 못함. 공식 확인 불가"}
+  ],
+  "notes": "수집 불완전. help.openai.com, workspaceupdates.googleblog.com, blog.google 세 호스트가 세션 네트워크 허용 목록 밖이라 열리지 않았다. 허용되면 ChatGPT·Gemini 공식 발표를 재수집해야 한다. 이번 수집에는 Claude 항목 1건뿐이라 공정성(도구 균형)이 맞지 않는다. 참고 단서(열어 보지 못해 항목화하지 않음): 검색 결과상 Gemini 'skills'가 Workspace 앱 전반에 11-10경 출시, ChatGPT Business 관련 Nov 4~12 항목은 모두 기간 밖. Claude 쪽에는 11-17 이후 항목이 위 1건 외에 제품 업데이트 페이지에서 보이지 않았다."
+}
