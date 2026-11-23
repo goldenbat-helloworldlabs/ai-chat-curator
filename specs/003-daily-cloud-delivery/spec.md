@@ -48,3 +48,5 @@
 | 2026-11-23 | 알림 교체 | scripts/slack.py(selftest OK, 11-23 실행 3번 dry-run OK), kakao.py 삭제, auto-mode.md·SKILL.md·CLAUDE.md·docs/cloud-setup.md 갱신 |
 | 2026-11-23 | 대기 | 슬랙 웹훅·클라우드 환경 설정(사용자) → 예약 실행 등록 후 Done |
 | 2026-11-23 | 예약 등록 | 루틴 trig_015bAfEPNtTQyhgKsxGCeADU, 매일 0 1 * * * UTC(10:00 KST), 환경 ai-chat-curator, Sonnet 5.5, 커넥터 없음. 첫 실행 2026-11-24 |
+| 2026-11-23 | 시험 실행 1 | cse_01JnehkqsEyi22ChGK53YwFD. 슬랙 쉼 알림 전송 성공. push 403(Claude GitHub 앱 미설치 → 사용자가 설치함). Custom 네트워크로 WebFetch 대부분 차단(수집 a 3건, b·c·d 0건). 문안 1건 사실 확인 반려 → 발송 없음. 같은 릴리스 노트 링크 중복 규칙 때문에 문안이 1건으로 줄어듦 |
+| 2026-11-23 | 복구 | specs/index.md가 슬랙 교체 커밋(a2b9ffa)에서 0바이트로 지워진 것을 fa67ffa 기준으로 복구(메인 편집 실수) |
