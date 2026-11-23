@@ -1,4 +1,4 @@
-# 스펙 003 — 매일 오전 10시 클라우드 자동 실행 + 카톡 나에게 보내기
+# 스펙 003 — 매일 오전 10시 클라우드 자동 실행 + 슬랙 개인 DM 알림
 
 - **상태**: In Progress
 - **모드**: 하네스 구조·실행 모드 변경
@@ -35,6 +35,7 @@
 | 2026-11-23 | 메시지: 본문(200자 단위로 줄 경계에서 나눔) + 원문 링크 한 통 | 텍스트 템플릿 200자 제한, 사용자 선택 |
 | 2026-11-23 | 토큰: 클라우드 비밀값만, 직접 재발급 + 만료 전 카톡 경고 | 사용자 선택. 리프레시 토큰은 만료 1달 전 갱신 시 회전되므로 실질 재발급 주기는 약 30일 |
 | 2026-11-23 | 저장소: ai-chat-curator 폴더만. feedback.md·outputs를 폴더 안(inputs/, outputs/)으로 이동, $HARNESS_ROOT 의존 제거 | 사용자 선택, 클라우드에 $HARNESS_ROOT 없음 |
+| 2026-11-23 | 알림 채널을 카카오 나에게 보내기 → 슬랙 Incoming Webhook(개인 DM)으로 교체. kakao.py 삭제, slack.py 추가. 메시지: 메모 1통 + 문안 전체 1통 | 사용자 선택. 비밀값 1개·만료 없음·200자 제한 없음. 위 메시지·토큰 결정은 폐기 |
 | 2026-11-23 | 자동 실행 스펙은 월 단위 하나(NNN-auto-YYYYMM), 날마다 실행 로그 한 줄 | 일 단위 스펙은 대장이 과하게 불어남 |
 
 ## 실행 로그
@@ -44,4 +45,5 @@
 | 2026-11-23 | 0단계 점검 | 에이전트 5·스킬 6·curator.py, settings는 WebSearch/WebFetch 허용만. C:\pe 비 git, gh 미설치. posted.md 5행 |
 | 2026-11-23 | 구축 | scripts/kakao.py(나에게 보내기·토큰 경고·재발급 도우미), curator.py auto-pick, references/auto-mode.md, 오케스트레이터 경로·자동 모드 분기, CLAUDE.md, docs/cloud-setup.md, inputs/·outputs/ 이동. selftest 2종 OK, auto-pick 11-23 실행 → 3번 |
 | 2026-11-23 | 저장소 | git@github.com-corp:goldenbat-helloworldlabs/ai-chat-curator.git main push(사용자 실행) |
-| 2026-11-23 | 대기 | 카카오 앱·토큰·클라우드 환경 설정(사용자) → 예약 실행 등록 후 Done |
+| 2026-11-23 | 알림 교체 | scripts/slack.py(selftest OK, 11-23 실행 3번 dry-run OK), kakao.py 삭제, auto-mode.md·SKILL.md·CLAUDE.md·docs/cloud-setup.md 갱신 |
+| 2026-11-23 | 대기 | 슬랙 웹훅·클라우드 환경 설정(사용자) → 예약 실행 등록 후 Done |
