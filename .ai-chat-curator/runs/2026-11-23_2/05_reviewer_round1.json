@@ -1,0 +1,1 @@
+{"round":1,"drafts":[{"no":1,"verdict":"통과","failed":[],"reasons":"","fix_hint":""}],"run_level":{"fairness":"통과","fairness_note":"수집 b·c·d 0건, a는 Claude 1건뿐이라 후보가 C01 하나. 수집 실패에 따른 예외로 통과(99_main_failure.md 참고).","candidates_doc":"통과","candidates_note":"후보 1건, 사유 문서에 기재."},"notes":"원출처 직접 대조 완료. 원문과 일치, 기계 점검 통과(271자·5줄·이모지 0·마지막 줄 링크). 자동 발송 여부는 auto-pick 기준으로 판단."}

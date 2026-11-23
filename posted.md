@@ -11,3 +11,4 @@
 | 2026-11-23 | Gemini Tasks, 한국 포함 무료 제공 — 부가 기능은 미국 한정 | 소식 | Gemini | https://gemini.google/release-notes/ | 제안 |
 | 2026-11-23 | AI가 건 예약 전화, 받는 쪽이라면? | 질문거리 | Gemini | https://research.google/blog/how-google-duplex-evolved-to-also-call-businesses-for-you-in-gemini/ | 제안 |
 | 2026-11-23 | "Claude 글에 보이지 않는 워터마크가 들어간다"는 이야기 | 팩트체크 | Claude, ChatGPT | https://support.claude.com/en/articles/16266773-how-claude-marks-ai-generated-content | 제안 |
+| 2026-11-23 | Claude Platform 연결 결제(베타): 외부 도구에 연결하면 내 조직 보안 설정이 안 따라가요 | 주의할 점 | Claude | https://claude.com/resources/articles/linked-billing-on-claude-platform | 제안 |

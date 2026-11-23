@@ -1,0 +1,13 @@
+{
+  "pick": 1,
+  "drafts": [
+    {
+      "no": 1,
+      "title": "Claude Platform 연결 결제(베타): 외부 도구에 연결하면 내 조직 보안 설정이 안 따라가요",
+      "type": "주의할 점",
+      "eligible": true,
+      "reason": "공식 출처로 확인됨 + 검증 통과"
+    }
+  ],
+  "rounds": 1
+}
