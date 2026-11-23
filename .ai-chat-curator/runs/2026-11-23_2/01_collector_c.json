@@ -1,0 +1,17 @@
+{
+  "perspective": "c",
+  "period": {"from": "2026-11-17", "to": "2026-11-23"},
+  "queries": [
+    "GeekNews Claude ChatGPT Gemini 업무 활용 (news.hada.io 한정)",
+    "reddit ClaudeAI November 2026 usage limit work (reddit.com 한정)"
+  ],
+  "items": [],
+  "skipped": [
+    {"url": "https://news.hada.io/topic?id=37068", "reason": "열람 실패(해당 호스트가 세션 네트워크 허용 목록 밖이라 접속 불가). 작성일 미확인이라 수집하지 않음"},
+    {"url": "https://news.hada.io/topic?id=36636", "reason": "열람 실패(위와 같음). 작성일 미확인"},
+    {"url": "https://news.hada.io/topic?id=35151", "reason": "열람 실패(위와 같음). 작성일 미확인"},
+    {"url": "https://news.hada.io/robots.txt", "reason": "열람 실패(위와 같음). robots.txt 확인 불가"},
+    {"url": "https://www.reddit.com/", "reason": "검색 도구가 reddit.com 도메인을 허용하지 않아 검색 불가"}
+  ],
+  "notes": "수집 실패: news.hada.io 는 세션 네트워크 허용 도메인에 추가되어야 열람 가능하며, reddit.com 은 검색 도구에서 접근 불가. 검색 결과 제목만으로는 작성일·내용을 확인할 수 없어 항목을 만들지 않았고, 이후 재시도하지 않았다. 클리앙·디시·뽐뿌·지식iN·Hacker News는 시도하지 못했다. 허용 도메인을 풀어 준 뒤 재호출하면 이어서 수집 가능."
+}
