@@ -42,3 +42,6 @@
 | 날짜 | 이벤트 | 결과 |
 |------|--------|------|
 | 2026-11-23 | 0단계 점검 | 에이전트 5·스킬 6·curator.py, settings는 WebSearch/WebFetch 허용만. C:\pe 비 git, gh 미설치. posted.md 5행 |
+| 2026-11-23 | 구축 | scripts/kakao.py(나에게 보내기·토큰 경고·재발급 도우미), curator.py auto-pick, references/auto-mode.md, 오케스트레이터 경로·자동 모드 분기, CLAUDE.md, docs/cloud-setup.md, inputs/·outputs/ 이동. selftest 2종 OK, auto-pick 11-23 실행 → 3번 |
+| 2026-11-23 | 저장소 | git@github.com-corp:goldenbat-helloworldlabs/ai-chat-curator.git main push(사용자 실행) |
+| 2026-11-23 | 대기 | 카카오 앱·토큰·클라우드 환경 설정(사용자) → 예약 실행 등록 후 Done |
