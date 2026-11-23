@@ -1,0 +1,193 @@
+{
+  "perspective": "c",
+  "period": {"from": "2026-11-17", "to": "2026-11-23"},
+  "queries": [
+    "GeekNews ChatGPT Claude Gemini 업무 2026년 11월",
+    "reddit r/ClaudeAI usage limit November 2026",
+    "Hacker News Gemini ChatGPT Claude workflow spreadsheet reports",
+    "클리앙 ChatGPT Claude Gemini 업무 활용 팁 보고서",
+    "Hacker News Algolia 검색: Claude (2026-11-17~23, 최신순)",
+    "Hacker News Algolia 검색: ChatGPT (2025년 날짜로 잘못 지정했다가 폐기, 2026년 범위는 Claude 검색만 사용)",
+    "GeekNews 주간 뉴스 GN#385 (2026-11-16~22) 목록 열람",
+    "클리앙 AI당(cm_ai) 게시판·사용기 게시판 목록 열람"
+  ],
+  "items": [
+    {
+      "id": "c-01",
+      "title": "ChatGPT Space, Plus 사용자로 확대 (공유 조건 주의)",
+      "summary": "한 국내 커뮤니티 글이 OpenAI가 Space 기능을 18세 이상 Plus 사용자에게 단계적으로 열고 있다고 전한다. 대화로 페이지와 슬라이드를 만들고 연결된 앱의 내용으로 갱신할 수 있다는 설명이다. 글쓴이는 공유받는 사람도 유료 계정이어야 열 수 있어 팀 공유 전에 요금제 조건을 확인하라고 덧붙였다.",
+      "type_guess": "소식",
+      "tools": ["ChatGPT"],
+      "url": "https://www.clien.net/service/board/cm_ai/19296483",
+      "source_name": "클리앙",
+      "source_type": "커뮤니티",
+      "published": "2026-11-21",
+      "original_source_url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+      "claims": [
+        "ChatGPT Space가 전 세계 18세 이상 Plus 사용자에게 단계적으로 제공된다",
+        "공유받은 자료를 열려면 Space 접근 권한이 있는 유료 계정이 필요하고 무료 계정은 열 수 없다",
+        "공개 링크 공유는 아직 제공되지 않는다"
+      ],
+      "work_use": "대화만으로 보고용 페이지·슬라이드를 만들고 팀에 공유할 때 요금제 제약 확인"
+    },
+    {
+      "id": "c-02",
+      "title": "Gemini 개인 비서 Tasks 무료 배포, 한국 포함 순차 제공",
+      "summary": "GeekNews에 올라온 소개 글에 따르면 Google이 Gemini의 Tasks 기능을 무료로 풀기 시작했다. 계정 속 메일·캘린더 정보를 활용해 예약, 청구서 분석 같은 일을 대신하며, 구매 전에는 사용자 확인을 거친다. 한국을 포함한 여섯 나라에 순차 배포하고 일부 고급 기능은 미국 먼저라고 한다.",
+      "type_guess": "소식",
+      "tools": ["Gemini"],
+      "url": "https://news.hada.io/topic?id=37433",
+      "source_name": "GeekNews",
+      "source_type": "커뮤니티",
+      "published": "2026-11-19",
+      "original_source_url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
+      "claims": [
+        "Gemini Tasks가 미국·일본·한국·캐나다·호주·인도에서 순차적으로 무료 제공된다",
+        "Tasks는 Gemini 4 Hydrogen 모델을 사용하고 60개 이상 앱과 연동된다",
+        "구매 전 확인과 지출 한도 설정이 가능하며 계정별 격리 가상 머신에서 실행된다"
+      ],
+      "work_use": "일정 조율, 업체 문의·예약, 청구서 확인 같은 잡무 위임과 계정 권한 범위 판단"
+    },
+    {
+      "id": "c-03",
+      "title": "Gemini 전화 대행, 받는 쪽 통제 장치도 있다",
+      "summary": "국내 커뮤니티 글이 Google의 Duplex가 Gemini Tasks에 들어와 업체에 전화해 예약하고 시간 협상까지 한다는 연구 블로그를 소개한다. 통화 첫머리에 자동 AI임을 밝히고, 업체가 자동 전화를 거절하도록 설정할 수 있다는 점이 눈에 띈다고 한다. 댓글에는 국내 유사 서비스 전화를 이미 막는 가게가 있다는 말도 있으나 확인된 것은 아니다.",
+      "type_guess": "질문거리",
+      "tools": ["Gemini"],
+      "url": "https://www.clien.net/service/board/cm_ai/19296424",
+      "source_name": "클리앙",
+      "source_type": "커뮤니티",
+      "published": "2026-11-21",
+      "original_source_url": "https://research.google/blog/how-google-duplex-evolved-to-also-call-businesses-for-you-in-gemini/",
+      "claims": [
+        "Gemini Tasks의 Duplex가 업체에 전화해 예약하고 일정을 협상한다",
+        "통화는 자동 AI임을 밝히며 시작하고 업체는 자동 전화를 거부할 수 있다",
+        "한 번 통화에서 얻은 정보는 이후 문의에 재사용된다",
+        "국내 일부 가게가 AI 전화 서비스 발신을 이미 차단하고 있다(댓글 주장, 미확인)"
+      ],
+      "work_use": "거래처 예약·견적 문의 전화를 AI에 맡기는 것의 실익과 상대방 배려 이슈"
+    },
+    {
+      "id": "c-04",
+      "title": "AI가 쓴 글이 읽기 힘든 이유는 모호한 문장",
+      "summary": "GeekNews 상위 글이 AI 글이 읽기 짜증나는 이유를 분석한 글을 소개한다. 핵심은 AI 티가 나느냐보다 행위자를 숨기거나 용어가 모호한 문장이 많다는 점이며, 명확하게 쓸 책임은 글쓴이에게 있다고 주장한다. 글쓴이가 낸 비율 수치가 인용되어 있어 검증이 필요하다.",
+      "type_guess": "업무 팁",
+      "tools": ["공통", "Claude"],
+      "url": "https://news.hada.io/topic?id=37316",
+      "source_name": "GeekNews",
+      "source_type": "커뮤니티",
+      "published": "2026-11-17",
+      "original_source_url": "https://zonderlabs.com/slop",
+      "claims": [
+        "AI가 쓴 글의 54%가 불명확한 문장이고 사람 글은 10%다",
+        "Claude Code 응답의 78%가 불명확했고 Stack Overflow 답변은 11%였다",
+        "AI 탐지기는 AI 글의 99%를 잡았지만 불명확함 자체는 가려내지 못한다"
+      ],
+      "work_use": "AI로 쓴 보고서·메일 초안을 보내기 전 누가 무엇을 했는지 분명한지 점검"
+    },
+    {
+      "id": "c-05",
+      "title": "Claude가 생성 글에 보이지 않는 워터마크를 넣는다는 글",
+      "summary": "Hacker News에 오른 O'Reilly 기고가 Claude 텍스트에 통계적 워터마크가 들어가며 일반인은 아직 확인할 수 없다고 설명한다. Anthropic 도움말을 근거로 들어 방식이 Google의 SynthID-Text 계열이라고 한다. Gemini는 2024년부터, ChatGPT도 EU에서 도입한다는 언급이 있다. 공개 탐지 도구는 어느 회사에도 없다고 한다.",
+      "type_guess": "팩트체크",
+      "tools": ["Claude", "Gemini", "ChatGPT"],
+      "url": "https://www.oreilly.com/radar/claude-watermarks-your-words-and-you-cant-check-them-yet/",
+      "source_name": "Hacker News (O'Reilly Radar 링크)",
+      "source_type": "커뮤니티",
+      "published": "2026-11-20",
+      "original_source_url": "https://support.claude.com/en/articles/16266773-how-claude-marks-ai-generated-content",
+      "claims": [
+        "Claude가 전 세계 모든 환경에서 최신 모델(일부 구모델 포함)의 텍스트에 워터마크를 넣는다",
+        "Claude 워터마크는 Google DeepMind의 SynthID-Text 방식의 변형이다",
+        "OpenAI가 10월에 ChatGPT·Codex에 EU 대상 텍스트 워터마크 도입을 발표했다",
+        "일반 사용자가 쓸 수 있는 공개 텍스트 탐지기는 어느 회사에도 없다"
+      ],
+      "work_use": "AI로 쓴 글을 대외 문서에 쓸 때 출처 표시·탐지 가능성에 대한 사내 기준 점검"
+    },
+    {
+      "id": "c-06",
+      "title": "Claude Code 계정 2개 병행 사용법과 약관·정지 위험",
+      "summary": "클리앙 강좌 글이 설정 폴더를 환경변수로 나눠 Claude Code에 계정 두 개를 로그아웃 없이 오가는 방법을 정리했다. 사용량이 바닥나면 다른 계정 세션으로 넘어가는 용도다. 글쓴이는 개인 약관에 2계정 금지 문구는 못 찾았으나 공유는 금지이고 과거 자동 정지 사례 보도가 있어 위험이 0은 아니라고 한다.",
+      "type_guess": "주의할 점",
+      "tools": ["Claude"],
+      "url": "https://www.clien.net/service/board/cm_ai/19292981",
+      "source_name": "클리앙",
+      "source_type": "커뮤니티",
+      "published": "2026-11-16",
+      "original_source_url": null,
+      "claims": [
+        "개인 이용약관은 한 사람이 계정 두 개를 갖는 것을 명시적으로 금지하지 않지만 계정 공유·양도는 금지한다",
+        "2026년 2월 보도에 따르면 다중 계정 사용자가 자동 정지되었다가 일부 복구되었다",
+        "사용량 크레딧은 API 요금으로 청구되어 많이 쓰면 계정 추가보다 비쌀 수 있다"
+      ],
+      "work_use": "개발·자동화 업무에서 사용량 한도를 넘길 때의 대안과 약관 위험 판단"
+    },
+    {
+      "id": "c-07",
+      "title": "GPT-6.2 Astra·Sol 출시, 같은 한도로 더 많은 작업",
+      "summary": "GeekNews가 OpenAI의 GPT-6.2 두 모델 발표를 소개한다. Astra는 전문·연구용, Sol은 일상 업무·코딩용이며 어려운 작업에서 출력 토큰을 줄여 같은 사용량 한도로 더 많이 쓸 수 있다고 한다. Plus·Pro·Enterprise·Edu에서 쓸 수 있고 기업·교육은 관리자 활성화가 필요하다고 소개됐다.",
+      "type_guess": "소식",
+      "tools": ["ChatGPT"],
+      "url": "https://news.hada.io/topic?id=37361",
+      "source_name": "GeekNews",
+      "source_type": "커뮤니티",
+      "published": "2026-11-18",
+      "original_source_url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
+      "claims": [
+        "GPT-6.2 Astra와 Sol이 ChatGPT Work와 Codex에서 Plus·Pro·Enterprise·Edu에 제공된다",
+        "Enterprise·Edu는 워크스페이스 관리자가 활성화해야 한다",
+        "Sol의 API 가격은 입력 $2, 출력 $10(100만 토큰당)이다",
+        "두 모델이 사이버보안 Critical 임계값에 도달해 고위험 요청 제한이 강화되었다"
+      ],
+      "work_use": "회사 ChatGPT 플랜에서 새 모델 사용 가능 여부와 관리자 활성화 확인"
+    },
+    {
+      "id": "c-08",
+      "title": "Gemini 4 Neon 출시, 앱 모델 메뉴에서 선택",
+      "summary": "GeekNews가 Google의 Gemini 4 Neon 발표를 소개한다. 복잡한 분석과 코딩을 겨냥한 중간 급 모델이며 100만 토큰 컨텍스트와 추론 수준 조절을 지원한다고 한다. AI Pro·Ultra 구독자는 Gemini 앱 모델 메뉴에서 고를 수 있다는 내용이다. 성능 수치는 Google 자체 발표라 독립 검증 전이다.",
+      "type_guess": "소식",
+      "tools": ["Gemini"],
+      "url": "https://news.hada.io/topic?id=37432",
+      "source_name": "GeekNews",
+      "source_type": "커뮤니티",
+      "published": "2026-11-19",
+      "original_source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+      "claims": [
+        "Gemini 4 Neon이 Google AI Pro·Ultra 구독자의 Gemini 앱 모델 메뉴에서 선택 가능하다",
+        "100만 토큰 컨텍스트와 4단계 추론 수준을 지원한다",
+        "API 가격은 입력 $3, 출력 $15(100만 토큰당)다",
+        "기본 추론 설정에서 작업당 비용이 Carbon보다 32% 낮다(Google 주장)"
+      ],
+      "work_use": "긴 문서 분석·자료 조사에 쓸 모델 선택 기준"
+    },
+    {
+      "id": "c-09",
+      "title": "Claude Code 한글 입력(IME) 오류 수정 버전",
+      "summary": "클리앙 글이 Claude Code 새 버전에서 한글 조합 중 키 입력이 권한 요청 거절이나 메뉴 동작으로 번지던 문제 등이 고쳐졌다고 전한다. 글쓴이는 한국어로 지시·리뷰 코멘트를 쓰는 사용자에게 모델 성능 못지않게 입력 안정성이 중요하다고 본다.",
+      "type_guess": "소식",
+      "tools": ["Claude"],
+      "url": "https://www.clien.net/service/board/cm_ai/19296072",
+      "source_name": "클리앙",
+      "source_type": "커뮤니티",
+      "published": "2026-11-20",
+      "original_source_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.329",
+      "claims": [
+        "Claude Code 2.1.329에 한글 IME 관련 입력 오류 수정이 포함되었다",
+        "VS Code 확장에서 한글 조합 중 입력이 권한 요청 거절을 일으키던 문제가 해결되었다"
+      ],
+      "work_use": "한국어로 개발·자동화 지시를 내리는 실무자의 입력 오류 해소(개발 직군 한정)"
+    }
+  ],
+  "skipped": [
+    {"url": "https://www.reddit.com", "reason": "Reddit 서브레딧은 수집 도구가 접근 불가(fetch 차단)이고 robots 확인도 안 되어 열지 않음"},
+    {"url": "https://roow.work/blog/claude-and-your-business-data", "reason": "작성자 자사 제품 홍보와 가입 유도가 중심인 글(광고성). 2026-11-21 작성"},
+    {"url": "https://www.clien.net/service/board/cm_ai/19292645", "reason": "작성일 2026-11-15로 기간 밖(AI 글 판별 논란과 초안 보관 이야기, 지금도 쓸 만함)"},
+    {"url": "https://www.clien.net/service/board/park/19171803", "reason": "작성일 2026-04-02로 기간 밖"},
+    {"url": "https://www.clien.net/service/board/park/19169280", "reason": "작성일 2026-03-28로 기간 밖"},
+    {"url": "https://www.clien.net/service/board/use/19294457", "reason": "스트림덱 연동 취미 글로 업무 연결이 약함"},
+    {"url": "https://www.clien.net/service/board/cm_ai/19295006", "reason": "구독 할인 소식, 제휴·판매성 우려로 열지 않음"},
+    {"url": "https://news.hada.io/topic?id=37529", "reason": "Claude 리만 가설 증명 주장. 직장인 업무와 무관하여 제외"},
+    {"url": "https://www.clien.net/service/board/cm_ai/19294800", "reason": "초대코드 나눔 글, 추천 코드 유도 소지로 제외"}
+  ],
+  "notes": "Reddit은 fetch 도구에서 접근이 막혀 이 관점에서 빠졌다. 검색 결과가 11월 글을 거의 못 찾아 GeekNews 주간(GN#385), 클리앙 AI당 게시판, HN Algolia 목록을 직접 열어 후보를 골랐다. 클리앙·GeekNews robots.txt는 일반 크롤러의 해당 게시판 열람을 허용함을 확인. 이 관점의 글은 모두 사실 확인 전이다: 특히 c-01·c-02·c-07·c-08은 공식 원출처로 교차 확인 필요(관점 a와 겹칠 수 있음). c-03의 가게 차단 이야기는 댓글 한 건의 주장. 지금도 유효한 기간 밖 글: 클리앙 2026-11-15 AI 글 판별 논란·초안 보관 글. 닉네임·작성자 정보는 기록하지 않음."
+}

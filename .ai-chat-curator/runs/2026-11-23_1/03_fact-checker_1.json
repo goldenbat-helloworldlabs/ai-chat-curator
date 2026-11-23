@@ -1,0 +1,144 @@
+{
+  "results": [
+    {
+      "cid": "C02",
+      "status": "확인됨",
+      "evidence": [
+        {
+          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+          "source_type": "공식",
+          "published": "2026-11-20",
+          "what": "11월 20일 항목: Space가 18세 이상 Plus 사용자에게 전 세계 순차 제공, Library를 대체. 공유 자료를 열려면 보기 권한과 Space 접근이 있는 Plus·Pro·Business·Enterprise 계정 로그인이 필요하고, Free는 공유 페이지·발표 자료를 열 수 없으며, 공개 링크는 제공되지 않는다고 명시"
+        },
+        {
+          "url": "https://help.openai.com/en/articles/20001549-getting-started-with-space-in-chatgpt",
+          "source_type": "공식",
+          "published": "unknown",
+          "what": "도움말(페이지 표기 '2일 전 갱신'): Space는 Pro·Business·Enterprise, Plus는 계정에 열린 경우. 'Space is rolling out to eligible ChatGPT Plus accounts', Library 대체, Free는 공유 페이지 열람 불가. 편집은 웹·데스크톱, 모바일은 읽기·공유만. 캐나다·UAE 데이터 레지던시 Enterprise·Business는 아직 준비 중"
+        },
+        {
+          "url": "https://help.openai.com/en/articles/20001544",
+          "source_type": "공식",
+          "published": "unknown",
+          "what": "공유·데이터 도움말(페이지 표기 '22일 전 갱신'): 페이지 단위로 보기·편집 권한을 골라 공유. 링크된 파일은 원본 파일 권한이 따로 필요. Plus 언급은 없음(Plus 확대 전 작성으로 보임)"
+        }
+      ],
+      "freshness_ok": true,
+      "caveats": "Plus는 순차 제공이라 아직 안 보이는 계정이 있음(18세 이상). 공유받는 쪽도 Space가 열린 Plus·Pro·Business·Enterprise 계정이어야 하고 무료 계정은 못 연다. 공개 링크 없음. 모바일에서는 편집 불가(읽기·공유만). 페이지에 연결된 파일은 원본 파일 권한을 따로 줘야 보인다. 회사 워크스페이스는 조직 공유 설정에 따라 다름. 기간 내 철회·연기 보도 없음",
+      "corrected_claim": "주장 2는 공식 문구상 '공유 자료를 열람하려면 Plus·Pro·Business·Enterprise 계정 필요'로 표현하는 것이 정확하다(공유하는 쪽 요금제 범위를 따로 명시한 문장은 없으나 Space 자체가 해당 요금제에만 있다)",
+      "note": "커뮤니티 출발 주장(무료 계정 열람 불가, 공개 링크 미제공)도 공식 릴리스 노트로 확인됨"
+    },
+    {
+      "cid": "C03",
+      "status": "확인됨",
+      "evidence": [
+        {
+          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+          "source_type": "공식",
+          "published": "2026-11-18",
+          "what": "11월 18일 항목: Live Dictation(말하는 대로 실시간 텍스트 변환) 도입과 함께 10분 녹음 제한 제거. 'rolling out globally to all ChatGPT plans on iOS, Android, web, and the desktop app'"
+        },
+        {
+          "url": "https://help.openai.com/en/articles/20001274",
+          "source_type": "공식",
+          "published": "unknown",
+          "what": "ChatGPT Voice 도움말: Dictation 언어 목록·한국어 지원 여부 언급 없음(한국어는 음성 대화 Live의 응답 목소리로만 나옴)"
+        }
+      ],
+      "freshness_ok": true,
+      "caveats": "순차 적용이라 일부 계정·앱 버전에서는 아직 안 보일 수 있다. 한국어 받아쓰기 지원은 공식 문서에 명시가 없다(공식 확인 안 됨) — 문안에서 '한국어도 된다'고 단정하지 말 것. 음성 대화(Voice) 사용 한도와는 별개 기능",
+      "corrected_claim": null,
+      "note": "주장 1·2는 공식 릴리스 노트로 확인. 한국어 지원은 미확인으로 남김(70개 언어 지원 주장은 2차 블로그뿐)"
+    },
+    {
+      "cid": "C04",
+      "status": "확인됨",
+      "evidence": [
+        {
+          "url": "https://gemini.google/release-notes/",
+          "source_type": "공식",
+          "published": "2026-11-17",
+          "what": "2026.11.17 항목: Tasks가 미국·인도·캐나다·호주·일본·한국에서 무료로 순차 제공, 'new Hydrogen 4 model' 기반. 메일 전달(gemini@google.com)·Google Pay 결제는 미국 18세 이상 개인 계정·영어, 문자는 미국 18세 이상·미국 번호·지원 통신사, 업체 전화는 '미국 업체 대상'. 결제는 최대 가격 설정과 사용자 승인 없이는 진행 안 됨"
+        },
+        {
+          "url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
+          "source_type": "공식",
+          "published": "2026-11-17",
+          "what": "Google 블로그: 6개국(한국 포함) 무료 순차 제공, 모델명 'Gemini 4 Hydrogen', 60개 이상 앱 연동, 구매 전 확인·사전 승인과 지출 상한 설정 가능. 고급 기능은 미국부터, 업체 전화는 인디애나·루이지애나·미네소타·몬태나·네브래스카 제외"
+        }
+      ],
+      "freshness_ok": true,
+      "caveats": "한국 사용자가 쓸 수 있는 것은 Tasks 기본 기능(백그라운드 작업·반복 루틴·앱 연동). 메일 전달·문자·Google Pay 결제·업체 전화 대행은 미국 한정(18세 이상 개인 계정, 메일·결제는 영어) — 한국에서는 안 됨. 순차 제공이라 계정별로 늦게 보일 수 있음. 회사(Workspace) 계정 적용 여부는 이번에 확인하지 않음. 철회·연기 공지 없음",
+      "corrected_claim": "모델명은 공식 출처끼리 표기가 다르다(릴리스 노트 'Hydrogen 4', 블로그 'Gemini 4 Hydrogen'). 문안에서는 모델명을 빼거나 블로그 표기를 쓰는 것이 안전. 업체 전화는 '미국 영어 18세 이상'이 아니라 '미국 업체 대상(일부 주 제외)'으로 명시돼 있다. 블로그는 18세·영어 조건을 적지 않았고 릴리스 노트에 있다",
+      "note": "커뮤니티 출발 주장(60개 이상 앱, 구매 확인·지출 한도)은 Google 블로그 원문을 직접 열어 확인. 릴리스 노트의 '40개 이상 앱'은 10월 개인화 항목이라 별개"
+    },
+    {
+      "cid": "C06",
+      "status": "부분 확인",
+      "evidence": [
+        {
+          "url": "https://research.google/blog/how-google-duplex-evolved-to-also-call-businesses-for-you-in-gemini/",
+          "source_type": "공식",
+          "published": "2026-11-20",
+          "what": "Google Research 블로그: Tasks in Gemini의 Duplex가 예약 등 업체 통화를 하고 다른 시간대를 제안받으면 조정. 통화 시작 시 Google의 자동 AI 에이전트임을 밝힘. 업체는 Google 비즈니스 프로필 설정이나 통화 중 'Please stop calling my business'로 거부 가능. 한 통화에서 얻은 정보를 이후 문의에 재사용. 지원 국가·언어는 명시 없음"
+        },
+        {
+          "url": "https://gemini.google/release-notes/",
+          "source_type": "공식",
+          "published": "2026-11-17",
+          "what": "업체 전화 기능 제목이 '미국 업체에 전화'로 되어 있음"
+        },
+        {
+          "url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
+          "source_type": "공식",
+          "published": "2026-11-17",
+          "what": "업체 전화는 미국부터 제공, 미국 5개 주 제외. 통화 시 즉시 AI임을 밝히고 업체는 언제든 거부 가능"
+        },
+        {
+          "url": "https://policies.google.com/terms/generative-ai/gemini-agentic-calling?hl=en",
+          "source_type": "공식",
+          "published": "2026-09-24",
+          "what": "Gemini 에이전트 통화 추가 약관: 개인 용도로만 사용, 회사·정부·수사기관 대신 통화 금지. 국가·언어 명시 없음, 한국 언급 없음"
+        }
+      ],
+      "freshness_ok": true,
+      "caveats": "전화 대행은 미국 업체 대상 기능이라 한국에서는 쓸 수 없다(한국 업체 전화 미지원). 약관상 개인 용도 한정이라 '거래처 예약·견적 문의를 회사 업무로 맡긴다'는 설정은 약관과 맞지 않을 수 있다 — 질문거리로 쓸 때 '해외(미국) 사례' 또는 '국내에 들어온다면'의 가정형으로 써야 함",
+      "corrected_claim": "주장 1~3은 공식 확인. 주장 4(국내 일부 가게가 AI 전화 발신을 이미 차단)는 공식 출처·언론 모두 근거를 찾지 못함 — 아직 공식 확인 안 됨, 문안에 쓰지 말 것. 애초에 한국에서는 이 기능이 제공되지 않으므로 국내 가게가 Gemini 전화를 받을 상황 자체가 확인되지 않는다",
+      "note": "클리앙 원글은 열지 않음(댓글 주장은 반대 근거 검색으로만 확인 시도, 보도 없음). 판정은 한국 미제공과 미확인 주장 4 때문에 부분 확인"
+    },
+    {
+      "cid": "C11",
+      "status": "부분 확인",
+      "evidence": [
+        {
+          "url": "https://support.claude.com/en/articles/16266773-how-claude-marks-ai-generated-content",
+          "source_type": "공식",
+          "published": "unknown",
+          "what": "Claude 도움말(페이지 표기 '이번 주 갱신'): 지원 모델 출력 텍스트에 보이지 않는 워터마크를 넣으며 의미·품질에 영향 없음. 대상은 Fable 5.x·Mythos 5.x·Opus 5.5~4.5·3·Sonnet 5.5~4.5·Haiku 5.5·4.5. Claude 앱·API·Claude Code·Cowork·Tag와 AWS·Google Cloud·Microsoft Foundry, 'wherever Claude is offered, worldwide'. 일부 구모델은 temperature 등 기본값이 아니면 워터마크가 안정적이지 않음. 텍스트 탐지는 자격 있는 기관 대상 비공개 프리뷰, 무료 Claude Content Checker는 파일의 Content Credential(C2PA)만 확인"
+        },
+        {
+          "url": "https://www.anthropic.com/news/claude-text-watermark",
+          "source_type": "공식",
+          "published": "2026-08-14",
+          "what": "Anthropic 발표(9월 1일 갱신): 'a version of the SynthID-Text approach'라고 명시, Google DeepMind 2024 Nature 논문 인용. 출시 시점부터 전 세계 적용. 탐지 API는 규제기관·연구자 등 대상 비공개 프리뷰"
+        },
+        {
+          "url": "https://openai.com/index/eu-text-provenance/",
+          "source_type": "공식",
+          "published": "2026-10-05",
+          "what": "OpenAI: 몇 주에 걸쳐 EU 내 ChatGPT·Codex 텍스트 출력에 보이지 않는 워터마크 추가(EU 전 요금제, 전 세계 적용 아님). 탐지기는 승인된 연구자·전문기관만, 출시 시 공개하지 않음"
+        },
+        {
+          "url": "https://www.oreilly.com/radar/claude-watermarks-your-words-and-you-cant-check-them-yet/",
+          "source_type": "언론",
+          "published": "2026-11-20",
+          "what": "Andrew Stellman 기고: 위 공식 출처를 인용하고, Gemini 앱은 2024년부터 텍스트 워터마크 사용, Google synthid.com은 이미지·영상·오디오만 공개 확인 가능하고 텍스트는 어느 회사도 공개 탐지기를 제공하지 않는다고 설명"
+        }
+      ],
+      "freshness_ok": true,
+      "caveats": "Claude 워터마크는 전 세계 적용(한국 포함). OpenAI는 EU 한정이라 한국 ChatGPT 출력에는 해당 없음. 워터마크는 사람이 보거나 일반 사용자가 확인할 수 없고, Anthropic·OpenAI 탐지기는 기관 대상 비공개. 워터마크가 있다는 것과 'AI 글을 사내에서 걸러낼 수 있다'는 것은 다르다 — 문안에서 탐지 가능성을 과장하지 말 것",
+      "corrected_claim": "주장 1~3은 공식 출처로 확인(주장 1은 '최신 모델과 일부 구모델, 구모델은 샘플링 설정에 따라 불안정'으로 보완). 주장 4는 Anthropic·OpenAI는 공식 확인, Google 쪽(텍스트 공개 탐지기 없음, Gemini 텍스트 워터마크)은 O'Reilly 기고로만 확인 — synthid.com은 열었으나 내용이 읽히지 않아 공식 확인 못함",
+      "note": "커뮤니티(Hacker News) 출발. 원출처(Claude 도움말·Anthropic 발표·OpenAI 발표)를 직접 열어 확인. Google 부분이 공식 미확인이라 부분 확인"
+    }
+  ]
+}

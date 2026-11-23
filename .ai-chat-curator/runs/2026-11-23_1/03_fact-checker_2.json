@@ -1,0 +1,92 @@
+{
+  "results": [
+    {
+      "cid": "C05",
+      "status": "확인됨",
+      "evidence": [
+        {
+          "url": "https://workspaceupdates.googleblog.com/2026/11/transform-your-notes-and-research-into-dynamic-tools-with-Gemini-Notebook.html",
+          "source_type": "공식",
+          "published": "2026-11-18",
+          "what": "Gemini Notebook 채팅에서 원하는 모습을 설명하면 올린 자료가 인터랙티브 사이트가 되고, 열거나 공유할 수 있다. 대상은 모든 Google Workspace 고객, Workspace Individual 구독자, 18세 이상 개인 Google 계정. Rapid·Scheduled Release 도메인 모두 2026-11-16 롤아웃 시작, 기능이 보이기까지 최대 15일. 웹은 전 세계 제공, 모바일은 곧 제공 예정."
+        }
+      ],
+      "freshness_ok": true,
+      "caveats": "웹에서만 먼저 제공되고 모바일은 아직이다. 개인 계정은 만 18세 이상만 쓸 수 있다. 순차 적용이라 12월 초까지는 아직 안 보일 수 있다. 웹은 전 세계에 제공된다고 밝혀 한국도 포함되며, 언어 제한은 언급이 없다.",
+      "corrected_claim": null,
+      "note": "기간 안 철회·연기 공지는 찾지 못했다."
+    },
+    {
+      "cid": "C01",
+      "status": "부분 확인",
+      "evidence": [
+        {
+          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+          "source_type": "공식",
+          "published": "2026-11-17",
+          "what": "11월 17일 항목: GPT-6.2 Astra와 Sol을 Work와 Codex 데스크톱에서 미리보기(preview)로 제공. Plus·Pro는 Work 모델 선택기나 Codex 모델 선택기에서 고를 수 있음. 관리형 워크스페이스는 좌석과 워크스페이스 설정에 따라 보이는 모델이 다름. 일반 Chat은 기존 모델 선택지를 유지. 이후 철회 항목은 보이지 않음."
+        },
+        {
+          "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
+          "source_type": "공식",
+          "published": "unknown",
+          "what": "원출처 직접 열람. Astra는 가장 어려운 프로젝트용 프런티어 모델, Sol은 일상 업무용 효율 모델. 'Plus, Pro, Enterprise, Edu 전체 사용자에게 ChatGPT Work와 Codex에서 제공'이라고 쓰고 미리보기라는 표현은 없음. 'Enterprise·Edu는 워크스페이스 관리자가 활성화하면 같은 접근'이라는 문장은 바로 앞 문장의 Ultrafast 접근(Pro 500·Pro 200 대상)에 관한 것임. 페이지에 날짜 표기 없음(GeekNews는 2026-11-18로 표시)."
+        },
+        {
+          "url": "https://news.hada.io/topic?id=37361",
+          "source_type": "커뮤니티",
+          "published": "2026-11-18",
+          "what": "OpenAI 발표 글 요약. 관리자 활성화 문장을 모델 접근 전체로 옮겨 적어 커뮤니티 주장의 출처로 보임."
+        }
+      ],
+      "freshness_ok": true,
+      "caveats": "일반 Chat 화면이 아니라 ChatGPT Work와 Codex(데스크톱)에서만 쓸 수 있다. 릴리스 노트는 '미리보기'라 하고 발표 글은 '제공 시작'이라고만 해 표현이 다르다. 문안에는 릴리스 노트 기준 '미리보기'를 쓰는 편이 안전하다. 회사 플랜(Enterprise·Edu 등)은 좌석과 워크스페이스 설정에 따라 보이지 않을 수 있다. 지역 제한 언급은 없다. 무료 요금제는 대상이 아니다.",
+      "corrected_claim": "Enterprise·Edu는 워크스페이스 관리자가 활성화해야 한다는 부분이 틀렸다. 발표 글의 관리자 활성화 문장은 Ultrafast(빠른 응답) 접근에 관한 것이다. 모델 자체에 대해서는 릴리스 노트가 '관리형 워크스페이스는 좌석·워크스페이스 설정에 따라 보이는 모델이 다르다'고만 밝혔다.",
+      "note": "주장 1·2는 공식 릴리스 노트로 확인했다. 주장 3은 공식 출처의 문맥과 다르다. 이전 세대 Astra(GPT-6·6.1)의 연기·취소 보도가 있지만 6.2 Astra·Sol의 철회나 연기는 찾지 못했다."
+    },
+    {
+      "cid": "C08",
+      "status": "부분 확인",
+      "evidence": [
+        {
+          "url": "https://support.claude.com/en/articles/12138966-release-notes",
+          "source_type": "공식",
+          "published": "2026-11-20",
+          "what": "11월 20일 항목 'Computer use (beta) for Team and Enterprise plans': Claude가 사용자 화면을 보고 허용한 데스크톱 앱을 조작. Team·Enterprise에 베타로 제공되고 조직별로 순차 적용 중. Claude Desktop의 새 Claude 경험, 그리고 Computer access가 켜진 경우 웹·모바일에서 동작. 11월 21~23일 철회·수정 항목 없음."
+        },
+        {
+          "url": "https://support.claude.com/en/articles/18483812-set-up-computer-use-for-team-and-enterprise-plans",
+          "source_type": "공식",
+          "published": "unknown",
+          "what": "페이지 표기는 'Updated this week'. 기본값은 꺼짐. Owner·Primary Owner만 조직 설정 > Capabilities에서 켤 수 있고, 먼저 Chat·Cowork 통합이 켜져 있어야 함. Enterprise는 사용자 지정 역할로 제한 가능하고 Team은 전체 적용. 사용자는 컴퓨터마다 Claude Desktop에서 'Enable computer use'를 켜야 함. macOS 14 이상과 Windows 지원. Cowork 작업과 Claude Code에서는 동작하지 않음. Computer access는 웹·모바일·예약 작업에서 내 컴퓨터에 접근하게 하는 별도 설정."
+        }
+      ],
+      "freshness_ok": true,
+      "caveats": "Team·Enterprise 요금제만 해당한다(개인 Pro·Max는 이 공지의 대상이 아니다). 기본값이 꺼져 있어 조직 Owner가 켜야 하고, 순차 적용이라 아직 설정이 안 보이는 조직도 있다. 새 Claude 경험(Chat·Cowork 통합)에서만 동작한다. 데스크톱은 macOS 14 이상과 Windows. 지역 제한은 언급이 없다.",
+      "corrected_claim": "Computer access 설정이 동작 조건이라는 부분이 부정확하다. 기본 조건은 조직 Owner가 Computer use를 켜고 사용자가 Claude Desktop에서 'Enable computer use'를 켜는 것이다. Computer access는 웹·모바일·예약 작업에서 쓸 때만 추가로 필요하다.",
+      "note": "주장 1은 확인됨. 주장 2가 일부 부정확해 부분 확인."
+    },
+    {
+      "cid": "C12",
+      "status": "부분 확인",
+      "evidence": [
+        {
+          "url": "https://byline.network/2026/11/19-680/",
+          "source_type": "언론",
+          "published": "2026-11-19",
+          "what": "기사 원문 열람(김우용 기자). 딜로이트 미국 관리자·임원 501명 조사에서 업무 프로세스가 '매우 잘 준비됐다'는 응답 5%, 72%가 데이터 연결 어려움, 70%가 신뢰·거버넌스 과제. 60% 단축은 세일즈포스가 공개한 사례로, 앤트로픽이 Revenue Cloud와 슬랙을 쓴 결과(연간 약 450만 달러 절감 포함)라고 인용."
+        },
+        {
+          "url": "https://www.deloitte.com/us/en/about/press-room/deloitte-survey-examines-ai-readiness-agentic-ai-success.html",
+          "source_type": "공식",
+          "published": "2026-08-12",
+          "what": "딜로이트 보도자료 'AI Agents are Only the Beginning'. 미국 5개 산업 시니어 매니저~C레벨 501명, 2026년 4~6월 조사. 업무 프로세스가 '매우 잘 준비됐다' 5%, 준비됐다는 응답 전체는 21%. 72%가 통합되고 접근 가능한 데이터가 없다고 답함. 70%가 에이전트를 신뢰·관리할 수 없다고 답함."
+        }
+      ],
+      "freshness_ok": true,
+      "caveats": "딜로이트 조사는 미국 기업 대상이고 발표는 8월이다(기간 밖이지만 지금도 유효한 조사 결과). 레버뉴 클라우드 60% 단축은 세일즈포스가 자사 고객 사례로 공개한 수치를 기사가 옮긴 것으로, 독립 검증된 수치가 아니다.",
+      "corrected_claim": "'준비됐다고 답한 비율 5%'가 아니라 '매우 잘 준비됐다'는 응답이 5%다(준비됐다는 응답 전체는 21%). 72%는 '통합되고 접근 가능한 데이터 부족'에 관한 응답이다. 60% 단축은 세일즈포스가 공개한 앤트로픽 사례 수치다.",
+      "note": "딜로이트 수치는 공식 보도자료로 확인했다. 60% 단축은 세일즈포스 공식 페이지에서 찾지 못해 기사 보도만 근거로 남는다."
+    }
+  ]
+}
