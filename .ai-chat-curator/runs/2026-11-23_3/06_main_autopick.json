@@ -1,0 +1,41 @@
+{
+  "pick": 1,
+  "drafts": [
+    {
+      "no": 1,
+      "title": "ChatGPT 음성 받아쓰기, 10분 제한 해제",
+      "type": "소식",
+      "eligible": true,
+      "reason": "공식 출처로 확인됨 + 검증 통과"
+    },
+    {
+      "no": 2,
+      "title": "GPT-6.2 Astra·Sol 나눠 쓰는 법",
+      "type": "질문거리",
+      "eligible": false,
+      "reason": "자동 발송 대상 유형 아님(질문거리)"
+    },
+    {
+      "no": 3,
+      "title": "Claude 컴퓨터 사용(베타), Team·Enterprise 순차 제공",
+      "type": "소식",
+      "eligible": true,
+      "reason": "공식 출처로 확인됨 + 검증 통과"
+    },
+    {
+      "no": 4,
+      "title": "시트·문서 자동화, Apps Script의 Gemini 사이드 패널",
+      "type": "업무 팁",
+      "eligible": true,
+      "reason": "업무 팁, 검증 1회차부터 반려 없이 통과"
+    },
+    {
+      "no": 5,
+      "title": "Gemini 4 Neon, 공식 글에서 확인되는 것만",
+      "type": "팩트체크",
+      "eligible": false,
+      "reason": "팩트체크인데 교차 확인이 '확인됨'이 아님(부분 확인)"
+    }
+  ],
+  "rounds": 1
+}
