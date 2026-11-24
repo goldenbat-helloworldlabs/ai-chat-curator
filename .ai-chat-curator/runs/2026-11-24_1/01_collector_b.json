@@ -1,0 +1,107 @@
+{
+  "perspective": "b",
+  "period": {"from": "2026-11-18", "to": "2026-11-24"},
+  "queries": [
+    "ChatGPT 직장인 업무 활용 기업 도입 2026년 11월",
+    "Claude Anthropic enterprise news November 2026",
+    "Gemini Workspace 업무 새 기능 AI타임스 11월",
+    "Claude Enterprise Chat Cowork combined November 16 mixed-news",
+    "생성형 AI 사내 보안 규정 직장인 챗GPT 사용 금지 기업 전자신문 OR 지디넷코리아",
+    "TechCrunch OpenAI ChatGPT workplace feature this week",
+    "AI 에이전트 업무 도입 직장인 챗GPT 클로드 제미나이 뉴스 2026.11.20",
+    "Gemini 3 Google Workspace Gmail Docs new feature announced week of November 18 2026",
+    "OpenAI ChatGPT announces new November 2026 users pricing limits Verge",
+    "Anthropic Claude 발표 직장인 업무 기능 2026년 11월 뉴스",
+    "AI 기본법 개인정보위 생성형 AI 가이드라인 11월 2026 기업 직원 AI 사용",
+    "techcrunch.com 2026/11 OpenAI ChatGPT",
+    "챗GPT 오픈AI 발표 직장인 11월 21일 OR 11월 20일 OR 11월 19일 2026 지디넷코리아 OR AI타임스",
+    "OpenAI GPT-6.2 ChatGPT rollout Plus Pro Business November 23"
+  ],
+  "items": [
+    {
+      "id": "b-01",
+      "title": "Gemini의 작업 대행 모드(Tasks), 무료 사용자에게도 열렸다",
+      "summary": "유료 요금제 전용이던 Gemini의 에이전트 모드(Tasks, 예전 이름 Spark)가 무료 사용자에게도 열렸다는 보도다. 한국을 포함한 일부 국가가 대상이고, 여러 단계의 일을 백그라운드로 처리한다. 미국에서 먼저 쓰이는 전화 걸기·결제 기능과 Gmail·Docs·Calendar 연동 개선도 함께 소개됐다.",
+      "type_guess": "소식",
+      "tools": ["Gemini"],
+      "url": "https://www.androidcentral.com/apps-software/ai/google-just-made-its-best-gemini-agent-free-heres-where-you-can-get-it",
+      "source_name": "Android Central",
+      "source_type": "언론",
+      "published": "2026-11-18",
+      "original_source_url": null,
+      "claims": [
+        "Gemini Tasks(구 Spark)가 무료 Gemini 사용자에게 제공된다",
+        "무료 제공 대상 국가에 한국이 포함된다",
+        "전화 걸기(Duplex)·결제(Google Pay) 등 일부 기능은 미국에서 먼저 시작된다",
+        "무료 요금제의 사용 한도는 기사에 나오지 않았다"
+      ],
+      "work_use": "일정 등록, 메일 초안·발송, 자료 조사 같은 반복 업무를 Gemini에 맡기는 장면. 기사에 구글 공식 글 링크가 없어 원출처 확인 필요(기사 속 링크는 제3자 계정 게시물). 이미 제안된 Duplex 링크와 같은 발표 계열일 수 있음"
+    },
+    {
+      "id": "b-02",
+      "title": "영업용 ChatGPT, 고객 조사부터 후속 메일 초안까지",
+      "summary": "OpenAI가 영업 담당자를 위한 ChatGPT 기능을 내놨다는 국내 보도다. 고객사 조사, 미팅 준비, 회의 메모 기반 후속 메일 초안, 정체된 딜 점검을 한 대화에서 처리한다. 기본 영업 플러그인은 무료 계정에서도 쓸 수 있으나 사용 한도가 있고, 외부 도구 연동은 요금제·지역에 따라 다르다.",
+      "type_guess": "소식",
+      "tools": ["ChatGPT"],
+      "url": "https://www.outsourcing.co.kr/news/articleView.html?idxno=204432",
+      "source_name": "아웃소싱타임스",
+      "source_type": "언론",
+      "published": "2026-11-24",
+      "original_source_url": "https://openai.com/ko-KR/index/introducing-chatgpt-for-sales/",
+      "claims": [
+        "OpenAI가 11월 17일 ChatGPT for Sales를 공개했다",
+        "기본 Sales 플러그인은 무료 포함 모든 ChatGPT 요금제에서 쓸 수 있다",
+        "30개 이상의 파트너 플러그인이 있고 Salesforce·HubSpot 등과 연결된다",
+        "Dot 에이전트는 Pro와 일부 Plus 사용자에게 지원 지역에서만 제공된다",
+        "한국에서의 제공 여부는 기사에서 확인되지 않았다"
+      ],
+      "work_use": "영업·고객 응대 직군의 고객사 조사, 미팅 준비, 후속 메일 작성"
+    },
+    {
+      "id": "b-03",
+      "title": "Anthropic Claude Ship, AI가 코드 변경을 검토하고 승인까지",
+      "summary": "Anthropic이 코드 변경을 리뷰하고, 실패한 검사나 충돌을 고치고, 팀이 정한 규칙에 따라 일상적인 변경을 승인하는 에이전트 묶음을 내놨다는 보도다. GitHub 저장소를 쓰는 Team·Enterprise 요금제가 대상이며 코드 리뷰만 정식 제공이고 나머지는 베타다. 승인을 AI에 맡기는 점 때문에 관찰 전용 모드로 먼저 써 보라는 안내가 있다.",
+      "type_guess": "소식",
+      "tools": ["Claude"],
+      "url": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/",
+      "source_name": "TechCrunch",
+      "source_type": "언론",
+      "published": "2026-11-23",
+      "original_source_url": "https://claude.com/resources/articles/introducing-claude-ship",
+      "claims": [
+        "Code Review는 정식 제공, PR Steward와 Claude Approvals는 베타다",
+        "GitHub 저장소를 쓰는 Claude Team·Enterprise 요금제에 제공된다",
+        "승인 정책은 저장소 안 파일에 자연어로 작성한다",
+        "저장소 단위 적용 제한과 월 사용 한도 설정이 가능하다"
+      ],
+      "work_use": "개발 직군 협업 장면(코드 리뷰·PR 관리). 비개발 직장인 대상 방에는 관련도가 낮을 수 있음"
+    },
+    {
+      "id": "b-04",
+      "title": "MS Ignite, 코파일럿을 사람과 AI 에이전트가 함께 일하는 업무 공간으로",
+      "summary": "마이크로소프트가 Ignite에서 코파일럿을 사람과 에이전트가 같이 일하는 업무 운영체제로 키우겠다고 밝혔다는 국내 보도다. 공유 작업 공간, 반복 업무 자동 처리, 자연어로 대시보드·앱 생성 같은 기능이 소개됐다. 기사에는 가격과 대부분 기능의 출시 시점이 없고, 어떤 모델을 쓰는지도 나오지 않는다. 세 도구 직접 소식은 아니고 경쟁 업무 도구 동향이다.",
+      "type_guess": "소식",
+      "tools": ["공통"],
+      "url": "https://www.fnnews.com/news/202611180845314940",
+      "source_name": "파이낸셜뉴스",
+      "source_type": "언론",
+      "published": "2026-11-18",
+      "original_source_url": null,
+      "claims": [
+        "Microsoft가 11월 17일(현지) Ignite 2026에서 Copilot Workspace·Autopilot·Copilot Code를 발표했다",
+        "기사에 Copilot Workspace 등의 정식 출시 시점·가격은 나오지 않았다"
+      ],
+      "work_use": "회사에서 MS 365 코파일럿을 쓰는 직장인에게 참고할 동향. 방의 주제(ChatGPT·Claude·Gemini)와는 거리가 있어 후순위"
+    }
+  ],
+  "skipped": [
+    {"url": "https://www.fnnews.com/news/202611171101469576", "reason": "작성일 2026-11-17로 기간 밖 (한국부동산원 AI 에이전트 도입 사례, 특정 도구명 없음)"},
+    {"url": "https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/", "reason": "작성일 2026-11-10로 기간 밖 (열어 보지 않고 URL 날짜로 판단)"},
+    {"url": "https://zdnet.co.kr/view/?no=20261111112534", "reason": "11월 11일 전후 기사로 기간 밖 (오픈AI 챗GPT 기업 프로필)"},
+    {"url": "https://winbuzzer.com/2026/11/17/gpt-6-2-scores-higher-at-lower-cost-in-ai-tests-xcxwbn/", "reason": "작성일 2026-11-17로 기간 밖 (GPT-6.2)"},
+    {"url": "https://mixed-news.com/en/?p=38069", "reason": "페이지 열림 실패(HTTP 404), 작성일 확인 불가. Claude Enterprise 채팅·Cowork 통합 기본 적용(11월 16일)은 공식 도움말이 원출처이며 a 관점 영역"},
+    {"url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes", "reason": "이미 제안·게시한 링크"},
+    {"url": "https://gemini.google/release-notes/", "reason": "이미 제안·게시한 링크"}
+  ],
+  "notes": "검색 도구가 날짜 지정 검색을 지원하지 않아 결과 다수가 기간 밖이거나 집계·블로그성 글이었다. 언론 기사는 열어 본 4건 중 기간 안 3건만 채택. 검색 요약에만 나온 ChatGPT 음성 모델 종료(12월 11일 예정), GPT-6.2 채팅 탭 배포(11월 23일) 같은 이야기는 언론 기사를 열어 확인하지 못해 수집하지 않았다(확인 필요 단서로만 남김). 사내 AI 규정·판결·규제 쪽은 기간 안 기사를 찾지 못했다. 원출처 후보(OpenAI·Anthropic 공식 글)는 열어 보지 않았고 기사에 적힌 링크만 옮겼다."
+}

@@ -1,0 +1,116 @@
+{
+  "perspective": "a",
+  "period": {"from": "2026-11-18", "to": "2026-11-24"},
+  "queries": [
+    "Anthropic Claude new feature announcement November 2026",
+    "OpenAI ChatGPT new feature announcement November 2026 business",
+    "Gemini Workspace update November 2026 Docs Sheets Gmail",
+    "Gemini Notebook sites Workspace Gemini app computer use Mac official blog.google November 2026",
+    "ChatGPT 요금제 사용량 한도 변경 2026년 11월 공식 help.openai.com"
+  ],
+  "items": [
+    {
+      "id": "a-01",
+      "title": "Claude, Team·Enterprise에 컴퓨터 사용(베타) 열린다",
+      "summary": "Claude가 사용자의 화면을 보고 허용된 데스크톱 앱 안에서 직접 작업하는 컴퓨터 사용 기능이 Team·Enterprise 요금제에 베타로 단계적 제공된다. 조직 Owner가 설정에서 켜야 하며 기본값은 꺼짐이다. 도움말에는 앱 사이의 샌드박스가 없어 화면 속 웹페이지·메일 내용이 의도치 않은 동작을 부를 수 있다는 경고와 스크린샷이 대화와 함께 저장된다는 점이 적혀 있다.",
+      "type_guess": "주의할 점",
+      "tools": ["Claude"],
+      "url": "https://support.claude.com/en/articles/12138966-release-notes",
+      "source_name": "Claude 도움말 릴리스 노트",
+      "source_type": "공식",
+      "published": "2026-11-20",
+      "original_source_url": "https://support.claude.com/en/articles/18483812-set-up-computer-use-for-team-and-enterprise-plans",
+      "claims": [
+        "Claude 컴퓨터 사용은 Team·Enterprise 요금제에 2026-11-20 베타로 단계 제공되며 조직 Owner만 켤 수 있다",
+        "macOS 14 이상과 Windows의 Claude Desktop에서 쓸 수 있고 Cowork 작업과 Claude Code에서는 쓸 수 없다",
+        "HIPAA 대응 구성이나 고객 관리형 암호화 키를 쓰는 조직에서는 사용할 수 없다"
+      ],
+      "work_use": "회사 Claude 요금제를 쓰는 팀이 화면 조작형 자동화를 켜기 전에 알아 둘 설정·보안 주의점"
+    },
+    {
+      "id": "a-02",
+      "title": "Gemini 앱 Mac 컴퓨터 사용 기능, 미국 개인 계정부터",
+      "summary": "Gemini가 Mac의 로컬 파일·앱·웹사이트를 오가며 양식 입력, 메뉴 탐색, 데이터 입력 같은 여러 단계 작업을 별도 창에서 대신 수행한다. 사용자가 접근 앱을 고르고 진행을 실시간으로 보며 주요 동작 전 승인한다. 지금은 미국에서 영어로, 개인 계정의 AI Plus·Pro·Ultra 구독자(18세 이상)만 쓸 수 있다.",
+      "type_guess": "소식",
+      "tools": ["Gemini"],
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/computer-use-mac/",
+      "source_name": "Google 블로그",
+      "source_type": "공식",
+      "published": "2026-11-19",
+      "original_source_url": null,
+      "claims": [
+        "Gemini 앱 Mac 컴퓨터 사용은 2026-11-19부터 미국·영어·개인 Google 계정의 AI Plus·Pro·Ultra 구독자에게 단계 제공된다",
+        "Apple Silicon Mac과 macOS Sequoia 15.0 이상이 필요하다",
+        "한국 출시 일정은 공지되지 않았다"
+      ],
+      "work_use": "반복적인 양식 입력·데이터 옮기기 같은 사무 작업 자동화 (한국 직장인은 당장 못 쓸 수 있음)"
+    },
+    {
+      "id": "a-03",
+      "title": "Gemini 노트북에서 '사이트 만들어줘'로 자료를 웹페이지로",
+      "summary": "Gemini Notebook에 모아 둔 노트와 자료를 채팅 요청 한 줄로 인터랙티브 사이트로 바꾸고, 열어 보거나 공유할 수 있게 한다. Workspace 고객과 개인 계정 사용자 모두 대상이며 웹에서만 되고 모바일은 예정 단계다. 이 기능만 따로 끄는 관리자 설정은 없고 Gemini Notebook 전체 접근으로 조절한다.",
+      "type_guess": "업무 팁",
+      "tools": ["Gemini"],
+      "url": "https://workspaceupdates.googleblog.com/2026/11/transform-your-notes-and-research-into-dynamic-tools-with-Gemini-Notebook.html",
+      "source_name": "Google Workspace Updates 블로그",
+      "source_type": "공식",
+      "published": "2026-11-18",
+      "original_source_url": null,
+      "claims": [
+        "Gemini Notebook 사이트 생성은 2026-11-16부터 단계 제공되며 모든 계정에 보이기까지 최대 15일 걸린다",
+        "18세 이상, 웹에서만 지원된다",
+        "Gemini 도움말은 직장·학교 계정으로 로그인하면 Gemini Notebook 연결 앱을 쓸 수 없다고 안내해, 업무 계정 가용성이 불분명하다"
+      ],
+      "work_use": "조사 자료·회의 메모를 팀에 공유할 정리 페이지로 빠르게 만드는 장면"
+    },
+    {
+      "id": "a-04",
+      "title": "Claude 엔터프라이즈 제로 데이터 보관 + 오용 모니터링 베타",
+      "summary": "Anthropic이 입출력을 고객 자체 클라우드 저장소에 두는 제로 데이터 보관 방식으로, 여러 요청에 걸친 오용을 자동 감시하는 Enterprise Frontier Safeguards 베타를 열었다. 위험이 발견되면 입출력 내용을 뺀 안전 사례를 고객에게 보낸다. 고객이 S3·GCS 저장소를 직접 관리하고 비용을 부담해야 하며 초대받은 기업 고객 중심이다.",
+      "type_guess": "소식",
+      "tools": ["Claude"],
+      "url": "https://claude.com/resources/articles/zero-data-retention-with-enterprise-frontier-safeguards",
+      "source_name": "Claude 제품 업데이트",
+      "source_type": "공식",
+      "published": "2026-11-23",
+      "original_source_url": null,
+      "claims": [
+        "Enterprise Frontier Safeguards는 2026-11-23 공개 베타로 Claude Platform, AWS, Bedrock, Google Cloud에서 제공되고 Microsoft Foundry는 아직이다",
+        "Anthropic은 이 데이터로 학습하지 않으며 직원도 검토하지 않는다고 밝혔다"
+      ],
+      "work_use": "API·플랫폼 기반으로 사내 AI 도구를 운영하는 보안·IT 담당자의 데이터 보관 정책 검토 (일반 직장인 관련도는 낮음)"
+    },
+    {
+      "id": "a-05",
+      "title": "ChatGPT Business, 개인 '도트'와 외부 멤버 SSO 예외 설정",
+      "summary": "ChatGPT Business Standard의 미국 대상 멤버는 주간 업데이트 준비 같은 진행 중 프로젝트를 돕는 개인 도트를 하나 만들 수 있게 된다. 같은 날 워크스페이스 소유자가 외부 멤버에게 SSO 없이 로그인을 허용할지 정하는 관리자 설정도 추가됐다. 이미 SSO를 요구하던 워크스페이스의 기존 외부 멤버는 예외가 자동 적용되고 새로 추가한 멤버는 기본적으로 해당되지 않는다.",
+      "type_guess": "소식",
+      "tools": ["ChatGPT"],
+      "url": "https://help.openai.com/en/articles/11391654-chatgpt-business-release-notes",
+      "source_name": "OpenAI 도움말 ChatGPT Business 릴리스 노트",
+      "source_type": "공식",
+      "published": "2026-11-19",
+      "original_source_url": null,
+      "claims": [
+        "도트는 미국의 자격 있는 ChatGPT Business Standard 멤버에게만 제공되며 사용량 한도가 적용된다",
+        "SSO 예외는 Admin Console의 Members, Workspace login > SSO에서 설정한다"
+      ],
+      "work_use": "회사 ChatGPT Business 사용자의 주간 보고 준비 보조, 관리자의 외부 협력사 계정 관리"
+    }
+  ],
+  "skipped": [
+    {"url": "https://gemini.google/release-notes/", "reason": "이미 제안·게시한 링크 (2026-11-19 Mac 컴퓨터 사용 항목은 공식 블로그 글로 대신 수집)"},
+    {"url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes", "reason": "이미 제안·게시한 링크, 열지 않음"},
+    {"url": "https://workspaceupdates.googleblog.com/2026/11/share-skills-add-files-from-Drive-Notebook-Photos-to-skills-Gemini-app.html", "reason": "글을 열어 보니 작성일 2026-11-16, 기간 밖 (목록 페이지에는 11-20로 표시됨)"},
+    {"url": "https://workspaceupdates.googleblog.com/2026/11/customize-and-extend-workspace-with-apps-script.html", "reason": "작성일 2026-11-16, 기간 밖"},
+    {"url": "https://workspaceupdates.googleblog.com/2026/11/gemini-powered-data-classification-in-Google-Drive-is-now-generally-available.html", "reason": "작성일 2026-11-17, 기간 밖"},
+    {"url": "https://workspaceupdates.googleblog.com/2026/11/google-pics-upgrades-to-nano-banana-21-for-higher-quality-image-generation-and-editing.html", "reason": "작성일 확인 안 함, 일반 직장인 업무 관련 낮음"},
+    {"url": "https://workspaceupdates.googleblog.com/2026/11/google-vids-now-lets-you-reuse-your-media-in-video-generation.html", "reason": "작성일 확인 안 함, 업무 관련도 낮아 열지 않음"},
+    {"url": "https://workspaceupdates.googleblog.com/2026/11/starter-prompts-and-descriptions-for-Google-Chat-apps-and-agents.html", "reason": "개발자 대상 기능이라 업무 관련 낮음, 작성일 확인 안 함"},
+    {"url": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership/", "reason": "목록만 확인, 직장인 업무 활용과 연결 약함"},
+    {"url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast/", "reason": "엔지니어링 글, 업무 활용과 연결 약함"},
+    {"url": "https://www.anthropic.com/news/ipo-close", "reason": "IPO 소식, 직장인 업무 활용과 무관"},
+    {"url": "https://support.claude.com/en/articles/12138966-release-notes", "reason": "11-20 Claude Mobile 새 디자인 항목은 업무 관련 낮아 제외 (같은 URL의 컴퓨터 사용 항목은 a-01로 수집)"}
+  ],
+  "notes": "OpenAI 공식 뉴스 목록은 제목·날짜만 보고 제외 판단했고 개별 글은 열지 않음. 열어 본 ChatGPT 공식 글은 Business 릴리스 노트뿐이라 일반 ChatGPT(Plus 등) 11-18~24 변경은 확인하지 못함(이미 제안된 ChatGPT 릴리스 노트 링크에 있을 수 있음). Business 릴리스 노트는 전문 중 앞 100000자만 읽음. ChatGPT와 Codex 사용 한도 12월 통합은 제3자 블로그만 확인돼 공식 근거 없음, 수집 안 함. Workspace Updates 블로그 목록 페이지의 날짜와 글 안의 작성일이 달라(예: 목록 11-20, 글 11-16) 글 안 날짜를 기준으로 삼음. Gemini Notebook 연결 앱이 직장·학교 계정에서 안 된다는 도움말과 Workspace 글이 충돌해 a-03은 교차 확인 필요."
+}
