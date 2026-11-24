@@ -1,0 +1,41 @@
+{
+  "pick": 1,
+  "drafts": [
+    {
+      "no": 1,
+      "title": "Claude 컴퓨터 사용(베타), 켜기 전 알아 둘 점",
+      "type": "주의할 점",
+      "eligible": true,
+      "reason": "공식 출처로 확인됨 + 검증 통과"
+    },
+    {
+      "no": 2,
+      "title": "AI가 내 PC를 대신 조작한다면, 어디까지 맡기시겠어요?",
+      "type": "질문거리",
+      "eligible": false,
+      "reason": "자동 발송 대상 유형 아님(질문거리)"
+    },
+    {
+      "no": 3,
+      "title": "Gemini 노트북 자료를 팀 공유용 웹페이지로",
+      "type": "업무 팁",
+      "eligible": true,
+      "reason": "업무 팁, 검증 1회차부터 반려 없이 통과"
+    },
+    {
+      "no": 4,
+      "title": "ChatGPT for Sales: 고객사 조사부터 후속 메일 초안까지",
+      "type": "소식",
+      "eligible": false,
+      "reason": "검증 중 사실 확인으로 반려된 이력 있음"
+    },
+    {
+      "no": 5,
+      "title": "\"AI 대화 때문에 수사기관이 찾아왔다\"는 이야기",
+      "type": "팩트체크",
+      "eligible": false,
+      "reason": "검증 중 사실 확인으로 반려된 이력 있음"
+    }
+  ],
+  "rounds": 2
+}

@@ -1,0 +1,7 @@
+{"round":2,"drafts":[
+{"no":1,"verdict":"통과","failed":[],"reasons":"","fix_hint":""},
+{"no":2,"verdict":"통과","failed":[],"reasons":"","fix_hint":""},
+{"no":3,"verdict":"통과","failed":[],"reasons":"","fix_hint":""},
+{"no":4,"verdict":"통과","failed":[],"reasons":"","fix_hint":""},
+{"no":5,"verdict":"통과","failed":[],"reasons":"","fix_hint":""}
+],"run_level":{"fairness":"통과","candidates_doc":"통과"},"notes":"check-drafts all_ok. 1회차 반려(4·5번 사실 확인) 해결 확인."}
