@@ -54,8 +54,8 @@ https://workspaceupdates.googleblog.com/2026/11/transform-your-notes-and-researc
 
 ```kakao
 ChatGPT에 영업 업무용 기능(ChatGPT for Sales)이 11월 17일 나왔어요.
-고객사 조사, 미팅 준비, 회의 메모로 후속 메일 초안 쓰기를 한 대화에서 이어 갈 수 있어요.
-기본 Sales 플러그인은 무료 포함 모든 요금제에서 쓸 수 있고, Salesforce·HubSpot 같은 연동은 요금제·지역·회사 설정에 따라 달라요.
+잠재 고객 찾기, 미팅 준비, 제안서·후속 메일 초안 쓰기 같은 기능이 들어 있어요.
+기본 Sales 플러그인은 무료 포함 모든 요금제에서 되고, Salesforce·HubSpot 같은 연동은 요금제·지역·회사 설정에 따라 다르며 해당 서비스 계정(유료일 수 있음)이 따로 필요해요.
 회사 Business·Enterprise 계정은 관리자가 켜야 하고, 고객 정보를 넣기 전엔 회사 규정을 먼저 확인해 주세요.
 https://openai.com/ko-KR/index/introducing-chatgpt-for-sales/
 ```
@@ -69,8 +69,8 @@ https://openai.com/ko-KR/index/introducing-chatgpt-for-sales/
 
 ```kakao
 "Claude에 장난으로 쓴 대화 때문에 수사기관이 찾아왔다"는 해외 블로그 사례가 돌고 있어요.
-이 일화는 익명 전언이라 아직 공식 확인 안 됨이고, 글쓴이도 사실을 보증할 수 없다고 밝혔어요.
-확인된 건 정책이에요. Anthropic 개인정보 처리방침에는 시스템이 정책 위반 가능 대화를 표시하고, 심각한 피해를 막는 데 필요하면 수사기관에 정보를 줄 수 있다고 적혀 있어요.
-업무 채팅도 기록이 남는다고 보고, 오해받을 농담이나 민감한 정보는 넣지 않는 게 좋아요.
+익명 전언이라 아직 공식 확인 안 됨이고, 글쓴이도 보증하지 않았어요.
+확인된 건 정책이에요(개인 요금제 기준, 회사 계정은 별도 계약). Anthropic 개인정보 처리방침에 정책 위반 가능 대화를 시스템이 표시하고, 심각한 피해를 막는 데 필요하면 수사기관에 정보를 줄 수 있다고 적혀 있어요.
+어떤 계정이든 오해받을 농담이나 민감한 정보는 넣지 않는 게 좋아요.
 https://www.anthropic.com/legal/privacy
 ```
