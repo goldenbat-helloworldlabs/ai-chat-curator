@@ -1,0 +1,27 @@
+{
+  "perspective": "d",
+  "period": {"from": "2026-11-18", "to": "2026-11-24"},
+  "queries": [
+    "ChatGPT 업무 활용 후기 보고서 메일 브런치 2026년 11월",
+    "Claude 회의록 엑셀 정리 업무 활용 경험 블로그 velog 티스토리",
+    "Gemini 기획서 PPT 구글 시트 업무 자동화 후기 2026",
+    "brunch.co.kr 직장인 AI 업무 활용 Claude ChatGPT Gemini 11월 22일",
+    "velog 업무 자동화 Claude Code 보고서 후기 2026.11",
+    "AI newsletter workplace tips ChatGPT Claude Gemini work prompts week November 2026",
+    "gpters 업무 활용 후기 ChatGPT Claude Gemini 11월 20일 2026"
+  ],
+  "items": [],
+  "skipped": [
+    {"url": "https://brunch.co.kr/@baby/184", "reason": "기간 밖(2026-08-10), 글 끝에 유료 강의 링크"},
+    {"url": "https://brunch.co.kr/@skychang44/685", "reason": "기간 밖(2026-06-04)"},
+    {"url": "https://brunch.co.kr/@seorann/7", "reason": "기간 밖(2026-06-24)"},
+    {"url": "https://brunch.co.kr/@@19OO/166", "reason": "기간 밖(2026-09-02), 워크숍 홍보 중심"},
+    {"url": "https://newneek.co/@growthmaker/article/36200", "reason": "기간 밖(2025-10-16), 구독·프롬프트 홍보 요소"},
+    {"url": "https://tilnote.io/pages/6af439cfe0a60254bb9c0bad", "reason": "기간 밖(2026-11-11)"},
+    {"url": "https://www.leadwithai.co/article/what-every-leader-needs-to-know-about-ai-october-2026", "reason": "기간 안(2026-11-18)이나 실무자 경험담이 아닌 리더 대상 통계 브리핑이고, 유료 멤버십·강의·교육 서비스 홍보가 반복됨(광고 성격)"},
+    {"url": "https://www.leadwithai.co/guides/how-to-choose-ai-platform", "reason": "기간 안(2026-11-21)이나 기업 플랫폼 선정 가이드로 직장인 개인 업무 활용과 거리가 멀고, 유료 멤버십·강의·교육 서비스 홍보가 반복됨"},
+    {"url": "https://www.leadwithai.co/guides/ai-statistics", "reason": "기간 안(2026-11-21) 통계 모음이나 열어 보지 않음, 같은 사이트의 홍보 구조와 실무 경험담 아님"},
+    {"url": "https://www.gpters.org/ax-lab/post/gyoan-geomto-gyoanman-boji-anhgo-gogaeg-nijeuwa-bigyohaesseoyo", "reason": "이미 제안·게시한 링크"}
+  ],
+  "notes": "검색 엔진이 날짜 필터를 지원하지 않아 기간(11/18~11/24) 안의 한국어 실무자 글을 찾지 못했다. 열어 본 브런치·뉴스레터 글은 모두 기간 밖이거나 판매 유도가 있었다. 기간 밖이지만 유효한 팁: 클로바 노트 텍스트를 Claude 스킬로 회의 유형별 템플릿에 정리해 회의록 작성이 20분 이상에서 5분 내 검수로 줄었다는 브런치 글(https://brunch.co.kr/@seorann/7, 2026-06-24). 빈 목록이 정답인 수집이다. 보완 시 velog·티스토리·네이버 블로그를 날짜 정렬로 직접 열어 보는 방식이 필요하다."
+}
