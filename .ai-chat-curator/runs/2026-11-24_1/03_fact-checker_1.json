@@ -1,0 +1,132 @@
+{
+  "results": [
+    {
+      "cid": "C01",
+      "status": "확인됨",
+      "evidence": [
+        {
+          "url": "https://support.claude.com/en/articles/12138966-release-notes",
+          "source_type": "공식",
+          "published": "2026-11-20",
+          "what": "2026-11-20 항목 'Computer use (beta) for Team and Enterprise plans': Team·Enterprise에 베타 제공, 조직별로 순차 적용(rolling out to organizations gradually). 이후 롤백·중단·변경 항목 없음"
+        },
+        {
+          "url": "https://support.claude.com/en/articles/18483812-set-up-computer-use-for-team-and-enterprise-plans",
+          "source_type": "공식",
+          "published": "unknown",
+          "what": "페이지 표기는 'Updated this week'. Owner·Primary Owner가 Organization settings > Capabilities에서 켬, 기본 꺼짐, Enterprise는 사용자 지정 역할로 제한 가능. macOS 14 이상·Windows Claude Desktop. 'Cowork' 옵션으로 시작한 작업과 Claude Code에서는 동작 안 함. HIPAA 대응 구성·Claude Code 제로 데이터 보관·고객 관리형 암호화 키·FERPA/K-12 설정 조직은 켤 수 없음. 앱 사이 샌드박스 없음, 화면 속 웹페이지·메일이 의도치 않은 동작 유발 가능. 스크린샷이 대화와 함께 저장되고 자동 동작 점검 기록에 사본이 남을 수 있음"
+        }
+      ],
+      "freshness_ok": true,
+      "caveats": "Team·Enterprise 요금제만(개인 Pro·Max 아님), 베타, 조직별 순차 적용이라 아직 안 보일 수 있음. Owner가 켜야 하고 기본 꺼짐. 한국 제외 여부는 공지에 언급 없음(지역 제한 문구 없음). 제외 조직에 Claude Code 제로 데이터 보관·FERPA/K-12 설정도 포함",
+      "corrected_claim": "주장 2 보완: 실행은 macOS 14 이상·Windows Claude Desktop이 필요하지만, 조직의 'Computer access' 설정이 켜져 있고 Claude Desktop이 실행 중인 컴퓨터가 연결돼 있으면 웹·모바일 Claude에서도 지시할 수 있다. 주장 3 보완: 사용 불가 조직은 HIPAA 대응 구성·고객 관리형 암호화 키 외에 Claude Code 제로 데이터 보관, FERPA·K-12 설정 조직도 포함",
+      "note": "도움말 페이지에 절대 작성일이 없어 날짜는 릴리스 노트 2026-11-20 기준"
+    },
+    {
+      "cid": "C02",
+      "status": "확인됨",
+      "evidence": [
+        {
+          "url": "https://blog.google/innovation-and-ai/products/gemini-app/computer-use-mac/",
+          "source_type": "공식",
+          "published": "2026-11-19",
+          "what": "Mac용 Gemini 앱에서 미국·영어로 순차 제공(rolling out). 만 18세 이상 개인 Google 계정, Google AI Plus·Pro·Ultra 사용자 대상. Apple Silicon Mac, macOS Sequoia 15.0 이상 필요. 접근할 앱을 사용자가 고르고, 단계별 실시간 확인·언제든 일시정지 가능, 주요 동작 전 승인. 격리된 백그라운드 창에서 실행. 다른 국가·한국 확대 일정 언급 없음"
+        }
+      ],
+      "freshness_ok": true,
+      "caveats": "한국 미출시(미국·영어만, 한국 일정 미공지). 개인 계정만(Workspace 업무 계정 아님), 만 18세 이상, 유료(AI Plus·Pro·Ultra). Mac 앱 전용(Apple Silicon·macOS 15.0+), Windows 언급 없음",
+      "corrected_claim": null,
+      "note": "롤백·연기 보도는 찾지 못함"
+    },
+    {
+      "cid": "C03",
+      "status": "확인됨",
+      "evidence": [
+        {
+          "url": "https://workspaceupdates.googleblog.com/2026/11/transform-your-notes-and-research-into-dynamic-tools-with-Gemini-Notebook.html",
+          "source_type": "공식",
+          "published": "2026-11-18",
+          "what": "Rapid·Scheduled Release 도메인 모두 2026-11-16부터 단계 제공(기능 노출까지 최대 15일). 모든 Google Workspace 고객, Workspace Individual, 개인 Google 계정 대상, 만 18세 이상, 웹 지원(모바일은 곧). 이 기능 자체의 관리자 설정·사용자 설정은 없고 관리자는 Gemini Notebook 접근 켜기/끄기로 조절"
+        },
+        {
+          "url": "https://workspaceupdates.googleblog.com/2026/09/notebooks-in-gemini-dedicated-workspace-for-focused-organized-work-now-for-schools-and-organizations.html",
+          "source_type": "공식",
+          "published": "2026-09-17",
+          "what": "Gemini 안의 노트북이 모든 Workspace 고객에게 제공(2026-10-19 갱신으로 EEA 포함). 기본 켜짐, Gemini Notebook과 Gemini가 모두 켜진 그룹·조직 단위 사용자만 사용"
+        },
+        {
+          "url": "https://support.google.com/gemini/answer/16972047?hl=en",
+          "source_type": "공식",
+          "published": "unknown",
+          "what": "직접 열어 본 현재 Gemini 도움말 '노트북' 페이지에는 직장·학교 계정 사용 불가 문구가 없음. Gemini Notebook 연결 앱은 웹(및 모바일) 앱에서 제공, Mac 앱에는 아직 없음, 순차 제공 안내"
+        }
+      ],
+      "freshness_ok": true,
+      "caveats": "업무 계정은 회사 관리자가 Gemini와 Gemini Notebook을 모두 켠 경우에만 사용 가능. 웹 전용(모바일 예정), 만 18세 이상, 11-16부터 최대 15일 순차 노출이라 아직 안 보일 수 있음. 이 기능만 끄는 관리자 설정 없음. 지역 제한 언급 없음(한국 포함 여부 별도 명시 없음)",
+      "corrected_claim": "주장 3 정정: 수집자가 짚은 '직장·학교 계정에서 Notebook 연결 앱 사용 불가' 안내는 현재 공식 페이지에서 확인되지 않음. 11-18 공지와 9-17 공지 모두 Workspace 고객을 대상으로 명시하므로, 업무 계정도 관리자가 Gemini·Gemini Notebook을 켰다면 사용 가능",
+      "note": "검색 요약에 '예전 Gemini 앱 도움말은 업무 계정 미지원'이라는 언급이 있었으나 직접 연 현재 페이지에는 해당 문구가 없어 과거 문구로 판단"
+    },
+    {
+      "cid": "C05",
+      "status": "부분 확인",
+      "evidence": [
+        {
+          "url": "https://openai.com/ko-KR/index/introducing-chatgpt-for-sales/",
+          "source_type": "공식",
+          "published": "2026-11-17",
+          "what": "ChatGPT for Sales 공개. 잠재 고객 찾기·미팅 준비·제안서와 후속 메일 초안·파이프라인 위험 추적. 신규·확장 파트너 플러그인 30개 이상, Salesforce·HubSpot·Close CRM·monday CRM 등 연동. 파트너 플러그인·기능은 요금제·지역·워크스페이스 설정에 따라 다름. Business·Enterprise 관리자가 팀에 켤 수 있음. dot은 상시 작동 에이전트로 소개되나 요금제·지역 조건은 이 글에 없음"
+        },
+        {
+          "url": "https://help.openai.com/en/articles/20001707-getting-started-with-chatgpt-for-sales",
+          "source_type": "공식",
+          "published": "unknown",
+          "what": "'Updated: 5 days ago'. Sales 플러그인은 무료 포함 모든 ChatGPT 요금제에서 전 세계 제공(available on all ChatGPT plans globally, including Free). 파트너 제공 여부는 요금제·지역·워크스페이스 설정에 따라 다르고, Sales 설치가 파트너 계정 연결이나 유료 파트너 구독을 포함하지 않음. 사용 한도 언급 없음"
+        },
+        {
+          "url": "https://www.outsourcing.co.kr/news/articleView.html?idxno=204432",
+          "source_type": "언론",
+          "published": "2026-11-24",
+          "what": "무료 계정의 파일 첨부·데이터 분석은 기능별 한도. dot은 지원 지역의 Pro와 일부 Plus 사용자(OpenAI dot 시작 가이드 인용). 한국 제공 여부 명시 없음"
+        }
+      ],
+      "freshness_ok": true,
+      "caveats": "기본 Sales 플러그인은 전 세계·무료 포함이라 한국에서도 쓸 수 있음. 다만 Salesforce·HubSpot 등 파트너 플러그인은 요금제·지역·회사 워크스페이스 설정에 따라 다르고 해당 서비스 유료 계정이 따로 필요할 수 있음. Business·Enterprise는 관리자가 켜야 함. dot은 Pro·일부 Plus·지원 지역 한정(언론 보도 기준, 공식 페이지로는 미확인), 한국이 지원 지역인지 미확인",
+      "corrected_claim": "주장 5 정정: '한국 제공 여부 미확인'이 아니라, 기본 Sales 플러그인은 공식 도움말상 무료 포함 전 요금제·전 세계 제공이므로 한국에서도 사용 가능. 지역에 따라 다른 것은 파트너 플러그인과 dot. 무료 계정 사용 한도는 공식 도움말에는 없고 언론 보도 기준",
+      "note": "주장 1·2·3은 공식 출처로 확인됨. 주장 4(dot 요금제·지역)는 OpenAI dot 도움말 페이지를 찾지 못해 언론 보도만으로 부분 확인. 대표 링크는 공식 글(ko-KR)로 그대로 써도 됨"
+    },
+    {
+      "cid": "C08",
+      "status": "부분 확인",
+      "evidence": [
+        {
+          "url": "https://austinpatrick.substack.com/p/when-should-ai-labs-alert-police",
+          "source_type": "커뮤니티",
+          "published": "2026-11-17",
+          "what": "글쓴이가 고교 지인의 익명 사례를 전함: Claude 대화가 정책 위반으로 대화 24시간 뒤 계정 정지, 이후 FBI 요원·지역 경찰 연락·방문. '다른 AI가 대화를 읽고 플래그한다'는 말은 FBI 요원이 했다고 당사자가 전한 2차 전언. 글쓴이가 '사실이라고 보증할 수 없다'고 명시. OpenAI 사례 부분은 출처 링크 없음"
+        },
+        {
+          "url": "https://www.anthropic.com/legal/privacy",
+          "source_type": "공식",
+          "published": "2026-09-10",
+          "what": "시행일 2026-09-10. Anthropic 시스템이 유해·정책 위반 가능 입력·출력을 플래그하며, 플래그된 대화는 학습 거부와 무관하게 안전 분류 모델 개선에 쓰일 수 있고 약관·사용 정책 집행을 위해 사용자와 다시 연결할 수 있음. 법 준수·정부 요청 대응, 사람·재산에 대한 심각한 피해 방지에 합리적으로 필요하다고 선의로 판단하면 수사기관에 개인정보 제공 가능. 자동 분류기가 읽는지 사람이 읽는지는 명시하지 않음"
+        },
+        {
+          "url": "https://cdn.openai.com/pdf/8e938d69-0b67-4994-b9ff-683733ed587e/openai-letter-minister-solomon.pdf",
+          "source_type": "공식",
+          "published": "2026-02-26",
+          "what": "OpenAI 글로벌 정책 부사장이 캐나다 AI 장관에게 보낸 서한. 2025년 6월 자동 시스템이 Tumbler Ridge 사건 가해자 계정을 탐지해 사람 검토 후 정지했으나 '신뢰할 만하고 임박한 계획'이 아니라 판단해 수사기관에 알리지 않음. 이후 신고 기준을 완화해 지금이라면 신고했을 것이라고 밝힘. 두 번째 계정을 사건 후 발견해 수사기관에 공유"
+        },
+        {
+          "url": "https://globalnews.ca/news/11709039/openai-tumbler-ridge-shooting-measures",
+          "source_type": "언론",
+          "published": "2026-02-26",
+          "what": "가해자(18세)가 캐나다 BC주 Tumbler Ridge에서 8명을 살해. 계정은 사건 후에야 RCMP에 전달됨. OpenAI의 기준 완화 내용 보도"
+        }
+      ],
+      "freshness_ok": true,
+      "caveats": "핵심 일화(Claude 대화 플래그 → 24시간 내 정지 → 수사기관 방문)는 아직 공식 확인 안 됨: 익명 당사자의 전언이고 글쓴이도 보증하지 않으며, Anthropic이 해당 건을 수사기관에 넘겼다는 공식·언론 확인 없음. 후보 주장 1의 '수사기관에 전달했다'는 글 자체도 단정하지 않음(정지는 당사자 주장, 수사기관 연락 경위는 FBI 요원 전언). 확인된 것은 일반 정책 수준: Anthropic·OpenAI 모두 자동 시스템으로 대화를 플래그하고, 심각한 피해 우려 시 수사기관에 제공할 수 있다는 점. 업무 계정(Enterprise 등) 데이터 처리 조건은 별도 계약에 따를 수 있음",
+      "corrected_claim": "주장 1: 아직 공식 확인 안 됨(익명 일화, 글쓴이도 미검증). 주장 2: 부분 확인 — Anthropic은 '시스템이 플래그한다'고만 밝혀 다른 AI가 읽는다고 명시하지 않음, OpenAI는 '자동 시스템 탐지 후 사람 검토'를 공식 확인. 주장 3: 확인됨 — 2025년 6월 자동 탐지·사람 검토 후 계정 정지했으나 신고 기준 미달로 신고하지 않음, 2026년 2월 BC주 Tumbler Ridge에서 8명 사망 사건 발생(OpenAI 공식 서한·언론). 이후 OpenAI는 신고 기준을 완화함",
+      "note": "원문 작성일 2026-11-17로 기간(11-18~11-24) 하루 전. 확인된 정책 근거는 지금도 유효해 freshness_ok는 참으로 두었으나, 문안에서 일화를 사실처럼 쓰면 안 됨. SCMP 기사는 403으로 열지 못함"
+    }
+  ]
+}
