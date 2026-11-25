@@ -1,0 +1,269 @@
+{
+  "run_id": "2026-11-25_1",
+  "feedback_applied": "반응 기록 없음 — 기본 비중 적용(옵션 초점 없음)",
+  "candidates": [
+    {
+      "cid": "C01",
+      "title": "ChatGPT 채팅 탭 모델이 GPT-6.2로 바뀌는 중 — 요금제별 적용 확인",
+      "type": "소식",
+      "tools": ["ChatGPT"],
+      "primary": {"url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes", "source_type": "공식", "name": "OpenAI 도움말 ChatGPT 릴리스 노트", "published": "2026-11-23"},
+      "secondary": [],
+      "summary": "11월 23일부터 ChatGPT 채팅 탭 모델이 GPT-6.2로 순차 적용된다(Plus·Pro·Business·Enterprise, Enterprise는 관리자 설정 따름). 릴리스 노트는 이미지 이해와 어려운 지시 따르기 점수가 GPT-6보다 올랐다고 적었고 Work·Codex 모델은 그대로다. 무료 요금제 적용 여부는 노트에 없다.",
+      "claims": [
+        "11월 23일부터 ChatGPT 채팅 탭 모델이 GPT-6.2로 바뀌어 Plus·Pro·Business·Enterprise에 순차 적용된다",
+        "GPT-6.2는 GPT-6 대비 이미지 이해(47.4%→71.7%)와 어려운 프롬프트 지시 따르기(62.5%→78.1%) 점수가 올랐다",
+        "Work와 Codex를 구동하는 모델은 이번에 바뀌지 않는다",
+        "무료 요금제 적용 여부는 릴리스 노트에 없다"
+      ],
+      "community_origin": false,
+      "needs_verification": true,
+      "relevance": "상",
+      "relevance_reason": "보고서·표 이미지 해석, 지시가 많은 문서 작업을 하는 대부분의 ChatGPT 유료 사용자에게 바로 영향",
+      "recommend": true,
+      "recommend_reason": "기간 안 공식 소식이고 ChatGPT 소식이 후보에 필요함. 11-23 제안분(음성 받아쓰기)과 다른 항목. 점수 수치는 공식 노트 기준이라 교차 확인 필요",
+      "from_items": ["a-01"]
+    },
+    {
+      "cid": "C02",
+      "title": "Claude가 연결한 앱으로 파일 보내고 앱의 파일 저장(베타)",
+      "type": "소식",
+      "tools": ["Claude"],
+      "primary": {"url": "https://support.claude.com/en/articles/12138966-release-notes", "source_type": "공식", "name": "Claude 도움말 릴리스 노트", "published": "2026-11-24"},
+      "secondary": [],
+      "summary": "11월 24일 릴리스 노트에 올라온 베타로, Claude가 연결된 앱으로 파일을 보내거나 앱이 내놓는 파일을 저장할 수 있다. Pro·Max·Ultra는 바로, Team·Enterprise는 소유자가 켜야 하며 점진 적용 중이다.",
+      "claims": [
+        "Claude가 연결된 앱으로 파일을 보내고, 앱이 제공하는 파일을 저장할 수 있다(베타)",
+        "Pro·Max·Ultra에서 쓸 수 있고 Team·Enterprise는 소유자가 켜야 한다",
+        "점진적으로 적용 중이다"
+      ],
+      "community_origin": false,
+      "needs_verification": true,
+      "relevance": "상",
+      "relevance_reason": "Claude에서 만든 문서·표를 드라이브 등 업무 앱으로 옮기는 흔한 작업에 직접 연결",
+      "recommend": true,
+      "recommend_reason": "기간 안 공식 소식, 업무 연결이 분명. 같은 릴리스 노트 페이지는 제안 이력이 없고 항목(날짜)이 새로움. 어떤 앱에서 되는지 확인 필요",
+      "from_items": ["a-03"]
+    },
+    {
+      "cid": "C03",
+      "title": "쓰던 AI가 멈추면? 대체 도구를 미리 정해 두고 로그인해 두기",
+      "type": "업무 팁",
+      "tools": ["공통"],
+      "primary": {"url": "https://note.com/ai_saboru_kz/n/n18740faca9bd", "source_type": "실무자", "name": "note.com (개인 노트)", "published": "2026-11-23"},
+      "secondary": [],
+      "summary": "11월 21일 ChatGPT와 API가 점검으로 약 3.5시간 중단된 일을 계기로, 주력 AI가 멈출 때를 대비해 대체 서비스를 정해 두고 로그인해 두라는 팁이다. 같은 글의 Claude 컴퓨터 사용 베타 내용은 이미 제안한 주제라 제외하고 장애 대비 팁만 쓴다.",
+      "claims": [
+        "2026-11-21 ChatGPT와 OpenAI API가 예정된 데이터베이스 점검으로 약 3.5시간 중단됐고 요청의 최대 75%가 실패했다"
+      ],
+      "community_origin": false,
+      "needs_verification": true,
+      "relevance": "상",
+      "relevance_reason": "마감 직전 AI가 막히는 상황은 누구에게나 닥치고, 바로 실행할 수 있는 준비 팁",
+      "recommend": true,
+      "recommend_reason": "업무 팁 유형 확보, 기간 안 실무자 글(d 30일 기준). 글 하단 유료 구독 안내가 있으나 본문은 광고성 아님. 장애 사실은 공식 상태 페이지·매체로 확인 필요",
+      "from_items": ["d-01"]
+    },
+    {
+      "cid": "C04",
+      "title": "같은 PDF 시험지를 세 AI에 맡겼더니 — 여러분은 검산 어떻게 하세요?",
+      "type": "질문거리",
+      "tools": ["ChatGPT", "Claude", "Gemini"],
+      "primary": {"url": "https://www.koreadaily.com/article/20261119070147065", "source_type": "언론", "name": "중앙일보(미주중앙일보 게재)", "published": "2026-11-19"},
+      "secondary": [],
+      "summary": "중앙일보 팩플팀이 수능 문제 PDF를 같은 프롬프트로 세 AI에 풀게 했다. ChatGPT·Claude는 전 과목 정답, Gemini는 수학에서 점수가 낮았고 기사는 설계와 PDF 텍스트 추출 기호 깨짐을 원인으로 본다. 수치·표가 든 PDF를 AI에 맡길 때 입력 방식과 검산을 이야기해 볼 수 있다.",
+      "claims": [
+        "챗GPT(GPT-6.2 Astra)와 클로드(Fable 5.2)는 수능 국어·수학·영어 전 문항을 맞혔다",
+        "제미나이(Carbon)는 수학 3과목에서 59·56·60점을 받았고 설명을 끝내지 못했다",
+        "같은 날 Artificial Analysis Intelligence Index에서 Claude Fable 5.2가 1위, GPT-6.2 Astra가 2위였다"
+      ],
+      "community_origin": false,
+      "needs_verification": true,
+      "relevance": "중",
+      "relevance_reason": "표·수치 PDF 업무에서 도구별 정확도와 검산 습관 논의로 연결",
+      "recommend": true,
+      "recommend_reason": "질문거리 확보, 세 도구가 고르게 등장해 공정성에 유리. 단일 매체 보도이고 모델명·점수가 특수하므로 순위 주장은 빼고 검산 질문 중심으로 쓸 것",
+      "from_items": ["b-01"]
+    },
+    {
+      "cid": "C05",
+      "title": "AI에 업무 내용을 넣을 때, 대화가 검토·신고될 수 있다는 점 확인하기",
+      "type": "주의할 점",
+      "tools": ["Claude"],
+      "primary": {"url": "https://austinpatrick.substack.com/p/when-should-ai-labs-alert-police", "source_type": "실무자", "name": "Substack (개인 글)", "published": "2026-11-19"},
+      "secondary": [{"url": "https://news.ycombinator.com/item?id=50567485", "source_type": "커뮤니티", "name": "Hacker News", "published": "2026-11-19"}],
+      "summary": "한 사용자가 Claude에 폭력적인 계획을 이야기했다가 대화가 검토되어 수사기관 연락을 받았다는 글이 HN에서 논쟁이 됐다. 글쓴이 주장은 검증되지 않았다. 사례 자체보다 각 AI 서비스의 대화 검토·보관 정책을 확인하고 기밀·고객 정보는 넣지 않는다는 주의점으로 바꿔 쓴다.",
+      "claims": [
+        "Claude 사용자의 대화가 내부 검토를 거쳐 수사기관에 전달되어 수사관이 연락했다",
+        "Anthropic은 위험한 대화를 검토하고 필요하면 수사기관에 알리는 정책을 두고 있다"
+      ],
+      "community_origin": true,
+      "needs_verification": true,
+      "relevance": "중",
+      "relevance_reason": "업무 내용·고객 정보를 AI에 넣는 모든 직장인에게 해당하는 정책 확인 사항",
+      "recommend": true,
+      "recommend_reason": "주의할 점 유형 확보. 개별 사례는 사실로 쓰지 말고 공식 이용 정책 확인 결과만 쓸 것. 팩트체크에서 사실 아님·미확인이면 반려 대상",
+      "from_items": ["c-03"]
+    },
+    {
+      "cid": "C06",
+      "title": "Claude 월간 리캡 정식 전환 — Claude Code·Cowork 반영, 직접 삭제 가능",
+      "type": "소식",
+      "tools": ["Claude"],
+      "primary": {"url": "https://support.claude.com/en/articles/12138966-release-notes", "source_type": "공식", "name": "Claude 도움말 릴리스 노트", "published": "2026-11-24"},
+      "secondary": [{"url": "https://support.claude.com/en/articles/15672559-see-your-monthly-recap", "source_type": "공식", "name": "Claude 도움말(월간 리캡)", "published": "unknown"}],
+      "summary": "11월 24일 월간 리캡(설정의 Reflect)이 베타에서 정식이 됐고 Free·Pro·Max·Ultra에서 웹·데스크톱·모바일 앱에 적용된다. Claude Code 세션과 클라우드 Cowork 작업도 반영할 수 있고 저장된 리캡은 직접 삭제할 수 있다. 기존 도움말은 이들을 제외한다고 적혀 있어 갱신 여부 확인이 필요하다.",
+      "claims": [
+        "11월 24일 Claude 월간 리캡이 베타를 벗어났다",
+        "리캡이 Claude Code 세션과 클라우드 Cowork 작업을 반영할 수 있다(기존 도움말은 이들을 제외한다고 적었음)",
+        "사용자가 저장된 리캡을 삭제할 수 있다",
+        "Team·Enterprise 이용 가능 여부는 릴리스 노트에 없다(기존 도움말은 미지원)"
+      ],
+      "community_origin": false,
+      "needs_verification": true,
+      "relevance": "중",
+      "relevance_reason": "내 AI 사용 습관 점검용, 일상 업무가 바뀌는 수준은 아님",
+      "recommend": false,
+      "recommend_reason": "Claude 소식은 C02가 더 업무 연결이 강해 추천에서 제외. 공식 문서 간 내용이 어긋나 확인 필요. 교체 후보로 보관",
+      "from_items": ["a-02"]
+    },
+    {
+      "cid": "C07",
+      "title": "Anthropic 기업 58곳 조사: AI 효과는 비용 절감보다 산출량 증가 — 우리 팀은?",
+      "type": "질문거리",
+      "tools": ["Claude"],
+      "primary": {"url": "https://www.anthropic.com/research/working-with-ai", "source_type": "공식", "name": "Anthropic 리서치", "published": "2026-11-23"},
+      "secondary": [{"url": "https://news.ycombinator.com/item?id=50634734", "source_type": "커뮤니티", "name": "Hacker News", "published": "2026-11-24"}],
+      "summary": "Anthropic이 기업 고객 58곳 인터뷰를 바탕으로 도입 효과를 정리했다. 가치는 비용 절감보다 산출량 증가에서 나왔고, 해고보다 채용 감소가 많았으며, 전문가의 저항과 검토 적체가 병목이라고 한다. HN에서는 유료 고객만 고른 홍보물 아니냐는 회의적 반응이 많았다.",
+      "claims": [
+        "Anthropic 보고서는 66건 인터뷰, 기업 고객 58곳을 바탕으로 한다",
+        "AI 도입 가치의 대부분은 비용 절감이 아니라 산출량 증가에서 나왔다",
+        "AI 때문에 해고한 사례는 드물지만 채용을 줄인 곳이 많다",
+        "보고서는 2026-11-23에 공개됐다"
+      ],
+      "community_origin": true,
+      "needs_verification": true,
+      "relevance": "중",
+      "relevance_reason": "팀에서 AI가 일을 줄이는지 늘리는지, 검토 병목이 어디인지 이야기할 수 있음",
+      "recommend": false,
+      "recommend_reason": "질문거리는 C04로 충분하고 Claude 비중을 고려해 제외. 벤더 자체 보고서라는 한계를 밝혀야 함. 교체 후보",
+      "from_items": ["c-02"]
+    },
+    {
+      "cid": "C08",
+      "title": "김포시, 내년 전 부서에 챗GPT·제미나이·클로드 통합 AI 플랫폼 도입",
+      "type": "소식",
+      "tools": ["공통"],
+      "primary": {"url": "https://www.thepublic.kr/news/articleView.html?idxno=328294", "source_type": "언론", "name": "더퍼블릭", "published": "2026-11-24"},
+      "secondary": [],
+      "summary": "김포시가 2027년부터 생성형 AI 통합 플랫폼을 전 부서에 확대한다. 여러 모델을 지원하고 직원에게 업무용 AI 크레딧을 배포하며 전 직원 교육을 병행한다. 기사에는 보안·개인정보 정책 설명이 없다.",
+      "claims": [
+        "김포시는 2027년부터 생성형 AI 통합 플랫폼을 전 부서에 도입한다",
+        "플랫폼은 챗GPT·제미나이·클로드·미스트랄·그록·솔라 모델을 지원한다",
+        "전 직원에게 업무용 AI 크레딧을 구매·배포하고 2027년 3~11월 전 직원 교육을 한다"
+      ],
+      "community_origin": false,
+      "needs_verification": true,
+      "relevance": "중",
+      "relevance_reason": "조직이 여러 AI를 묶어 지급·교육하는 도입 사례로 사내 논의에 참고",
+      "recommend": false,
+      "recommend_reason": "단일 지방지 보도이고 특정 지자체 소식이라 직장인 일반 관련도가 중간",
+      "from_items": ["b-02"]
+    },
+    {
+      "cid": "C09",
+      "title": "Claude Ship: Team·Enterprise용 GitHub PR 검토·병합 자동화",
+      "type": "소식",
+      "tools": ["Claude"],
+      "primary": {"url": "https://claude.com/resources/articles/introducing-claude-ship", "source_type": "공식", "name": "Claude 공식 자료", "published": "2026-11-23"},
+      "secondary": [{"url": "https://news.ycombinator.com/item?id=50618513", "source_type": "커뮤니티", "name": "Hacker News", "published": "2026-11-23"}],
+      "summary": "11월 23일 공개된 Claude Ship은 GitHub PR을 검토·수정하고 팀 정책에 따라 병합 가능 여부를 판단한다. 코드 리뷰는 정식, PR Steward·Claude Approvals는 베타이며 Team·Enterprise 전용이다. ZDR·HIPAA 구성 조직은 쓸 수 없다는 반응이 있었다.",
+      "claims": [
+        "Claude Ship은 Team·Enterprise 요금제와 GitHub 저장소에서만 쓸 수 있다",
+        "코드 리뷰는 정식 출시, PR Steward와 Claude Approvals는 베타다",
+        "ZDR·HIPAA 구성 조직은 쓸 수 없다",
+        "사용료는 토큰 기준으로 청구된다"
+      ],
+      "community_origin": true,
+      "needs_verification": true,
+      "relevance": "중",
+      "relevance_reason": "개발 조직과 일하는 직군에만 해당, 비개발 직군은 약함",
+      "recommend": false,
+      "recommend_reason": "개발자 중심이라 방 전체 관련도가 낮음",
+      "from_items": ["c-04"]
+    },
+    {
+      "cid": "C10",
+      "title": "Gemini 4 Neon 공개 소식 — Pro 구독 필요 여부 확인",
+      "type": "소식",
+      "tools": ["Gemini"],
+      "primary": {"url": "https://news.hada.io/topic?id=37432", "source_type": "커뮤니티", "name": "GeekNews", "published": "unknown"},
+      "secondary": [],
+      "summary": "Google의 새 모델 Gemini 4 Neon이 복잡한 코딩·분석용으로 나왔다는 소식이 GeekNews와 HN에 돌았다. 벤치마크 신뢰성과 사용 가능 범위에 의문이 있고 Pro 구독이 필요하다는 이용자 언급이 있다. 공식 출처와 날짜는 아직 확인되지 않았다.",
+      "claims": [
+        "Google이 Gemini 4 Neon을 공개했다",
+        "Gemini 4 Neon은 Pro 구독이 있어야 쓸 수 있다",
+        "Gemini 4 Neon이 한 지수에서 1위 모델이다(HN 글 제목, 작성일 2026-11-19)"
+      ],
+      "community_origin": true,
+      "needs_verification": true,
+      "relevance": "중",
+      "relevance_reason": "Gemini로 분석·자료 정리를 하는 사람에게 모델 변경 안내",
+      "recommend": false,
+      "recommend_reason": "공식 확인·날짜 미확인이라 추천 보류. 교차 확인에서 기간 안 공식 발표가 잡히면 승격 가능, Gemini 균형용 후보",
+      "from_items": ["c-05"]
+    },
+    {
+      "cid": "C11",
+      "title": "Workspace MCP 서버·CLI 정식 출시 — AI 에이전트 접근 정책은 2027년부터",
+      "type": "주의할 점",
+      "tools": ["Gemini"],
+      "primary": {"url": "http://workspaceupdates.googleblog.com/2026/11/mcp-servers-cli-standardized-usage-tiers-now-available.html", "source_type": "공식", "name": "Google Workspace Updates 블로그", "published": "2026-11-24"},
+      "secondary": [],
+      "summary": "11월 24일 Google이 Workspace MCP 서버와 CLI를 정식 출시하고 Standard·Scaled 사용량 등급과 관리자 정책을 소개했다. AI 에이전트에 대한 MCP 정책 적용은 2027년 2월 1일, Scaled 등급 과금은 2027년 4월 1일부터다.",
+      "claims": [
+        "Workspace MCP 서버와 CLI가 정식 출시됐다",
+        "Standard·Scaled 두 API 사용량 등급이 생겼다",
+        "AI 에이전트에 대한 MCP 정책 적용은 2027-02-01, Scaled 등급 과금은 2027-04-01 시작이다",
+        "Rapid·Scheduled Release 도메인은 2주 안에 적용된다"
+      ],
+      "community_origin": false,
+      "needs_verification": true,
+      "relevance": "하",
+      "relevance_reason": "사내 IT·관리자 대상 정책이라 일반 직원 영향은 작음",
+      "recommend": false,
+      "recommend_reason": "관련도 하. Gemini 균형 목적의 대기 후보일 뿐 추천하지 않음",
+      "from_items": ["a-06"]
+    },
+    {
+      "cid": "C12",
+      "title": "AI 열기가 식었다는 Ask HN — AI를 '일꾼'으로 쓰시나요, '연구자'로 쓰시나요?",
+      "type": "질문거리",
+      "tools": ["공통"],
+      "primary": {"url": "https://news.ycombinator.com/item?id=50633601", "source_type": "커뮤니티", "name": "Hacker News", "published": "2026-11-24"},
+      "secondary": [],
+      "summary": "업계 경력 15년의 작성자가 연구·판단 용도로는 AI가 덜 유용해져 직접 코드를 쓴다는 글을 올렸고 댓글은 대체로 반박했다. 도구를 어디까지 믿고 맡길지 돌아보게 하는 질문거리다.",
+      "claims": [],
+      "community_origin": true,
+      "needs_verification": true,
+      "relevance": "중",
+      "relevance_reason": "AI에 맡길 일과 직접 할 일을 나누는 업무 분담 질문",
+      "recommend": false,
+      "recommend_reason": "개발자 커뮤니티 의견 중심, C04가 더 업무 친화적이어서 교체 후보로만 둠",
+      "from_items": ["c-07"]
+    }
+  ],
+  "dropped": [
+    {"title": "Gemini 'Tasks' 한국 포함 6개국 무료 확대", "url": "https://news.hada.io/topic?id=37433", "reason": "중복: 같은 내용(Gemini Tasks 한국 무료 제공)을 2026-11-23 제안함(gemini.google/release-notes). 공식 글 게시일도 11-17로 기간 밖"},
+    {"title": "Claude 아티팩트를 PC 앱으로 설치(베타)", "url": "https://support.claude.com/en/articles/12138966-release-notes", "reason": "업무 관련도 낮음·정보 부족: 요금제 조건이 노트에 없고 Claude 후보가 이미 많음(a-04)"},
+    {"title": "Google Chat, 앱·에이전트 메시지에 표와 제목 지원", "url": "http://workspaceupdates.googleblog.com/2026/11/make-messages-in-google-chat-from-apps-and-agents-easier-to-read-with-tables-and-headings.html", "reason": "업무 관련도 하: Gemini 직접 기능이 아니고 API 메시지 한정(a-05)"},
+    {"title": "Google Meet 웹 1080p 영상 전송 기본 적용", "url": "http://workspaceupdates.googleblog.com/2026/11/google-meet-on-web-now-supports-sending-1080p-video-for-all-users-enabled-by-default.html", "reason": "업무 무관: AI 도구와 직접 관련 없음(a-07)"},
+    {"title": "Gemini Notebook 플래시카드 학습 기능 보강", "url": "http://workspaceupdates.googleblog.com/2026/11/new-study-enhancements-for-flashcards-in-Gemini-Notebook.html", "reason": "업무 관련도 하: 학습용 기능(a-08)"},
+    {"title": "11/21 AI 소식 중 Claude 컴퓨터 사용 베타 부분", "url": "https://support.claude.com/en/articles/18483812-set-up-computer-use-for-team-and-enterprise-plans", "reason": "중복: 2026-11-24 제안한 링크와 같은 주제. d-01은 장애 대비 팁만 남김"}
+  ],
+  "distribution": {
+    "type": {"소식": 5, "업무 팁": 1, "질문거리": 3, "주의할 점": 2, "팩트체크": 0},
+    "tools": {"ChatGPT": 2, "Claude": 5, "Gemini": 3, "공통": 3}
+  },
+  "notes": "수집이 적어(a8·b2·c7·d1) 후보 12건이며 반응 기록이 없어 기본 비중을 썼다. 도구 수 집계는 복수 도구 후보를 각 도구에 센 값(C04는 세 도구 모두)이라 합계가 후보 수보다 크다. ChatGPT 전용 후보가 C01 하나뿐이고(C04 포함 2건) Gemini 전용은 C10·C11뿐이며 C10은 공식 확인 전, C11은 관련도 하라 추천에서 빠졌다. 추천 5건에 Gemini 전용이 없으므로 교차 확인에서 C10이 기간 안 공식 발표로 확인되면 교체를 검토할 것(C04가 Gemini를 포함해 공정성은 보완). Claude 전용 5건은 후보 12건의 절반 미만이지만 추천에는 2건만 둠. 기간 밖 notes 항목(GPT-6.2 Astra/Sol 11-18, 월렛 11-13, brunch anchor-work/76 10-22, GAO 보고서 11-18)은 기간 규칙상 후보에 쓰지 않았다. d 관점은 30일 기간이라 d-01(11-23)은 규칙 안. C03 장애 사실은 공식 확인 필요, C05는 사례 대신 정책 확인 주의점으로만 쓸 것. 구글 Workspace URL은 http 표기 그대로."
+}

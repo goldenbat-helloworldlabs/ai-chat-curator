@@ -14,3 +14,4 @@
 | 2026-11-23 | Claude Platform 연결 결제(베타): 외부 도구에 연결하면 내 조직 보안 설정이 안 따라가요 | 주의할 점 | Claude | https://claude.com/resources/articles/linked-billing-on-claude-platform | 제안 |
 | 2026-11-23 | ChatGPT 음성 받아쓰기, 10분 제한 해제 | 소식 | ChatGPT | https://help.openai.com/en/articles/6825453-chatgpt-release-notes | 제안 |
 | 2026-11-24 | Claude 컴퓨터 사용(베타), 켜기 전 알아 둘 점 | 주의할 점 | Claude | https://support.claude.com/en/articles/18483812-set-up-computer-use-for-team-and-enterprise-plans | 제안 |
+| 2026-11-25 | Claude, 연결한 앱으로 파일 보내고 앱의 파일 저장(베타) | 소식 | Claude | https://support.claude.com/en/articles/12138966-release-notes | 제안 |

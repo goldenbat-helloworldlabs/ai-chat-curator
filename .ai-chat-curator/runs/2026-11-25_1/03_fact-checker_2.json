@@ -1,0 +1,71 @@
+{
+  "results": [
+    {
+      "cid": "C07",
+      "status": "확인됨",
+      "evidence": [
+        {"url": "https://www.anthropic.com/research/working-with-ai", "source_type": "공식", "published": "2026-11-23", "what": "미국 내 Anthropic 기업 고객 58곳 대상 대면 인터뷰 66건. 대부분의 가치는 비용 절감이 아니라 산출량 증가. AI 때문에 완전히 없어진 직무는 2곳, 약 3분의 2 기업이 채용을 줄였다고 응답"}
+      ],
+      "freshness_ok": true,
+      "caveats": "Anthropic 자사 보고서이고 대상이 Anthropic 기업 고객(미국)이다. 표본은 대표성이 아니라 업종·규모 다양성 기준으로 골랐고 가치 평가는 주로 정성적·자기보고다. 문안에 이 한계를 밝혀야 한다. HN의 홍보물 아니냐는 반응은 의견이며 사실 판정 대상 아님",
+      "corrected_claim": null,
+      "note": "'해고는 드물고 채용 감소가 많다'는 보고서와 일치(해고 사유 AI는 소수, 약 2/3 기업이 채용 축소). 외주 인력 축소 9곳 언급도 있음"
+    },
+    {
+      "cid": "C08",
+      "status": "부분 확인",
+      "evidence": [
+        {"url": "https://www.thepublic.kr/news/articleView.html?idxno=328294", "source_type": "언론", "published": "2026-11-24", "what": "2027년 전 부서 확대, 챗GPT·제미나이·클로드·미스트랄·그록·솔라 지원, 업무용 AI 크레딧 일괄 구매·전 직원 배포 계획, 내년 3월~11월 전 직원 대상 AI 챔피언 교육 보도"}
+      ],
+      "freshness_ok": true,
+      "caveats": "김포시 공식 보도자료·공지는 확인하지 못했고 단일 지방지 보도만 확인했다. 올해는 시범 운영이었고 크레딧은 '구매해 배포할 계획'이다(확정 집행 아님). 보안·개인정보 정책 설명은 기사에 없음",
+      "corrected_claim": null,
+      "note": "공식 출처 미확인이라 부분 확인(매체 보도만)"
+    },
+    {
+      "cid": "C09",
+      "status": "확인됨",
+      "evidence": [
+        {"url": "https://claude.com/resources/articles/introducing-claude-ship", "source_type": "공식", "published": "2026-11-23", "what": "Team·Enterprise 요금제, GitHub 저장소 한정. 코드 리뷰 정식, PR Steward·Claude Approvals 베타. ZDR·HIPAA·고객 관리 키 구성 조직은 사용 불가. 토큰 기준 청구"}
+      ],
+      "freshness_ok": true,
+      "caveats": "Team·Enterprise 전용이고 GitHub만 지원한다. 고객 관리 키(customer-managed keys) 구성 조직도 사용 불가다. 토큰 과금이라 비용이 추가되며 관리자가 지출 한도를 설정할 수 있다. 개발 조직 중심 기능",
+      "corrected_claim": null,
+      "note": "커뮤니티 출발이지만 공식 자료로 모든 주장 확인. 철회·수정 공지는 찾지 못함"
+    },
+    {
+      "cid": "C10",
+      "status": "부분 확인",
+      "evidence": [
+        {"url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/", "source_type": "공식", "published": "2026-11-18", "what": "Google 공식 블로그(최종 갱신 2026-11-23). Gemini 4 Neon 공개. Gemini 앱 모델 선택기는 Pro·Ultra 구독자, AI Studio·API는 유료 티어, 기업은 Gemini for business. 무료 사용자 제공 여부는 글에 없음. Artificial Analysis Intelligence Index 종합 3위, Coding Agent Index 1위"},
+        {"url": "https://news.hada.io/topic?id=37432", "source_type": "커뮤니티", "published": "2026-11-19", "what": "GeekNews가 공식 글을 요약한 게시물. 날짜 2026-11-19 확인"}
+      ],
+      "freshness_ok": true,
+      "caveats": "공식 공개일은 11-18로 기간(11-19~25) 시작 하루 전이나 11-23 갱신되었고 지금 유효하다. 앱 이용은 Google AI Pro·Ultra 구독자 한정이며 무료 사용자 제공 여부는 공식 글에 없다(API는 유료 티어). '지수 1위'는 종합이 아니라 Coding Agent Index 기준이고 종합 Intelligence Index는 3위다. 한국 제공 여부는 확인 못 함",
+      "corrected_claim": "Google이 2026-11-18 Gemini 4 Neon을 공개했다. Gemini 앱에서는 Google AI Pro·Ultra 구독자가 모델 선택기로 쓸 수 있고(무료 사용자는 공식 글에 언급 없음), 'Artificial Analysis Coding Agent Index 1위·종합 지수 3위'다",
+      "note": "공식 출처 확보로 승격 가능하나 공개일이 기간 밖(하루 전)이므로 문안에 '11월 18일 공개'로 쓰고 기간 규칙은 curator가 판단. 주장 '공개했다' 확인됨, 'Pro 구독 필요'는 앱 기준 확인되나 무료 제공 여부 불명이라 부분 확인"
+    },
+    {
+      "cid": "C11",
+      "status": "확인됨",
+      "evidence": [
+        {"url": "http://workspaceupdates.googleblog.com/2026/11/mcp-servers-cli-standardized-usage-tiers-now-available.html", "source_type": "공식", "published": "2026-11-24", "what": "Workspace MCP 서버·CLI 정식 출시(GA), Standard(무료, 공개 한도)·Scaled 두 사용량 등급, 2027-02-01 MCP 요구 기술적 시행(AI 에이전트는 REST 직접 호출 대신 MCP로 접근), 2027-04-01 Scaled 과금 시작(일일 무료 허용량 초과분만), Rapid·Scheduled Release 도메인 2주 내 적용"}
+      ],
+      "freshness_ok": true,
+      "caveats": "관리자·개발자 대상 정책으로 일반 직원 영향은 작다. Gmail·Drive·Calendar부터 적용되는 등급 체계이며 조치하지 않은 프로젝트는 Standard 한도로 제한될 수 있다. 한국 별도 차이는 언급 없음",
+      "corrected_claim": null,
+      "note": "블로그가 http 표기 그대로 확인됨"
+    },
+    {
+      "cid": "C12",
+      "status": "아직 공식 확인 안 됨",
+      "evidence": [
+        {"url": "https://news.ycombinator.com/item?id=50633601", "source_type": "커뮤니티", "published": "2026-11-24", "what": "Ask HN 글 'Am I the only one whose AI hype is cooling down a lot?' 존재 확인. 경력 15년 이상 개발자가 코드를 직접 쓰는 쪽을 선호하고 AI를 '일꾼'으로 쓴다고 주장. 댓글은 찬반이 섞임"}
+      ],
+      "freshness_ok": true,
+      "caveats": "검증할 사실 주장이 없는 개인 의견 글이다. 후보 요약의 '댓글은 대체로 반박'은 과장일 수 있다. 실제로는 일부 동조·일부 반박·월 3~5천 달러 지출에 대한 의문 등 혼재. 개발자 중심 논의이고 월 지출액은 작성자 자기 주장",
+      "corrected_claim": null,
+      "note": "claims가 비어 있어 사실 판정 대상 없음. 사용 시 '한 개발자 의견'으로만 쓰고 댓글 반응은 '의견이 갈렸다'로 표현할 것"
+    }
+  ]
+}

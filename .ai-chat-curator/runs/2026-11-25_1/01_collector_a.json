@@ -1,0 +1,178 @@
+{
+  "perspective": "a",
+  "period": {"from": "2026-11-19", "to": "2026-11-25"},
+  "queries": [
+    "Anthropic Claude announcement November 2026",
+    "Google Gemini app update Workspace November 2026",
+    "OpenAI ChatGPT new feature announcement November 2026",
+    "support.claude.com monthly recap Reflect settings out of beta Claude Code sessions Cowork",
+    "support.claude.com send files to connected apps save files from connected apps beta",
+    "GPT-6.2 ChatGPT chat tab release image understanding instruction following",
+    "(직접 열람) help.openai.com ChatGPT release notes",
+    "(직접 열람) support.claude.com release notes",
+    "(직접 열람) anthropic.com/news",
+    "(직접 열람) openai.com/news",
+    "(직접 열람) workspaceupdates.googleblog.com"
+  ],
+  "items": [
+    {
+      "id": "a-01",
+      "title": "ChatGPT 채팅 탭에 GPT-6.2 적용",
+      "summary": "OpenAI가 11월 23일 ChatGPT 채팅 탭의 모델을 GPT-6.2로 올리기 시작했다. Plus·Pro·Business·Enterprise에 전 세계 순차 적용이며 Enterprise는 워크스페이스 관리자 설정에 따라 쓸 수 있다. 릴리스 노트는 이미지 이해와 어려운 지시 따르기 점수가 GPT-6보다 올랐다고 적었고, Work·Codex 모델은 바뀌지 않는다고 밝혔다.",
+      "type_guess": "소식",
+      "tools": ["ChatGPT"],
+      "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+      "source_name": "OpenAI 도움말 ChatGPT 릴리스 노트",
+      "source_type": "공식",
+      "published": "2026-11-23",
+      "original_source_url": null,
+      "claims": [
+        "11월 23일부터 ChatGPT 채팅 탭의 모델이 GPT-6.2로 바뀌어 Plus·Pro·Business·Enterprise에 순차 적용된다",
+        "GPT-6.2는 GPT-6 대비 이미지 이해(47.4%→71.7%)와 어려운 프롬프트 지시 따르기(62.5%→78.1%) 점수가 올랐다",
+        "Work와 Codex를 구동하는 모델은 이번에 바뀌지 않는다",
+        "무료 요금제 적용 여부는 릴리스 노트에 없다"
+      ],
+      "work_use": "보고서·표 이미지 해석, 복잡한 지시가 많은 문서 작업의 품질과 요금제별 적용 여부"
+    },
+    {
+      "id": "a-02",
+      "title": "Claude 월간 리캡 정식 전환, 삭제 가능",
+      "summary": "Anthropic 릴리스 노트에 따르면 11월 24일 Claude의 월간 리캡(설정의 Reflect)이 베타에서 정식 기능이 됐다. Free·Pro·Max·Ultra에서 웹, 데스크톱, 모바일 앱에 해당하며, 리캡이 Claude Code 세션과 클라우드 Cowork 작업도 반영할 수 있게 됐다. 저장된 리캡은 직접 지울 수 있다.",
+      "type_guess": "소식",
+      "tools": ["Claude"],
+      "url": "https://support.claude.com/en/articles/12138966-release-notes",
+      "source_name": "Claude 도움말 릴리스 노트",
+      "source_type": "공식",
+      "published": "2026-11-24",
+      "original_source_url": "https://support.claude.com/en/articles/15672559-see-your-monthly-recap",
+      "claims": [
+        "11월 24일 Claude 월간 리캡이 베타를 벗어났다",
+        "리캡이 Claude Code 세션과 클라우드 Cowork 작업을 반영할 수 있다(기존 도움말 문서는 이들을 제외한다고 적었음)",
+        "사용자가 저장된 리캡을 삭제할 수 있다",
+        "Team·Enterprise 이용 가능 여부는 릴리스 노트에 없다(기존 도움말은 미지원)"
+      ],
+      "work_use": "내가 Claude로 어떤 업무에 시간을 썼는지 돌아보기, 사용 습관 점검"
+    },
+    {
+      "id": "a-03",
+      "title": "Claude, 연결한 앱으로 파일 보내고 앱의 파일 저장(베타)",
+      "summary": "11월 24일 릴리스 노트에 Claude가 연결된 앱으로 파일을 보내거나 앱이 내놓는 파일을 저장하는 베타 기능이 올라왔다. Pro·Max·Ultra는 바로, Team·Enterprise는 소유자가 켜야 하며 점진적으로 적용된다.",
+      "type_guess": "소식",
+      "tools": ["Claude"],
+      "url": "https://support.claude.com/en/articles/12138966-release-notes",
+      "source_name": "Claude 도움말 릴리스 노트",
+      "source_type": "공식",
+      "published": "2026-11-24",
+      "original_source_url": null,
+      "claims": [
+        "Claude가 연결된 앱으로 파일을 보내고, 앱이 제공하는 파일을 저장할 수 있다(베타)",
+        "Pro·Max·Ultra에서 쓸 수 있고 Team·Enterprise는 소유자가 켜야 한다",
+        "점진적으로 적용 중이다"
+      ],
+      "work_use": "Claude에서 만든 문서·표를 클라우드 드라이브 등 업무 앱으로 바로 옮기는 작업"
+    },
+    {
+      "id": "a-04",
+      "title": "Claude 아티팩트를 PC 앱으로 설치(베타)",
+      "summary": "11월 24일 Claude가 만든 아티팩트를 맥이나 윈도우 컴퓨터에 앱으로 설치하는 베타가 공지됐다. 설치하면 별도 창과 아이콘이 생긴다. 요금제 조건은 릴리스 노트에 적혀 있지 않다.",
+      "type_guess": "소식",
+      "tools": ["Claude"],
+      "url": "https://support.claude.com/en/articles/12138966-release-notes",
+      "source_name": "Claude 도움말 릴리스 노트",
+      "source_type": "공식",
+      "published": "2026-11-24",
+      "original_source_url": null,
+      "claims": [
+        "Claude가 만든 아티팩트를 Mac·Windows에 앱으로 설치할 수 있다(베타)",
+        "설치한 앱은 자체 창과 아이콘을 갖는다"
+      ],
+      "work_use": "Claude로 만든 간단한 계산기·체크리스트 같은 업무 도구를 바로 실행"
+    },
+    {
+      "id": "a-05",
+      "title": "Google Chat, 앱·에이전트 메시지에 표와 제목 지원",
+      "summary": "11월 23일 Workspace 업데이트 블로그에 따르면 Chat API로 보내는 앱·에이전트 메시지에 마크다운 표와 제목을 쓸 수 있게 됐다. 모든 에디션에 적용되지만 사람이 쓰는 입력창에서는 표를 만들 수 없다.",
+      "type_guess": "소식",
+      "tools": ["Gemini"],
+      "url": "http://workspaceupdates.googleblog.com/2026/11/make-messages-in-google-chat-from-apps-and-agents-easier-to-read-with-tables-and-headings.html",
+      "source_name": "Google Workspace Updates 블로그",
+      "source_type": "공식",
+      "published": "2026-11-23",
+      "original_source_url": null,
+      "claims": [
+        "Chat 앱·에이전트가 Chat API로 표와 제목이 있는 메시지를 보낼 수 있다",
+        "모든 에디션에서 바로 쓸 수 있다",
+        "작성창에서 표를 직접 만들 수는 없다"
+      ],
+      "work_use": "자동 알림·에이전트 보고를 Chat에서 표로 읽기 쉽게 받는 업무(Gemini 직접 기능은 아님)"
+    },
+    {
+      "id": "a-06",
+      "title": "Workspace MCP 서버·CLI 정식 출시와 관리자 정책",
+      "summary": "11월 24일 Google이 Workspace MCP 서버와 CLI를 정식 출시하고 Standard·Scaled API 사용량 등급과 관리자 정책을 소개했다. 2주 안에 순차 적용되며 AI 에이전트에 대한 MCP 통제는 2027년 2월 1일, Scaled 등급 과금은 2027년 4월 1일부터다.",
+      "type_guess": "주의할 점",
+      "tools": ["Gemini", "공통"],
+      "url": "http://workspaceupdates.googleblog.com/2026/11/mcp-servers-cli-standardized-usage-tiers-now-available.html",
+      "source_name": "Google Workspace Updates 블로그",
+      "source_type": "공식",
+      "published": "2026-11-24",
+      "original_source_url": null,
+      "claims": [
+        "Workspace MCP 서버와 CLI가 정식 출시됐다",
+        "Standard·Scaled 두 API 사용량 등급이 생겼다",
+        "AI 에이전트에 대한 MCP 정책 적용은 2027-02-01, Scaled 등급 과금은 2027-04-01 시작이다",
+        "Rapid·Scheduled Release 도메인은 2주 안에 적용된다"
+      ],
+      "work_use": "사내 IT·관리자가 AI 에이전트의 Workspace 접근을 관리하는 정책 준비(일반 직원 관련도는 낮음)"
+    },
+    {
+      "id": "a-07",
+      "title": "Google Meet 웹, 1080p 영상 전송 전체 사용자 기본 적용",
+      "summary": "11월 23일 공지에 따르면 Meet 웹에서 1080p 영상 전송이 일부 유료 에디션에서 모든 사용자로 넓어졌고 적합한 컴퓨터에서는 기본으로 켜진다. 11월 11일부터 단계적으로 시작된 롤아웃이다. Gemini와 직접 관련은 없다.",
+      "type_guess": "소식",
+      "tools": ["공통"],
+      "url": "http://workspaceupdates.googleblog.com/2026/11/google-meet-on-web-now-supports-sending-1080p-video-for-all-users-enabled-by-default.html",
+      "source_name": "Google Workspace Updates 블로그",
+      "source_type": "공식",
+      "published": "2026-11-23",
+      "original_source_url": null,
+      "claims": [
+        "Meet 웹의 1080p 영상 전송이 모든 사용자로 확대돼 기본 켜짐이다",
+        "롤아웃은 11월 11일에 시작했다"
+      ],
+      "work_use": "화상회의 화질 설정(AI 도구와 직접 관련 낮음)"
+    },
+    {
+      "id": "a-08",
+      "title": "Gemini Notebook 플래시카드 학습 기능 보강",
+      "summary": "11월 24일 Gemini Notebook의 플래시카드에 출처 이미지, 스톱워치, 모바일 학습 알림이 추가됐다. Rapid·Scheduled Release 도메인, Workspace Individual 구독자, 개인 계정에서 바로 쓸 수 있다.",
+      "type_guess": "소식",
+      "tools": ["Gemini"],
+      "url": "http://workspaceupdates.googleblog.com/2026/11/new-study-enhancements-for-flashcards-in-Gemini-Notebook.html",
+      "source_name": "Google Workspace Updates 블로그",
+      "source_type": "공식",
+      "published": "2026-11-24",
+      "original_source_url": null,
+      "claims": [
+        "Gemini Notebook 플래시카드에 출처 이미지·스톱워치·모바일 알림이 추가됐다",
+        "Rapid·Scheduled Release 도메인, Workspace Individual, 개인 계정에서 바로 이용 가능하다"
+      ],
+      "work_use": "업무 자료·자격 공부 내용을 플래시카드로 정리해 학습"
+    }
+  ],
+  "skipped": [
+    {"url": "https://help.openai.com/en/articles/20001549-getting-started-with-space-in-chatgpt", "reason": "이미 제안·게시한 링크 (11-20 ChatGPT Space Plus 출시 항목과 겹침)"},
+    {"url": "https://support.claude.com/en/articles/18483812-set-up-computer-use-for-team-and-enterprise-plans", "reason": "이미 제안·게시한 링크 (11-20 Team·Enterprise 컴퓨터 사용 베타)"},
+    {"url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes (11-19 모바일·Health 항목)", "reason": "한국·EEA·영국·스위스 제외, Health는 미국 한정, 닷은 Pro 한정이라 직장인 방 관련도 낮음"},
+    {"url": "https://www.anthropic.com/news/ipo-close", "reason": "IPO 완료 소식으로 업무 활용과 무관"},
+    {"url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/", "reason": "과학 연구 글, 업무 연결 없음"},
+    {"url": "https://openai.com/index/searching-for-distant-planets-with-astra/", "reason": "과학 연구 글, 업무 연결 없음"},
+    {"url": "https://openai.com/index/introducing-medchembench/", "reason": "의약화학 벤치마크, 업무 연결 없음"},
+    {"url": "https://openai.com/index/perplexity-and-intelligence/", "reason": "연구 글, 본문을 열어 보지 않았고 업무 연결 불명"},
+    {"url": "https://openai.com/index/introducing-shirudo/", "reason": "OpenAI·Cisco 보안 발표, 본문 미확인이며 일반 직장인 업무 연결 약함"},
+    {"url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast/", "reason": "엔지니어링 글, 직장인 업무 연결 약함"},
+    {"url": "http://workspaceupdates.googleblog.com/2026/11/weekly-recap-11-20-2026.html", "reason": "약 20개 공지를 모은 주간 요약, 개별 항목 미확인(필요하면 뒤 단계에서 열람)"},
+    {"url": "https://gemini.google/release-notes/", "reason": "이미 제안·게시한 링크"}
+  ],
+  "notes": "(1) a-01~a-04의 url이 같은 릴리스 노트 페이지를 공유한다: a-01은 이미 게시한 ChatGPT 릴리스 노트 페이지(11-23 항목이 새로움), a-02~04는 Claude 릴리스 노트 페이지. 페이지 URL 자체는 제안 이력과 겹칠 수 있으니 정리 단계에서 항목(날짜) 기준으로 중복을 판단할 것. (2) a-02는 월간 리캡 기존 도움말(15672559)이 베타·Claude Code·Cowork 제외·Team/Enterprise 미지원으로 적혀 있어 릴리스 노트와 어긋남: 도움말이 아직 갱신 안 됐을 수 있어 교차 확인 필요. (3) Claude: anthropic.com/news에는 기간 안 업무 관련 새 글이 없고 IPO 완료뿐. 11-20 Claude 모바일 새 디자인(iOS 26 이상, 점진 적용)은 업무 관련도 낮아 제외했고 같은 날 컴퓨터 사용 항목은 기게시. (4) 기간 중 Gemini 앱 자체의 공식 항목은 gemini.google/release-notes가 기게시 링크라 열지 않았다. 세 도구 균형을 위해 뒤 단계에서 Gemini 앱 릴리스 노트의 신규 날짜 항목 확인을 권한다. (5) GPT-6.2는 검색에서 별도 OpenAI 발표 글을 찾지 못해 릴리스 노트만 근거이며 요금제 무료 적용 여부 불명. help.openai.com 릴리스 노트는 앞 100,000자만 읽었다(최신 항목은 맨 위라 기간 항목은 확인됨). (6) Google URL은 블로그가 http로 표시한 그대로이며 https로 열릴 수 있음."
+}

@@ -1,0 +1,41 @@
+{
+  "pick": 1,
+  "drafts": [
+    {
+      "no": 1,
+      "title": "Claude, 연결한 앱으로 파일 보내고 앱의 파일 저장(베타)",
+      "type": "소식",
+      "eligible": true,
+      "reason": "공식 출처로 확인됨 + 검증 통과"
+    },
+    {
+      "no": 2,
+      "title": "쓰던 AI가 멈추면? 대체 도구를 미리 정해 두기",
+      "type": "업무 팁",
+      "eligible": true,
+      "reason": "업무 팁, 검증 1회차부터 반려 없이 통과"
+    },
+    {
+      "no": 3,
+      "title": "Gemini 4 Neon 공개, 앱은 Pro·Ultra 구독자부터",
+      "type": "소식",
+      "eligible": false,
+      "reason": "소식인데 교차 확인이 '확인됨'이 아님(부분 확인)"
+    },
+    {
+      "no": 4,
+      "title": "같은 PDF 시험지를 세 AI에 맡기면 — 검산은 어떻게?",
+      "type": "질문거리",
+      "eligible": false,
+      "reason": "검증 중 사실 확인으로 반려된 이력 있음"
+    },
+    {
+      "no": 5,
+      "title": "ChatGPT 개인 요금제, 업무 내용 넣기 전 학습 설정 확인하기",
+      "type": "주의할 점",
+      "eligible": false,
+      "reason": "주의할 점인데 교차 확인이 '확인됨'이 아님(없음)"
+    }
+  ],
+  "rounds": 2
+}

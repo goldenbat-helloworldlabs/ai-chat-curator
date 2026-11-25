@@ -1,0 +1,51 @@
+{
+  "perspective": "d",
+  "period": {"from": "2026-10-27", "to": "2026-11-25"},
+  "queries": [
+    "ChatGPT 업무 활용 후기 보고서 회의록 brunch 2026년 11월",
+    "Claude 직장인 업무 활용 팁 엑셀 메일 velog 티스토리 2026.11",
+    "Gemini 업무 자동화 PPT 기획서 후기 블로그 2026년 11월",
+    "how I use Claude at work workflow tips November 2026 substack OR medium",
+    "brunch.co.kr 클로드 업무 활용기 직장인 2026년 11월",
+    "제미나이 챗GPT 클로드 비교 팀장 업무 써본 후기 velog 2026-11",
+    "stibee OR maily 뉴스레터 AI 활용 업무 이번 주 ChatGPT Claude Gemini 11월 4주차"
+  ],
+  "items": [
+    {
+      "id": "d-01",
+      "title": "11/21 AI 소식 5건, 직장인용 정리 (일본어 개인 노트)",
+      "summary": "일본 직장인 글쓴이가 11월 21일 하루의 AI 소식 다섯 가지를 업무 관점으로 정리한 글이다. ChatGPT와 API가 약 3.5시간 중단된 일을 계기로 평소 쓰는 AI가 멈출 때를 대비해 대체 서비스를 정해 두고 로그인해 두라고 권한다. Claude 컴퓨터 사용 기능의 팀·엔터프라이즈 베타는 샌드박스가 없으니 위험이 낮은 작업부터 써 보라고 조언한다.",
+      "type_guess": "업무 팁",
+      "tools": ["공통", "ChatGPT", "Claude", "Gemini"],
+      "url": "https://note.com/ai_saboru_kz/n/n18740faca9bd",
+      "source_name": "note.com (개인 노트)",
+      "source_type": "실무자",
+      "published": "2026-11-23",
+      "original_source_url": null,
+      "claims": [
+        "2026-11-21 ChatGPT와 OpenAI API가 예정된 데이터베이스 점검으로 약 3.5시간 중단됐고 요청의 최대 75%가 실패했다",
+        "Claude 컴퓨터 사용(computer use) 기능이 Team·Enterprise 요금제에 베타로 열렸고 기본은 꺼짐이며 소유자·관리자만 켤 수 있다",
+        "Claude 도움말은 컴퓨터 사용에 Claude와 사용자 앱 사이의 샌드박스가 없다고 경고한다",
+        "Gemini 무료 사용자가 일본 등 8개국에서 텍스트로 짧은 GIF를 만들 수 있다 (단계적 배포)"
+      ],
+      "work_use": "주력 AI 장애 때 업무를 이어 갈 대체 도구 준비, 컴퓨터 사용 기능을 팀에 도입할 때의 안전 수칙",
+      "ad_note": "글 하단에 note 유료 구독 안내가 있으나 본문은 광고성 아님. 컴퓨터 사용 소식은 이미 제안한 support.claude.com 18483812와 같은 주제이므로 장애 대비 팁을 중심으로 쓸 것"
+    }
+  ],
+  "skipped": [
+    {"url": "https://brunch.co.kr/@skychang44/685", "reason": "작성일 2026-06-04, 기간 밖"},
+    {"url": "https://brunch.co.kr/@sobioh/147", "reason": "작성일 2026-06-30, 기간 밖"},
+    {"url": "https://brunch.co.kr/@anchor-work/76", "reason": "작성일 2026-10-22, 기간(10-27~) 밖"},
+    {"url": "https://brunch.co.kr/@expnote/140", "reason": "작성일 2024-09-26, 기간 밖"},
+    {"url": "https://hannahstulberg.substack.com/p/claude-code-for-everything-how-the", "reason": "작성일 2026-01-14 기간 밖, 구독 유도·제휴 링크 포함"},
+    {"url": "https://dev.to/tobydowns/how-to-use-claude-at-work-a-practical-guide-for-new-users-2026-9do", "reason": "작성일 2026-05, 기간 밖, 유료 요금제 홍보 성격"},
+    {"url": "https://www.digitaltrainingjet.com/post/ai-news-for-teams-november-2026-claude-gemini-chatgpt-copilot", "reason": "교육 업체 마케팅 블로그, 본문 확인 불가"},
+    {"url": "https://brunch.co.kr/@skychang44/693", "reason": "작성일 약 164일 전, 기간 밖"},
+    {"url": "https://brunch.co.kr/@mobiinside/7197", "reason": "기간 밖(수개월 전)"},
+    {"url": "https://brunch.co.kr/@f1f75b7743d443a/85", "reason": "기간 밖(약 183일 전)"},
+    {"url": "https://www.inflearn.com/en/course/직장인-실무-클로드", "reason": "유료 강의 판매 페이지"},
+    {"url": "https://fastcampus.co.kr/biz_online_claudebasics", "reason": "유료 강의 판매 페이지"},
+    {"url": "https://daouoffice.com/blog/chatgpt-vs-claude-vs-gemini/", "reason": "기업 마케팅 블로그, 작성일 불명"}
+  ],
+  "notes": "관점 d는 30일로 넓혀 찾았으나 기간 안의 업무 활용 경험담(브런치·블로그·뉴스레터)은 검색에서 거의 나오지 않았다. 브런치 대부분이 2026-06 이전 글이다. 기간 밖이지만 유효한 팁: 브런치 anchor-work/76(10-22, Claude를 생각 정리·제안서 검토용 대화 상대로 쓰는 법). 비교 글 다수(다우오피스·시리얼 등)는 작성일 불명 또는 기업 마케팅이라 제외. 네이버 블로그·티스토리·velog·스티비/메일리 공개 글은 검색에 잡히지 않았다."
+}

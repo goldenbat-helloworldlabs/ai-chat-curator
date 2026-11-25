@@ -1,0 +1,12 @@
+{
+  "round": 2,
+  "drafts": [
+    {"no": 1, "verdict": "통과", "failed": [], "reasons": "", "fix_hint": ""},
+    {"no": 2, "verdict": "통과", "failed": [], "reasons": "", "fix_hint": ""},
+    {"no": 3, "verdict": "통과", "failed": [], "reasons": "", "fix_hint": ""},
+    {"no": 4, "verdict": "통과", "failed": [], "reasons": "1회차 반려 사유(PDF 기호 깨짐 줄) 해결. 새 셋째 줄은 C04 caveats와 일치.", "fix_hint": ""},
+    {"no": 5, "verdict": "통과", "failed": [], "reasons": "C13은 OpenAI 도움말 원문을 검증자가 직접 대조해 일치 확인. 최신성 한계: 페이지 날짜 표기가 'Updated: yesterday'뿐.", "fix_hint": ""}
+  ],
+  "run_level": {"fairness": "통과", "fairness_note": "ChatGPT 2·Claude 2·Gemini 2", "candidates_doc": "통과", "candidates_note": "후보 행 13개(1~12와 5a)"},
+  "notes": "check-drafts 5건 통과. 문안 5(C13)는 03_fact-checker 파일에 없어 교차 확인 기록이 없다."
+}

@@ -1,0 +1,75 @@
+{
+  "results": [
+    {
+      "cid": "C01",
+      "status": "확인됨",
+      "evidence": [
+        {"url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes", "source_type": "공식", "published": "2026-11-23", "what": "11-23 항목: 채팅 탭 GPT-6.2가 Plus·Pro·Business·Enterprise에 전 세계 순차 적용(Enterprise는 관리자 설정 따름). 이미지 이해 47.4%→71.7%, 어려운 지시 따르기 62.5%→78.1%. Work·Codex 구동 모델은 이번 릴리스에서 바뀌지 않음. 무료 요금제는 언급 없음"}
+      ],
+      "freshness_ok": true,
+      "caveats": "순차 적용이라 계정마다 시점이 다름. 무료 요금제 적용 여부는 공식 노트에 없으므로 문안에서 무료 사용자에게 된다고 쓰지 말 것. 점수는 OpenAI 내부 평가 수치이며 한국 적용 차이는 노트에 별도 언급 없음(전 세계 적용으로 적힘). 릴리스 노트는 페이지가 길어 앞 100,000자만 읽었으나 해당 항목은 확인했고, 철회·롤백 검색에서 GPT-6.2 관련 반대 근거는 나오지 않음",
+      "corrected_claim": null,
+      "note": ""
+    },
+    {
+      "cid": "C02",
+      "status": "확인됨",
+      "evidence": [
+        {"url": "https://support.claude.com/en/articles/12138966-release-notes", "source_type": "공식", "published": "2026-11-24", "what": "11-24 항목: Claude가 연결한 앱으로 파일을 보내거나 앱이 제공하는 파일을 저장(베타). Pro·Max·Ultra에 점진 적용, Team·Enterprise는 소유자가 켜야 함"}
+      ],
+      "freshness_ok": true,
+      "caveats": "베타이며 점진 적용 중이라 아직 안 보일 수 있음. 어떤 앱에서 되는지는 노트에 명시되지 않았으므로 특정 앱(드라이브 등)을 된다고 쓰면 안 됨. Free 요금제는 언급 없음. 철회·수정 근거는 찾지 못함",
+      "corrected_claim": null,
+      "note": "반대 근거 검색은 릴리스 노트 페이지 확인 중심으로 했고 별도 정정 공지는 확인하지 못함"
+    },
+    {
+      "cid": "C03",
+      "status": "부분 확인",
+      "evidence": [
+        {"url": "https://status.openai.com/incidents/01JMYB602A6H2E04Y1497J434X/write-up", "source_type": "공식", "published": "unknown", "what": "OpenAI 상태 페이지 사후 보고: 11월 21일 PT 1:48~5:21(약 3.5시간), PostgreSQL 서비스 유지보수 중 읽기 복제본 둘이 동시에 실패, 최대 75% 요청 실패(유료·무료 ChatGPT). 페이지에 연도 표기 없음"},
+        {"url": "https://status.openai.com/incidents/n254wyd7nml7", "source_type": "공식", "published": "unknown", "what": "같은 사건의 다른 상태 페이지 항목. 열람 결과 날짜가 2023-11-21로 읽혀 2026년 사건인지 연도가 엇갈림"},
+        {"url": "https://dev.to/hiroki-ii-ai/ai-daily-digest-november-22-2026-openais-75-outage-oracles-money-loop-genie-4-opens-up-3239", "source_type": "실무자", "published": "2026-11-21", "what": "2026-11-21 사건으로 소개하며 위 공식 사후 보고를 링크. 시간·75%·원인 일치"},
+        {"url": "https://note.com/ai_saboru_kz/n/n18740faca9bd", "source_type": "실무자", "published": "2026-11-23", "what": "원 후보 글. 2026-11-21(PT) 사건, 211분, 최대 75%, 상태 페이지를 출처로 밝힘"}
+      ],
+      "freshness_ok": true,
+      "caveats": "수치(약 3.5시간, 최대 75%, 점검 중 복제본 장애)는 OpenAI 상태 페이지 사후 보고와 일치하나, 공식 페이지에서 2026년이라는 연도를 직접 확인하지 못했고 한 페이지는 2023으로 읽힘. 연도는 실무자 글 두 건 근거. 문안에서 장애는 '11월 21일 약 3.5시간, 최대 75% 요청 실패'까지만 쓰고, 문장 중심은 대체 도구를 정해 두라는 팁으로 할 것. 팁 자체(대체 도구 로그인)는 사실 주장이 아님",
+      "corrected_claim": null,
+      "note": "확인된 점: 사건 내용. 미확인: 공식 페이지상 연도. 상태 페이지 홈의 이력 목록은 열리지 않아 직접 대조 못 함. 원문 note.com 글 하단 유료 구독 안내는 본문 팁과 별개"
+    },
+    {
+      "cid": "C04",
+      "status": "확인됨",
+      "evidence": [
+        {"url": "https://www.koreadaily.com/article/20261119070147065", "source_type": "언론", "published": "2026-11-19", "what": "중앙일보 팩플팀 기사(미주중앙일보 게재, 11-19 07:01 KST, 같은 날 12:29 갱신). ChatGPT·Claude 수능 국어·수학·영어 전 문항 정답, 제미나이 수학 59·56·60점이며 풀이 해설을 완성하지 못함, Artificial Analysis 지수 1위 Claude Fable 5.2·2위 GPT-6.2 Astra"}
+      ],
+      "freshness_ok": true,
+      "caveats": "단일 매체 보도이고 공식 출처가 아님(주장 자체가 기자 자체 실험 결과). 같은 기사에 Gemini는 영어에서 입력 오류로 제외됐고, Google Neon 모델로 바꾸면 약 3분에 풀었다고 적혀 있어 'Gemini가 수학을 못 푼다'로 일반화하면 오해가 생김. 국어는 Gemini도 공통 33/34 정답. 지수 순위는 그날 기준이라 시점이 지나면 바뀜. 순위 주장은 문안에서 빼고 검산 질문 중심으로 쓸 것",
+      "corrected_claim": null,
+      "note": "매체 기사 내용 일치만 확인. 점수·순위의 독립 재현이나 Artificial Analysis 원 페이지는 열어 보지 않음. 판정은 '기사가 그렇게 보도했다'는 범위의 확인임"
+    },
+    {
+      "cid": "C05",
+      "status": "부분 확인",
+      "evidence": [
+        {"url": "https://www.anthropic.com/legal/aup", "source_type": "공식", "published": "2026-11-12", "what": "이용 정책(시행일 2026-11-12): Safeguards Team이 정책 집행을 위해 탐지·모니터링을 한다. 위반 의심 시 경고·제한·정지·종료 가능. 당국 신고 명시는 아동 성착취물(CSAM) 발견 시로 한정"},
+        {"url": "https://sfstandard.com/2026/09/04/anthropic-threat-claude-sfpd/", "source_type": "언론", "published": "2026-09-04", "what": "SF Standard: 폭력 위협 대화를 Anthropic이 계정 정지 후 경찰에 넘긴 별개 사례. 개인정보 처리방침이 채팅 속 폭력 위협을 법집행기관에 신고할 수 있게 한다고 보도. 대변인은 '안전장치 절차가 의도대로 작동'이라고 말함"}
+      ],
+      "freshness_ok": true,
+      "caveats": "원 후보의 개별 사례(HN 글쓴이 주장)는 확인하지 못함. 문안에서 그 사례를 사실처럼 쓰면 안 됨. 확인된 것은 (1) 모니터링으로 정책 위반을 탐지한다는 공식 정책, (2) 폭력 위협은 당국에 신고될 수 있다는 점(언론이 처리방침 근거로 보도). 공식 이용 정책 본문의 당국 신고 명시는 CSAM에 한정되고, 폭력 위협 신고는 정책 본문이 아니라 처리방침·언론 보도 근거이며 처리방침 원문은 직접 열지 못함. 신고 기준은 공개된 구체 문구를 찾지 못함. 이 사항은 Claude만의 문제가 아니라 다른 AI 서비스도 각자 검토·보관 정책이 있으므로 도구별 정책 확인이 필요하다는 일반 주의점으로 쓰는 편이 안전",
+      "corrected_claim": "개별 사례의 사실 여부는 확인되지 않았다. 확인된 내용은 Anthropic이 이용 정책 집행을 위해 대화를 탐지·모니터링하며, 폭력 위협 등은 당국에 신고될 수 있다는 점(처리방침 근거, 언론 보도)이다.",
+      "note": "커뮤니티 출발 후보라 공식 근거가 일부만 있어 확인됨을 주지 않음. 원 후보 글(Substack)과 HN 글은 직접 열지 않음"
+    },
+    {
+      "cid": "C06",
+      "status": "확인됨",
+      "evidence": [
+        {"url": "https://support.claude.com/en/articles/12138966-release-notes", "source_type": "공식", "published": "2026-11-24", "what": "11-24 항목: 월간 리캡(설정의 Reflect)이 베타를 벗어나 Free·Pro·Max·Ultra의 웹·데스크톱·iOS·Android에 적용. Claude Code 세션과 클라우드 Cowork 작업 포함 가능. 저장된 리캡은 리캡 페이지에서 삭제 가능"},
+        {"url": "https://support.claude.com/en/articles/15672559-see-your-monthly-recap", "source_type": "공식", "published": "unknown", "what": "도움말이 갱신됨: 리캡은 채팅, 클라우드 Claude Code 세션, 클라우드 Cowork 작업 기반(컴퓨터에서만 도는 작업 제외). 'Delete stored reflections'로 모든 기간·기기의 저장 리캡 삭제(되돌릴 수 없음, 채팅은 삭제 안 됨). Team·Enterprise는 미제공. 페이지에는 'Updated today'만 있고 날짜 없음"}
+      ],
+      "freshness_ok": true,
+      "caveats": "Claude Code·Cowork 반영은 클라우드에서 실행된 것만 해당하고 로컬 전용 작업은 제외. Team·Enterprise는 지원 안 함. 삭제는 전체 삭제이며 되돌릴 수 없음. 도움말은 이제 릴리스 노트와 일치함(기존 제외 문구는 갱신된 것으로 보임, 갱신일은 미표기)",
+      "corrected_claim": null,
+      "note": "후보 summary의 '기존 도움말은 제외한다고 적혀 있어 갱신 여부 확인 필요'는 해소됨. 도움말 갱신일은 확인 못 했으나 내용은 릴리스 노트와 일치"
+    }
+  ]
+}

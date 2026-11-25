@@ -1,0 +1,68 @@
+{
+  "perspective": "b",
+  "period": {"from": "2026-11-19", "to": "2026-11-25"},
+  "queries": [
+    "ChatGPT 직장인 업무 AI 도입 2026년 11월",
+    "Claude Anthropic enterprise news November 2026",
+    "Gemini Google Workspace new feature November 2026",
+    "생성형 AI 사내 사용 규정 개인정보 보도 2026.11",
+    "AI타임스 챗GPT 클로드 제미나이 업무 11월 22일",
+    "OpenAI ChatGPT announcement this week TechCrunch The Verge",
+    "ChatGPT Advanced Voice Standard Voice December 11 GPT-Live",
+    "ChatGPT Work OpenAI enterprise launch documents spreadsheets",
+    "Claude Cowork chat combined Enterprise November 16 default",
+    "AI 기업 직원 챗GPT 클로드 제미나이 보도 11월 20일 21일 24일 2026",
+    "GAO report AI chatbots safeguards ChatGPT Claude Gemini Grok attack planning",
+    "챗GPT 월렛 에이전트 결제 출시 오픈AI",
+    "제미나이 업데이트 구글 워크스페이스 업무 신기능 전자신문 OR ZDNet OR 지디넷 11월",
+    "Anthropic Claude new feature launch week of November 20 2026 report"
+  ],
+  "items": [
+    {
+      "id": "b-01",
+      "title": "수능 문제를 세 AI에게 풀렸더니: 챗GPT·클로드 만점, 제미나이 수학 부진",
+      "summary": "중앙일보 팩플팀이 2027학년도 수능 국어·수학·영어 문제 PDF를 같은 프롬프트로 세 AI에 풀게 했다. 챗GPT와 클로드는 전 과목 정답, 제미나이(Carbon)는 수학에서 점수가 낮았고 설명도 끝내지 못했다. 기사는 원인을 추론을 최소화한 설계와 추출 텍스트의 기호 깨짐으로 본다.",
+      "type_guess": "질문거리",
+      "tools": ["ChatGPT", "Claude", "Gemini"],
+      "url": "https://www.koreadaily.com/article/20261119070147065",
+      "source_name": "중앙일보(미주중앙일보 게재)",
+      "source_type": "언론",
+      "published": "2026-11-19",
+      "original_source_url": null,
+      "claims": [
+        "챗GPT(GPT-6.2 Astra)와 클로드(Fable 5.2)는 수능 국어·수학·영어 전 문항을 맞혔다",
+        "제미나이(Carbon)는 수학 3과목에서 59·56·60점을 받았고 설명을 끝내지 못했다",
+        "같은 날 Artificial Analysis Intelligence Index에서 Claude Fable 5.2가 1위, GPT-6.2 Astra가 2위였다"
+      ],
+      "work_use": "수치·표가 섞인 PDF 문서를 AI에 맡길 때 도구마다 정확도와 입력 방식(PDF 텍스트 추출 품질)이 달라 검산이 필요하다는 점"
+    },
+    {
+      "id": "b-02",
+      "title": "김포시, 내년 전 부서에 챗GPT·제미나이·클로드 등 통합 AI 플랫폼 도입",
+      "summary": "김포시가 생성형 AI 통합 플랫폼을 내년부터 전 부서에 확대한다고 밝혔다. 챗GPT·제미나이·클로드 등 여러 모델을 지원하고 직원에게 업무용 AI 크레딧을 배포하며 전 직원 교육을 병행한다. 기사에는 보안·개인정보 정책 설명이 없다.",
+      "type_guess": "소식",
+      "tools": ["공통"],
+      "url": "https://www.thepublic.kr/news/articleView.html?idxno=328294",
+      "source_name": "더퍼블릭",
+      "source_type": "언론",
+      "published": "2026-11-24",
+      "original_source_url": null,
+      "claims": [
+        "김포시는 2027년부터 생성형 AI 통합 플랫폼을 전 부서에 도입한다",
+        "플랫폼은 챗GPT·제미나이·클로드·미스트랄·그록·솔라 모델을 지원한다",
+        "전 직원에게 업무용 AI 크레딧을 구매·배포하고 2027년 3~11월 전 직원 교육을 한다"
+      ],
+      "work_use": "조직이 여러 AI 도구를 한 플랫폼으로 묶어 지급하고 교육하는 도입 방식의 사례(사내 도입 논의 참고)"
+    }
+  ],
+  "skipped": [
+    {"url": "https://mixed-news.com/en/claude-enterprise-chat-cowork-unified-november-16/", "reason": "작성일 2026-10-25로 기간 밖. 내용(Claude Enterprise 채팅+Cowork 통합 기본 적용 11-16)은 공식 원문 https://claude.com/resources/articles/unified-claude-enterprise 가 있어 관점 a 몫"},
+    {"url": "https://byline.network/2026/10/28-676/", "reason": "작성일 2026-10-28로 기간 밖 (파수AI 섀도우 AI 조사)"},
+    {"url": "https://help.openai.com/en/articles/20001638", "reason": "공식 도움말(관점 a), 고지일 11-10으로 기간 밖. ChatGPT 고급·표준 음성 12-11 종료"},
+    {"url": "https://workspaceupdates.googleblog.com/2026/11/expanding-gemini-in-gmail-to-more-Google-Workspace-users.html", "reason": "공식 글(관점 a), 2026-11-10으로 기간 밖"},
+    {"url": "https://www.fntoday.co.kr/news/articleView.html?idxno=399073", "reason": "열람 시 외부 오류 페이지로 리디렉션되어 내용 확인 불가, 업무 관련도도 낮음(GAO 안전장치 우회 시험)"},
+    {"url": "https://emergent.sh/news/google-gemini-workspace-integration-now", "reason": "집계성 사이트, 공식 확인 불가·기간 불명"},
+    {"url": "https://www.hankyung.com/article/202611044353g", "reason": "작성일 11-04로 기간 밖 (챗GPT 먹통 사례)"}
+  ],
+  "notes": "기간(11-19~25) 안 언론 기사가 검색에 거의 잡히지 않아 수집 2건에 그침. 해외 매체(TechCrunch·Verge 등)는 기간 안 기사를 찾지 못함. 기간 밖이나 유효한 참고: 챗GPT 월렛(11-13 발표, 미국 Pro 한정), Claude 업무 도구·Meetings 베타(11-10~12), GAO-27-108814 보고서(11-18 공개, 4개 챗봇 안전장치 우회, 업무 관련도 낮음). 수능 기사 b-01은 모델명·점수가 단일 매체 보도이므로 교차 확인 필요."
+}
