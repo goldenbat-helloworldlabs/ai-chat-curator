@@ -1,0 +1,77 @@
+{
+  "perspective": "c",
+  "period": {"from": "2026-11-20", "to": "2026-11-26"},
+  "queries": [
+    "GeekNews ChatGPT Claude Gemini 업무 활용",
+    "reddit ClaudeAI work usage limits November 2026",
+    "클리앙 ChatGPT Claude 업무 보고서 후기 11월",
+    "HN Algolia 검색(기간 11-20~11-26): claude",
+    "HN Algolia 검색(기간 11-20~11-26): chatgpt",
+    "GeekNews 신규·메인 목록 열람(news.hada.io/new, news.hada.io)"
+  ],
+  "items": [
+    {
+      "id": "c-01",
+      "title": "ChatGPT 업무 계정 정지, 회사 환불 요청이 불러온 연쇄 차단",
+      "summary": "해외 개발자 커뮤니티(Hacker News)의 질문 글. 회사가 ChatGPT Pro 6개월치 결제를 카드 환불(차지백)로 되돌리자 업무용 계정이 정지됐고, 연결돼 있던 개인 계정까지 같이 막혔다는 하소연이다. 답글은 없었고, 사람 담당자에게 사건 검토를 요청하는 내용이다.",
+      "type_guess": "주의할 점",
+      "tools": ["ChatGPT"],
+      "url": "https://news.ycombinator.com/item?id=50620290",
+      "source_name": "Hacker News",
+      "source_type": "커뮤니티",
+      "published": "2026-11-23",
+      "original_source_url": null,
+      "claims": [
+        "회사 결제 건의 차지백이 있으면 OpenAI가 해당 업무 계정과 연결된 개인 계정까지 정지할 수 있다",
+        "OpenAI 지원팀에서 사람 담당자에게 이의 제기하기가 어렵다"
+      ],
+      "work_use": "회사 법인카드로 AI 구독을 결제하고 환불·정산할 때 개인 계정과 섞이는 위험"
+    },
+    {
+      "id": "c-02",
+      "title": "ChatGPT 모델 GPT-5.6 Sol, 12월 23일 종료 예고",
+      "summary": "Hacker News에 ChatGPT 공식 X 게시물 링크가 올라왔고, 글 올린 사람은 ChatGPT에서 GPT-5.6 Sol 모델이 12월 23일에 종료된다고 요약했다. X 원문은 열어 보지 못했고 HN 글과 한 줄 설명만 확인했다. 기존 대화나 업무용 설정이 해당 모델에 묶여 있으면 영향이 있을 수 있다.",
+      "type_guess": "소식",
+      "tools": ["ChatGPT"],
+      "url": "https://news.ycombinator.com/item?id=50627400",
+      "source_name": "Hacker News",
+      "source_type": "커뮤니티",
+      "published": "2026-11-24",
+      "original_source_url": "https://twitter.com/ChatGPT/status/2124981905380569283",
+      "claims": [
+        "ChatGPT에서 GPT-5.6 Sol 모델이 2026-12-23에 종료(deprecate)된다",
+        "종료 후 대체 모델이 무엇인지, 사용자 설정·GPTs가 어떻게 되는지는 미확인"
+      ],
+      "work_use": "특정 모델에 맞춰 만든 업무용 GPTs·프롬프트를 쓰는 사람에게 점검 시점 알림"
+    },
+    {
+      "id": "c-03",
+      "title": "Claude Code 세션 위에 '매니저 세션'을 두고 결재 규정으로 운영한 경험",
+      "summary": "GeekNews 메인에 소개된 개인 블로그 에세이(11-21). 여러 Claude Code 세션을 동시에 돌리다 지친 필자가 중간 관리자 역할 세션을 두고, 전결 규정에 따라 자동 지시하거나 필자 결재가 필요한 건만 올리게 했다. 처음엔 제안만 하는 수습 기간을 두었고, 첫 운영에서 보고가 너무 잦아 지침을 줄였다고 한다. 개발자 중심 사례라 비개발 직장인에게는 위임·결재 규칙 설계 아이디어 정도로 닿는다.",
+      "type_guess": "업무 팁",
+      "tools": ["Claude"],
+      "url": "https://tedfactory.com/notes/essays/claude-code-manager-session/",
+      "source_name": "GeekNews (소개된 개인 블로그)",
+      "source_type": "커뮤니티",
+      "published": "2026-11-21",
+      "original_source_url": null,
+      "claims": [
+        "Claude Code의 agent 설정과 --agent 옵션으로 메인 대화에 에이전트를 지정할 수 있다",
+        "Claude Code의 Agent View는 현재 연구 프리뷰 단계다",
+        "다른 세션이 보낸 메시지로는 권한 승인이 불가능하다는 것이 공식 문서 원칙이다"
+      ],
+      "work_use": "AI 여러 개에게 일을 맡길 때 어디까지 알아서 하게 하고 무엇을 사람이 결재할지 정하는 방법"
+    }
+  ],
+  "skipped": [
+    {"url": "https://hearlog.umicorp.kr", "reason": "GeekNews Show GN의 자체 앱 홍보(유료 Pro 요금제 있음), 업무 팁보다 제품 소개 중심"},
+    {"url": "https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/", "reason": "작성일 2026-11-01로 기간 밖"},
+    {"url": "https://techcrunch.com/2026/11/02/openai-is-finally-merging-chatgpts-chat-and-work-tabs/", "reason": "기사 작성일 11-02로 기간 밖(HN 게시일만 기간 안), 언론 관점(b) 영역"},
+    {"url": "https://novaramedia.com/2026/11/24/anthropic-staff-openly-talk-about-taking-over-the-world-claims-top-mit-physicist/", "reason": "업무 활용과 연결 안 됨"},
+    {"url": "https://carry.md/", "reason": "개인 도구 홍보(Show HN), 열어 보지 않음, 업무 연결 약함"},
+    {"url": "https://twitter.com/ChatGPT/status/2124981905380569283", "reason": "X 게시물은 로그인 없이 열리는지 확인하지 못해 열지 않음(c-02에 원출처로만 기록)"},
+    {"url": "https://www.reddit.com/r/ClaudeAI/", "reason": "열어 보지 않음: 이번 실행에서 접근 확인 못 함, 검색에도 기간 내 글이 나오지 않음"},
+    {"url": "https://www.clien.net/service/board/use/19165111", "reason": "클리앙 검색 결과에서 11월 작성 글 없음(3~4월 글 위주), 기간 밖"}
+  ],
+  "notes": "공개 커뮤니티 11-20~11-26 기간 업무 관련 글이 적었다. 해당 기간에 GeekNews 목록은 상대 시간(N일 전)만 표시해 작성일 확인이 어려웠다(가져온 글은 개별 페이지에서 날짜 확인). 클리앙·Reddit에서는 기간 내 글을 찾지 못했다. 기간 밖 참고: 3월 클리앙 글에서 업무용 구독을 Claude 하나로 정리했다는 후기와 Claude 사용량 한도 불만이 반복적으로 나오지만 최신성이 없다. 검색 결과에 LimitDigest(11-02) 뉴스레터가 Ultra 계정의 5시간 한도 폐지를 전했으나 2차 출처라 가져오지 않았다. GeekNews robots.txt는 검색·사용자 요청 봇은 허용하고 학습용 크롤러만 막는다."
+}
