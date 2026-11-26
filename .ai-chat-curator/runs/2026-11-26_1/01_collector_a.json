@@ -1,0 +1,79 @@
+{
+  "perspective": "a",
+  "period": {"from": "2026-11-20", "to": "2026-11-26"},
+  "queries": [
+    "ChatGPT release notes November 2026",
+    "Anthropic Claude announcement November 2026",
+    "Gemini Workspace update November 2026"
+  ],
+  "items": [
+    {
+      "id": "a-01",
+      "title": "구글 워크스페이스, AI 에이전트는 MCP로만 접근하게 바뀐다",
+      "summary": "구글이 Workspace MCP 서버와 공식 CLI를 정식 출시하고, API 사용량을 무료 Standard 단계와 초과분 과금 Scaled 단계로 나눴다. 관리자는 관리 콘솔에서 에이전트 접근 범위, 민감 작업 확인 규칙, 감사 로그를 설정할 수 있고 기존 DLP 규칙도 에이전트에 적용된다. 에이전트를 만드는 쪽은 2027-02-01부터 직접 REST 호출 대신 MCP를 써야 한다.",
+      "type_guess": "주의할 점",
+      "tools": ["Gemini"],
+      "url": "http://workspaceupdates.googleblog.com/2026/11/mcp-servers-cli-standardized-usage-tiers-now-available.html",
+      "source_name": "Google Workspace Updates 블로그",
+      "source_type": "공식",
+      "published": "2026-11-24",
+      "original_source_url": null,
+      "claims": [
+        "Workspace MCP 서버와 Workspace CLI가 정식 출시(GA)됐다",
+        "AI 에이전트의 Workspace 데이터 접근은 2027-02-01부터 MCP 사용이 기술적으로 강제된다",
+        "Scaled 단계 과금은 2027-04-01부터 시작되고, 활성 개발자의 99% 이상은 무료 Standard 한도 안에 있다"
+      ],
+      "work_use": "사내에서 Gmail·Drive·캘린더 연동 자동화나 에이전트를 만들었거나 도입하려는 팀, 워크스페이스 관리자"
+    },
+    {
+      "id": "a-02",
+      "title": "구글 Meet 웹, 1080p 영상 전송이 모든 사용자에게 기본 적용",
+      "summary": "그동안 일부 유료 에디션에만 열려 있던 Meet 웹의 1080p 영상 전송이 모든 사용자로 확대되고 기본값으로 켜졌다. 카메라와 PC 성능, 네트워크가 받쳐 주고 참가자 화면 타일이 충분히 클 때만 1080p로 보내며, 부하가 걸리면 해상도를 자동으로 낮춘다. 관리자는 조직 단위로 기본 화질을 정할 수 있고, 사용자는 설정의 비디오 메뉴에서 바꿀 수 있다.",
+      "type_guess": "소식",
+      "tools": ["Gemini"],
+      "url": "http://workspaceupdates.googleblog.com/2026/11/google-meet-on-web-now-supports-sending-1080p-video-for-all-users-enabled-by-default.html",
+      "source_name": "Google Workspace Updates 블로그",
+      "source_type": "공식",
+      "published": "2026-11-23",
+      "original_source_url": null,
+      "claims": [
+        "Meet 웹의 1080p 전송이 모든 Workspace 고객, Individual 구독자, 개인 계정 사용자에게 기본으로 켜진다",
+        "롤아웃은 Rapid Release·Scheduled Release 도메인에서 2026-11-11에 시작됐고 반영까지 15일 넘게 걸릴 수 있다"
+      ],
+      "work_use": "화상회의 화질. Gemini 기능은 아니라 업무 연관성은 낮은 편이며 AI 활용 글감으로는 약하다"
+    },
+    {
+      "id": "a-03",
+      "title": "Workspace Studio, 데이터 지역(US·EU) 설정 지원 정식 출시",
+      "summary": "Gmail·Drive·문서·시트·캘린더·Meet·Chat을 다루는 Studio 핵심 서비스가 지정한 US 또는 EU 지역 안에서 데이터를 저장·처리하게 됐다. 관리자는 지역에 묶이지 않은 단계와 생성형 AI 기능을 막을지 정하는 새 제어를 쓸 수 있고, 이 제어는 기본으로 켜져 있다. 규제 대상 조직 단위의 사용자는 일부 단계와 AI 기능이 막히고 안내 배너가 뜰 수 있다.",
+      "type_guess": "주의할 점",
+      "tools": ["Gemini"],
+      "url": "http://workspaceupdates.googleblog.com/2026/11/google-workspace-studio-support-for-Data-Regions-is-now-generally-available.html",
+      "source_name": "Google Workspace Updates 블로그",
+      "source_type": "공식",
+      "published": "2026-11-20",
+      "original_source_url": null,
+      "claims": [
+        "Workspace Studio가 Data Regions를 정식 지원한다",
+        "Data Regions 정책이 걸린 조직에서는 기본 설정 때문에 일부 Studio 단계와 생성형 AI 기능이 막힐 수 있다",
+        "게시일과 롤아웃 시작일(2026-11-10)이 10일 어긋나 시점 확인이 필요하다"
+      ],
+      "work_use": "사내 워크플로 자동화에 Studio를 쓰는 팀과 데이터 보관 지역 규정을 지켜야 하는 관리자"
+    }
+  ],
+  "skipped": [
+    {"url": "https://support.claude.com/en/articles/12138966-release-notes", "reason": "이미 제안·게시한 링크. 다만 이 페이지에 11-24 항목(월간 회고 정식화, 아티팩트 앱 설치 베타, 커넥터 파일 전송 베타)이 새로 올라와 있어 정리 단계에서 개별 도움말 문서가 있는지 별도 확인할 만함"},
+    {"url": "https://support.claude.com/en/articles/18483812-set-up-computer-use-for-team-and-enterprise-plans", "reason": "이미 제안·게시한 링크 (11-20 Team/Enterprise 컴퓨터 사용 베타)"},
+    {"url": "https://openai.com/products/release-notes/", "reason": "열어 보니 최신 항목이 11-17이라 기간(11-20~26) 안 항목 없음. 이미 게시한 help.openai.com 릴리스 노트와 같은 성격"},
+    {"url": "https://www.anthropic.com/news/ipo-close", "reason": "IPO 종료 공시(11-20). 요금·기능·정책 내용이 없어 직장인 업무와 무관"},
+    {"url": "https://workspaceupdates.googleblog.com/2026/11/review-edits-across-microsoft-word-docx-and-Google-Docs-files.html", "reason": "작성일 2026-11-16으로 기간 밖 (Docs 비교 기능의 .docx 지원)"},
+    {"url": "https://workspaceupdates.googleblog.com/2026/11/customize-and-extend-workspace-with-apps-script.html", "reason": "작성일 2026-11-16으로 기간 밖 (Apps Script Gemini 사이드 패널 GA)"},
+    {"url": "https://workspaceupdates.googleblog.com/2026/11/schedule-meetings-with-default-buffer-google-calendar.html", "reason": "작성일 2026-11-16으로 기간 밖 (캘린더 회의 간 버퍼). 주간 요약(11-20)에는 실렸으나 원문은 기간 밖"},
+    {"url": "http://workspaceupdates.googleblog.com/2026/11/weekly-recap-11-20-2026.html", "reason": "주간 요약 글. 개별 원문으로 대체"},
+    {"url": "http://workspaceupdates.googleblog.com/2026/11/new-study-enhancements-for-flashcards-in-Gemini-Notebook.html", "reason": "11-24 글이나 학습용 기능이라 직장인 업무 연결이 약해 제외 (본문은 열지 않고 목록 설명만 확인)"},
+    {"url": "http://workspaceupdates.googleblog.com/2026/11/google-vids-now-lets-you-reuse-your-media-in-video-generation.html", "reason": "11-20 글. 본문을 열어 보지 못해 수집하지 않음 (목록 설명만 확인)"},
+    {"url": "http://workspaceupdates.googleblog.com/2026/11/make-messages-in-google-chat-from-apps-and-agents-easier-to-read-with-tables-and-headings.html", "reason": "11-23 글. API 전용 기능이고 본문을 열지 않아 수집하지 않음"},
+    {"url": "https://gemini.google/release-notes/", "reason": "이미 제안·게시한 링크"}
+  ],
+  "notes": "기간 안 공식 발표가 적다. OpenAI는 11-17 이후 새 릴리스 노트가 확인되지 않았고, Anthropic 뉴스룸의 11-20~26 글은 IPO 공시뿐이다(11-26 항목은 제목·링크가 보이지 않아 열지 못함). Claude 제품 변경은 이미 게시한 릴리스 노트 페이지에만 있다. anthropic.com/news 와 OpenAI 릴리스 노트는 로딩된 부분만 확인했다(OpenAI는 'Load more' 앞부분만). 웹 검색 요약에 나온 Nov 17 Gemini 통합 출시 주장(비공식 사이트)은 공식 근거가 없어 수집하지 않았다. a-02는 AI 활용 글감으로는 약해 정리 단계에서 후순위로 보면 된다. 검색어는 도구별 1개씩만 썼고 한국어 검색은 하지 않았다."
+}
