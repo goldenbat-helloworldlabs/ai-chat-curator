@@ -1,0 +1,15 @@
+{
+  "round": 2,
+  "drafts": [
+    {"no": 1, "verdict": "통과", "failed": [], "reasons": "", "fix_hint": ""},
+    {"no": 2, "verdict": "통과", "failed": [], "reasons": "", "fix_hint": ""},
+    {"no": 3, "verdict": "통과", "failed": [], "reasons": "", "fix_hint": ""}
+  ],
+  "run_level": {
+    "fairness": "통과",
+    "fairness_note": "도구 초점 없음. 문안 분포 Gemini 1, Claude 1, 공통 1, ChatGPT 0. ChatGPT 후보 C02·C04는 교차 확인 '아직 공식 확인 안 됨'이라 쓰지 않았다는 사유가 후보 문서에 있어 받아들인다.",
+    "candidates_doc": "통과",
+    "candidates_note": "출처 열이 출처 링크·출처 유형·작성일 세 열로 나뉘어 1회차 반려 사유 해결. 후보 7건은 조용한 주간 사유가 적혀 있어 반려하지 않음."
+  },
+  "notes": "check-drafts 3건 통과(268·224·266자, 이모지 0, 중복 0). 1번 다섯째 줄·3번 셋째 줄(fix_hint 밖 수정)도 원문과 대조해 통과."
+}

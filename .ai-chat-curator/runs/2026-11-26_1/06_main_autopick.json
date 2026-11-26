@@ -1,0 +1,27 @@
+{
+  "pick": null,
+  "drafts": [
+    {
+      "no": 1,
+      "title": "구글 워크스페이스, 2027년 2월부터 AI 에이전트는 MCP 서버로만 접근",
+      "type": "주의할 점",
+      "eligible": false,
+      "reason": "검증 중 사실 확인으로 반려된 이력 있음"
+    },
+    {
+      "no": 2,
+      "title": "업무 자료를 AI에 넣기 전, 무엇을 지우고 넣으세요?",
+      "type": "질문거리",
+      "eligible": false,
+      "reason": "자동 발송 대상 유형 아님(질문거리)"
+    },
+    {
+      "no": 3,
+      "title": "AI에게 맡길 땐 '전결 규정'부터 정해 두기",
+      "type": "업무 팁",
+      "eligible": false,
+      "reason": "업무 팁인데 검증 중 반려 이력 있음"
+    }
+  ],
+  "rounds": 2
+}
