@@ -1,0 +1,52 @@
+{
+  "results": [
+    {
+      "cid": "C07",
+      "status": "확인됨",
+      "evidence": [
+        {"url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes", "source_type": "공식", "published": "2026-11-23", "what": "11월 23일 항목 'GPT-6.2, now in the chat tab': 챗 탭에 맞춘 GPT-6.2 버전을 오늘부터 Plus·Pro·Business·Enterprise에 전 세계 순차 적용. Enterprise는 워크스페이스 관리자 설정에 따라 다름. 무료·Go·Edu는 언급 없음"},
+        {"url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes", "source_type": "공식", "published": "2026-11-17", "what": "배경: 11월 17일 항목은 GPT-6.2 Astra·Sol을 Work·Codex에 미리보기로 낸 것이며 그때는 일반 챗 모델 선택은 그대로였음. 11-23 항목이 챗 탭 적용의 첫 공지"}
+      ],
+      "freshness_ok": true,
+      "caveats": "'오늘부터 순차 적용(rolling out)'이라 계정마다 적용 시점이 다를 수 있음. 대상은 Plus·Pro·Business·Enterprise만 명시, 무료·Go·Edu는 이 항목에 없음(포함된다고 쓰면 안 됨). Enterprise는 관리자 설정에 따라 쓸 수 없을 수 있음. 지역 제한 없이 전 세계(한국 포함). 웹·앱 구분은 명시 없음. 대표 링크가 posted.md의 이전 제안(음성 받아쓰기 10분 제한 해제)과 같은 URL이므로 문안에 항목 이름(11월 23일 'GPT-6.2, now in the chat tab')을 적을 것",
+      "corrected_claim": null,
+      "note": "릴리스 노트 페이지가 길어 앞 100,000자만 읽었으나 최신 항목이 위에 있어 기간 항목은 포함됨. 철회·중단·연기 검색 결과 반대 근거 없음. 11-17 Work·Codex 출시와 혼동하지 말 것(그건 Astra·Sol 미리보기)"
+    },
+    {
+      "cid": "C09",
+      "status": "부분 확인",
+      "evidence": [
+        {"url": "https://support.claude.com/en/articles/12138966-release-notes", "source_type": "공식", "published": "2026-11-24", "what": "11월 24일 항목 'Install artifacts as apps (beta)': Claude가 만든 아티팩트를 Mac·Windows 컴퓨터에 앱으로 설치(자체 창·아이콘, OS와 상호작용 가능), 베타. 같은 날 '월간 회고(Monthly recap)'가 Free·Pro·Max·Ultra 요금제 웹·데스크톱·iOS·Android에서 베타를 벗어남(정식 제공). 회고에 Claude Code 세션·클라우드 Cowork 작업 포함, 저장된 회고 삭제 가능"},
+        {"url": "https://support.claude.com/en/articles/18516354-install-an-artifact-as-an-app", "source_type": "공식", "published": "unknown", "what": "상세 문서('이번 주 갱신'): 베타 순차 제공. Free·Pro·Max·Ultra·Team·Enterprise 대상, Team은 기본 켜짐(전체 컴퓨터 접근은 관리자가 켜야), Enterprise는 소유자가 조직 설정 > Artifacts에서 켜야 함. Mac·Windows 데스크톱 앱 6.28899.0 이상만, 리눅스·웹·모바일 불가. 템플릿(문서·슬라이드·시트)으로 만든 아티팩트, 예전 아티팩트, Cowork 라이브 아티팩트는 설치 불가. HIPAA 구성 조직 불가"},
+        {"url": "https://support.claude.com/en/articles/15672559-see-your-monthly-recap", "source_type": "공식", "published": "unknown", "what": "상세 문서('이번 주 갱신'): 월간 회고는 Free·Pro·Max·Ultra만(Team·Enterprise 불가), 웹·데스크톱·iOS·Android, 메모리 기능이 켜져 있어야 함, 순차 제공, Claude 제공 모든 지역. 끄려면 '채팅에서 메모리 생성' 끄기, Reflect 페이지에서 저장된 회고 삭제 가능"}
+      ],
+      "freshness_ok": true,
+      "caveats": "아티팩트 앱 설치: 베타, Mac·Windows 데스크톱 앱 전용(웹·모바일·리눅스 불가), Enterprise는 관리자가 켜야 함, 문서·슬라이드·시트 템플릿 아티팩트는 불가. 월간 회고: 개인 요금제(Free·Pro·Max·Ultra)만, Team·Enterprise 불가, 메모리 기능이 켜져 있어야 하고 순차 제공",
+      "corrected_claim": "월간 회고(Reflect)는 '베타 종료 = 서비스 종료'가 아니라 베타를 벗어나 정식 제공된 것이다(Free·Pro·Max·Ultra, 웹·데스크톱·iOS·Android). 회고에 Claude Code 세션·클라우드 Cowork 작업이 포함되고 저장된 회고를 삭제할 수 있게 됐다. 주장 1(아티팩트 앱 설치 베타)은 공식 확인됨",
+      "note": "후보 요약의 '종료 이유·대체 여부 미확인'은 오해에서 나온 것. 문안에 '베타 종료'라고 쓰면 기능이 없어진다고 읽히므로 '정식 출시'로 써야 함. 대표 링크가 posted.md 11-25 제안과 같은 URL이므로 상세 문서 링크(18516354 또는 15672559)를 쓰는 편이 안전"
+    },
+    {
+      "cid": "C02",
+      "status": "확인됨",
+      "evidence": [
+        {"url": "https://workspaceupdates.googleblog.com/2026/11/make-messages-in-google-chat-from-apps-and-agents-easier-to-read-with-tables-and-headings.html", "source_type": "공식", "published": "2026-11-23", "what": "앱·에이전트가 Chat API로 표준 마크다운 표와 제목(#·##·### 3단계)을 보낼 수 있음, 표·제목 안 굵게·기울임·링크·이모지 가능. 사용자는 입력창에서 표·제목을 만들 수 없음. 웹은 메시지 안에 표시(넓은 표는 스크롤), Android·iOS는 'Show table'을 눌러야 전체 표시(메시지 안 표시는 향후 업데이트 예정). Rapid·Scheduled Release 도메인 모두 지금 제공. 모든 Workspace 고객·Workspace Individual·개인 구글 계정 대상. 관리자·사용자 설정 없음"}
+      ],
+      "freshness_ok": true,
+      "caveats": "사용자가 직접 쓰는 기능이 아니라 Chat API를 쓰는 앱·에이전트가 보내는 메시지에만 해당(개발·연동 필요). 모바일은 '표 보기'를 눌러야 함. 끄고 켜는 설정 없음",
+      "corrected_claim": null,
+      "note": "주장 3건 모두 공식 블로그 원문과 일치"
+    },
+    {
+      "cid": "C04",
+      "status": "확인됨",
+      "evidence": [
+        {"url": "https://claude.com/resources/articles/introducing-claude-ship", "source_type": "공식", "published": "2026-11-23", "what": "Anthropic 공식 발표: Code Review 정식 제공, PR Steward·Claude Approvals 베타. Claude Team·Enterprise 요금제, GitHub 저장소 대상. 승인 정책을 저장소 안 파일로 작성하며 자연어 분류기 사용 가능, 기본 브랜치에 정책 파일이 있으면 Claude Approvals 동작. 처음엔 관찰 전용 모드 권장, Code Review·PR Steward 지출 한도·월 지출 한도 설정 가능. Zero Data Retention·HIPAA 구성·고객 관리 암호화 키 조직은 이용 불가"},
+        {"url": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/", "source_type": "언론", "published": "2026-11-23", "what": "TechCrunch(Sarah Perez) 보도: 구성·정식/베타 구분·요금제·GitHub·자연어 정책 파일·관찰 전용 모드·월 지출 한도 내용이 공식 발표와 일치. PR Steward는 CI 실패·병합 충돌·리뷰 지적을 처리하고 푸시마다 변경 내용과 되돌리는 법을 코멘트로 남김"}
+      ],
+      "freshness_ok": true,
+      "caveats": "Team·Enterprise 요금제만(개인 Pro·Max 해당 없음), GitHub 저장소만. PR Steward·Claude Approvals는 베타. ZDR·HIPAA·고객 관리 키 조직은 이용 불가",
+      "corrected_claim": null,
+      "note": "1차 출처를 TechCrunch에서 Anthropic 공식 발표 URL로 바꿔 쓰는 편이 좋음. 연기·중단 검색 결과 반대 근거 없음"
+    }
+  ]
+}
