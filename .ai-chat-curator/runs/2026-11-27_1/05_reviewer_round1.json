@@ -1,0 +1,19 @@
+{
+  "round": 1,
+  "drafts": [
+    {"no": 1, "verdict": "통과", "failed": [], "reasons": "", "fix_hint": ""},
+    {"no": 2, "verdict": "반려", "failed": ["사실 확인"],
+     "reasons": "넷째 줄 월간 회고(Reflect) 정식 출시 문장에서 교차 확인(03_fact-checker_2.json C09) caveats의 이용 조건이 빠졌다. 메모리 기능이 켜져 있어야 하고 순차 제공이며 Team·Enterprise는 쓸 수 없다. 요금제만 적혀 있어 회사 계정이나 메모리를 끈 사람도 바로 쓸 수 있는 것처럼 읽힌다. 나머지 줄은 상세 문서 원문(18516354)과 대조해 맞다.",
+     "fix_hint": "넷째 줄을 '같은 날 월간 회고(Reflect)도 정식 출시됐어요(Free·Pro·Max·Ultra 개인 요금제, 메모리 기능을 켠 경우, 순차 제공).'처럼 고친다. 300자를 넘으면 둘째 줄의 '11월 24일 Claude 릴리스 노트의' 부분을 '11월 24일 발표로'처럼 줄인다."},
+    {"no": 3, "verdict": "반려", "failed": ["사실 확인", "표현"],
+     "reasons": "사실 확인: 넷째 줄 '페이지의 관심 신청 양식으로 진행 상황을 지켜볼 만해요'가 원문과 다르다. openai.com/business/private-intelligence 페이지에는 Private Inference 관심 신청 양식이 없고 Contact sales 링크와 일반 뉴스레터 구독 양식뿐이다. 표현: 셋째 줄 'API 미리보기 쪽 기능'은 직장인에게 낯선 용어인데 풀어 쓰지 않았다.",
+     "fix_hint": "넷째 줄에서 '페이지의 관심 신청 양식으로'를 빼고 '보안 검토로 AI 도입이 막힌 회사라면 진행 상황을 지켜볼 만해요'로 줄인다. 링크는 마지막 줄 하나만 둔다. 셋째 줄 'API 미리보기 쪽 기능이고'는 '개발자가 자사 서비스에 연결해 쓰는 API(연동 방식)의 미리보기 기능이고'처럼 한 번 풀어 쓴다."},
+    {"no": 4, "verdict": "통과", "failed": [], "reasons": "", "fix_hint": ""},
+    {"no": 5, "verdict": "통과", "failed": [], "reasons": "", "fix_hint": ""}
+  ],
+  "run_level": {
+    "fairness": "통과",
+    "candidates_doc": "통과"
+  },
+  "notes": "check-drafts 5건 모두 형식 통과. 문안 4는 11-26 실행 문안 3과 같은 글이지만 posted.md에 없고 그날 발송되지 않았으므로 중복 통과. outputs/2026-11-26/02_게시문안.md에 같은 문안이 남아 있음. (요약 저장본: 메인이 응답 JSON에서 핵심 필드만 옮김)"
+}
