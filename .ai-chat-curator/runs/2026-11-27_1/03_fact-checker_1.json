@@ -1,0 +1,81 @@
+{
+  "results": [
+    {
+      "cid": "C03",
+      "status": "부분 확인",
+      "evidence": [
+        {"url": "https://openai.com/business/private-intelligence", "source_type": "공식", "published": "unknown", "what": "OpenAI Private Intelligence 페이지에 'Private Inference (Alpha)' 표기와 도식의 'API Preview' 표시가 있음. 설명은 'confidential computing과 strict verifiable controls 결합', 'eligible workflows 대상'까지만. enclave라는 말, 실행 코드 사전 검증(attestation) 방식, 대상 요금제·제품, 날짜는 쓰여 있지 않음"},
+        {"url": "https://news.sulat.com/2026/11/26/openai-private-inference/", "source_type": "언론", "published": "2026-11-26", "what": "Altman이 11-25(미국 시간) X에서 '소규모 고객 그룹'과 시험 중이라고 밝혔다고 전함. DevDay(2026-09-29)에서 '올가을' 예정으로 처음 발표됐다고 씀. enclave·attestation은 기밀 컴퓨팅 일반 설명이며 OpenAI 구현이 그렇다고 확인하지 않았다고 기사 스스로 밝힘. ChatGPT 요금제 언급 없음, API 쪽 기능으로 설명"},
+        {"url": "https://x.com/sama/status/2125638790593274259", "source_type": "공식", "published": "2026-11-25", "what": "열람 실패(HTTP 402). 게시물 내용은 직접 확인하지 못함"}
+      ],
+      "freshness_ok": true,
+      "caveats": "알파 단계로 일반 사용자는 쓸 수 없음. 공식 페이지 표시상 API 미리보기 쪽 기능이며 ChatGPT 일반·업무용 요금제 적용 언급은 없음. 관심 신청 양식(openai.com/form/private-intelligence-interest/)만 열려 있음. 한국 제공 여부·가격·정식 출시 일정 미공개",
+      "corrected_claim": "공식 확인되는 것은 'Private Inference가 알파(API 미리보기)로 표기돼 있고 기밀 컴퓨팅과 검증 가능한 통제를 결합한다'까지다. '11-25 소규모 고객과 시험 중'은 대표 X 게시물을 인용한 소규모 매체 1곳 보도로만 확인(게시물 직접 열람 실패). '하드웨어 보호 영역(enclave)에서 처리·고객이 실행 코드를 사전 검증'은 OpenAI가 밝힌 내용이 아니라 매체의 일반 설명이므로 문안에서 단정 금지",
+      "note": "X 게시물 확인 시도 실패(402). 원 후보 요약의 enclave·코드 검증 문장은 빼거나 '기밀 컴퓨팅 방식'으로만 표현할 것"
+    },
+    {
+      "cid": "C05",
+      "status": "아직 공식 확인 안 됨",
+      "evidence": [
+        {"url": "https://news.hada.io/topic?id=37885", "source_type": "커뮤니티", "published": "2026-11-26", "what": "GeekNews가 X 게시물을 인용해 Astra 약 40%·Sol 약 25% 더 빨리 한도 도달, 다른 모델 영향 없음, 소급 청구 없음, Go·Plus·Pro·Business에 한도 초기화 1회 적립이라고 정리. 수정 후에도 GPT-6 Astra·GPT-6.1 Sol보다는 더 많은 작업 가능하다는 내용 포함"},
+        {"url": "https://x.com/thsottiaux/status/2125784147889393806", "source_type": "공식", "published": "2026-11-26", "what": "열람 실패(HTTP 402). 원 게시물 내용·작성자 직함 직접 확인 못 함"},
+        {"url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes", "source_type": "공식", "published": "2026-11-23", "what": "11-21~27 항목에 사용량 한도·과금 오류·초기화 관련 내용 없음. 11-23 항목은 챗 탭 GPT-6.2(Sol 기반) 적용만"},
+        {"url": "https://help.openai.com/en/articles/20001516-managing-usage-with-gpt-6-", "source_type": "공식", "published": "unknown", "what": "'7일 전 갱신' 표시. GPT-6.2 Astra·Sol은 다른 문서로 안내한다는 한 줄뿐, 할인 오류 수정·40%/25%·소급 청구 없음·이번 보상 초기화 언급 없음. Go 요금제 언급 없음"}
+      ],
+      "freshness_ok": true,
+      "caveats": "수치(40%·25%)·대상 요금제(Go·Plus·Pro·Business)는 커뮤니티 재인용으로만 확인. 무료·Enterprise 적용 여부 불명. 주요 매체 보도도 찾지 못함(검색으로 BleepingComputer 등 확인 시도, 해당 기사 없음)",
+      "corrected_claim": null,
+      "note": "확인 시도 실패: 원출처 X 게시물이 로그인/유료 장벽(402)으로 열리지 않음. 공식 도움말·릴리스 노트·매체에서 같은 내용 미발견. 문안에 쓰려면 'OpenAI 담당자 X 게시물에 따르면, 아직 공식 도움말에는 없음'으로만 가능하며 수치 단정 금지"
+    },
+    {
+      "cid": "C06",
+      "status": "아직 공식 확인 안 됨",
+      "evidence": [
+        {"url": "https://micjm.com/blog/openai-is-in-cost-control-mode/", "source_type": "실무자", "published": "2026-11-26", "what": "개인이 만든 Agent Duel(OpenCode 기반) 대전 데이터로 Astra 6.2·Sol 6.2가 이전 버전 대비 작업당 출력·추론 토큰이 줄었다고 분석. p값: 출력 Sol 0.0055·Astra 0.022, 추론 Sol 0.00013·Astra 0.0064. 제목도 'may be'이고 결론은 '비용 조정된 것으로 보인다'는 추론이며 OpenAI의 의도는 확인 못 한다고 밝힘"},
+        {"url": "https://news.hada.io/topic?id=37922", "source_type": "커뮤니티", "published": "2026-11-27", "what": "위 글 소개. 공식 입장 인용 없음. 댓글에서 과금 버그 원인설(2차 인용) 언급"},
+        {"url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes", "source_type": "공식", "published": "2026-11-23", "what": "11-23 챗 탭 GPT-6.2 적용(Plus·Pro·Business·Enterprise, Sol 버전 기반)만 확인. 토큰·답변 길이 조정 언급 없음"}
+      ],
+      "freshness_ok": true,
+      "caveats": "측정은 개인 벤치마크(에이전트 코딩 작업)이며 ChatGPT 챗 화면 답변 길이와 같은 조건이 아님. OpenAI 공식 입장 없음",
+      "corrected_claim": "주장 1은 '한 개인 벤치마크 분석에 따르면'으로만 쓸 수 있음(분석 자체는 원문에서 직접 확인). 주장 2(비용 절감 목적 조정)는 근거 없음, 글쓴이도 추론이라고 밝힘",
+      "note": "질문거리 유형이므로 '체감'을 묻는 형태로만 사용 권장. 원문 작성일은 블로그 2026-11-26, GeekNews 2026-11-27"
+    },
+    {
+      "cid": "C08",
+      "status": "확인됨",
+      "evidence": [
+        {"url": "https://code.claude.com/docs/en/cross-session-messaging", "source_type": "공식", "published": "unknown", "what": "'How a session treats an incoming message' 절: 다른 세션의 메시지는 승인할 수 없고(사용자 동의로 간주되지 않아 대기 중인 권한 확인에 대신 답할 수 없음), 설정 변경 불가, 명령 미실행, 권한 확인은 그대로 뜬다고 명시. crossSessionInbound(accept·hold·refuse) 설정도 문서에 있음"},
+        {"url": "https://tedfactory.com/notes/essays/claude-code-manager-session/", "source_type": "실무자", "published": "2026-11-21", "what": "원문 직접 열람. 위 공식 문서를 근거로 '다른 세션 메시지로는 승인 불가 → 발송·배포·예산 변경은 사람이 워커 탭에서 직접 지시'라고 씀. 4단계(전결·사후 보고·결재 판단만·결재 직접 지시) 구조 확인"},
+        {"url": "https://news.hada.io/topic?id=37609", "source_type": "커뮤니티", "published": "2026-11-22", "what": "원문 소개 글, 같은 내용"}
+      ],
+      "freshness_ok": true,
+      "caveats": "Claude Code 세션 간 메시지 기능은 v2.1.224 이상(Windows 네이티브 v2.1.234 이상) 필요. 권한 확인을 건너뛰는 bypass 모드 세션에서는 확인 창 자체가 뜨지 않으므로, 글쓴이처럼 지침에 '외부 영향 작업은 사람 직접 지시'를 따로 적어 두는 이중 장치가 의미 있음. 설정 변경 금지는 Claude에 대한 지시 수준으로 문서에 적혀 있음. 일반 ChatGPT·Claude 채팅 앱 기능이 아니라 Claude Code(개발 도구) 기능",
+      "corrected_claim": null,
+      "note": "원문 작성일은 2026-11-21(후보 파일의 11-22는 GeekNews 날짜). 공식 문서에 작성·갱신일 표시 없음, 오늘 열람 기준 유효"
+    },
+    {
+      "cid": "C02",
+      "status": "확인됨",
+      "evidence": [
+        {"url": "http://workspaceupdates.googleblog.com/2026/11/make-messages-in-google-chat-from-apps-and-agents-easier-to-read-with-tables-and-headings.html", "source_type": "공식", "published": "2026-11-23", "what": "앱·에이전트가 Chat API로 마크다운 표·제목(#·##·### 3단계) 전송 가능, 사용자는 입력창에서 만들 수 없음. Android·iOS에서는 'Show table'을 눌러야 전체 표 표시(메시지 안 직접 표시는 추후). Rapid·Scheduled Release 도메인 모두 지금 제공. 모든 Workspace 고객·Workspace Individual·개인 구글 계정 대상"}
+      ],
+      "freshness_ok": true,
+      "caveats": "모바일 버튼 영문명은 'Show table'(한국어 UI 표기는 미확인). 개발자가 Chat API로 앱·에이전트를 만들어야 쓸 수 있는 기능",
+      "corrected_claim": null,
+      "note": ""
+    },
+    {
+      "cid": "C04",
+      "status": "부분 확인",
+      "evidence": [
+        {"url": "https://code.claude.com/docs/en/claude-ship", "source_type": "공식", "published": "unknown", "what": "Code Review 정식, PR Steward·Claude Approvals 공개 베타. Team·Enterprise 조직 대상, GitHub 풀 리퀘스트용. Approvals 정책은 저장소의 .claude/approvals.yml 파일로 작성하며 observe 모드로 시작 권장. ZDR·HIPAA 구성·고객 관리 암호화 키 조직은 사용 불가. 토큰 사용량 기준 별도 과금(요금제 기본 사용량과 별개), PR Steward는 직접 설정하기 전까지 지출 한도 없음"},
+        {"url": "https://claude.com/resources/articles/introducing-claude-ship", "source_type": "공식", "published": "2026-11-23", "what": "Anthropic 공식 발표. 정식·베타 구분, Team·Enterprise, GitHub 전용, observe-only 모드 권장, Code Review·PR Steward 지출 한도 설정 가능. 분류기(classifier)는 자연어 지시를 쓸 수 있으나 정책 전체가 자연어라고 하지는 않음"},
+        {"url": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/", "source_type": "언론", "published": "2026-11-23", "what": "TechCrunch 보도, '자연어로 쓴 정책 파일'로 표현"}
+      ],
+      "freshness_ok": true,
+      "caveats": "Team·Enterprise 조직만, GitHub 저장소만. ZDR·HIPAA·고객 관리 키 조직 제외. 사용량 크레딧으로 별도 과금, observe 모드도 과금. 관리자(Owner) 권한 필요",
+      "corrected_claim": "주장 1·2는 공식 확인. 주장 3은 수정 필요: 승인 정책은 저장소의 .claude/approvals.yml 설정 파일로 쓰고, 그 안의 분류기 규칙에 자연어 지시를 넣을 수 있는 구조. '정책을 자연어 규칙으로 쓴다'는 TechCrunch 표현이며 공식 문서와 다름",
+      "note": ""
+    }
+  ]
+}
