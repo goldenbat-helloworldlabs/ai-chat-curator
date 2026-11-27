@@ -1,0 +1,41 @@
+{
+  "pick": 1,
+  "drafts": [
+    {
+      "no": 1,
+      "title": "구글 챗, 앱·에이전트가 보내는 메시지에 표·제목 서식 지원",
+      "type": "소식",
+      "eligible": true,
+      "reason": "공식 출처로 확인됨 + 검증 통과"
+    },
+    {
+      "no": 2,
+      "title": "Claude 아티팩트를 컴퓨터에 앱으로 설치(베타), 월간 회고는 정식 출시",
+      "type": "소식",
+      "eligible": false,
+      "reason": "검증 중 사실 확인으로 반려된 이력 있음"
+    },
+    {
+      "no": 3,
+      "title": "OpenAI 'Private Inference', 기업용 페이지에 알파로 표기 — 아직 일반 사용자는 못 써요",
+      "type": "소식",
+      "eligible": false,
+      "reason": "검증 중 사실 확인으로 반려된 이력 있음"
+    },
+    {
+      "no": 4,
+      "title": "AI에게 맡길 땐 '전결 규정'부터 정해 두기",
+      "type": "업무 팁",
+      "eligible": true,
+      "reason": "업무 팁, 검증 1회차부터 반려 없이 통과"
+    },
+    {
+      "no": 5,
+      "title": "요즘 ChatGPT 답이 짧아졌다고 느끼세요?",
+      "type": "질문거리",
+      "eligible": false,
+      "reason": "자동 발송 대상 유형 아님(질문거리)"
+    }
+  ],
+  "rounds": 2
+}

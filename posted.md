@@ -15,3 +15,4 @@
 | 2026-11-23 | ChatGPT 음성 받아쓰기, 10분 제한 해제 | 소식 | ChatGPT | https://help.openai.com/en/articles/6825453-chatgpt-release-notes | 제안 |
 | 2026-11-24 | Claude 컴퓨터 사용(베타), 켜기 전 알아 둘 점 | 주의할 점 | Claude | https://support.claude.com/en/articles/18483812-set-up-computer-use-for-team-and-enterprise-plans | 제안 |
 | 2026-11-25 | Claude, 연결한 앱으로 파일 보내고 앱의 파일 저장(베타) | 소식 | Claude | https://support.claude.com/en/articles/12138966-release-notes | 제안 |
+| 2026-11-27 | 구글 챗, 앱·에이전트가 보내는 메시지에 표·제목 서식 지원 | 소식 | Gemini | https://workspaceupdates.googleblog.com/2026/11/make-messages-in-google-chat-from-apps-and-agents-easier-to-read-with-tables-and-headings.html | 제안 |
