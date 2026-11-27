@@ -1,0 +1,70 @@
+{
+  "perspective": "b",
+  "period": {"from": "2026-11-21", "to": "2026-11-27"},
+  "queries": [
+    "ChatGPT 업무 활용 직장인 새 기능 2026년 11월",
+    "Claude Anthropic enterprise news November 2026",
+    "Gemini Workspace 업무 기업 도입 보도 11월",
+    "AI타임스 챗GPT 클로드 제미나이 직장인 업무",
+    "OpenAI ChatGPT Claude Gemini workplace employees policy this week",
+    "생성형 AI 기업 업무 도입 11월 25일 챗GPT 클로드 제미나이 발표",
+    "OpenAI Anthropic Google announces new feature Nov 25 2026",
+    "techcrunch OpenAI GPT-5.6 retirement ChatGPT model rollout November 2026",
+    "구글 제미나이 업데이트 직장인 11월 26일",
+    "Gemini Enterprise OR \"Gemini 3\" 업무 기능 출시 기사 2026-11-25",
+    "AI 챗봇 개인정보 규제 사내 생성형 AI 사용 규정 직장인 2026년 11월 말",
+    "Google Gemini app new feature Docs Gmail Sheets workspace update TechCrunch November 24 2026"
+  ],
+  "items": [
+    {
+      "id": "b-01",
+      "title": "OpenAI, 프롬프트 처리 중에도 데이터를 보호하는 'Private Inference' 알파 테스트",
+      "summary": "OpenAI가 일부 고객을 대상으로, 프롬프트가 처리되는 동안에도 내용이 보호되도록 하는 Private Inference 기능을 시험 중이라고 한 매체가 전했다. 기존 데이터 무보관(zero data retention) 구성과의 관계를 설명하고 Anthropic·Microsoft·Google 등의 유사 서비스와 비교하며, 관심 있는 기업의 접근 신청 방법도 안내한다. 기밀 문서를 다루는 회사가 AI 도입 시 따지는 보안 항목과 연결된다.",
+      "type_guess": "소식",
+      "tools": ["ChatGPT"],
+      "url": "https://news.sulat.com/2026/11/26/openai-private-inference/",
+      "source_name": "Sulat AI & Tech News",
+      "source_type": "언론",
+      "published": "2026-11-26",
+      "original_source_url": "https://x.com/sama/status/2125638790593274259",
+      "claims": [
+        "OpenAI가 2026-11-25경 Private Inference를 소규모 알파 그룹과 시험 중이다",
+        "프롬프트가 하드웨어 보호 영역(enclave)에서 처리되고 고객이 실행 코드를 사전에 검증할 수 있다",
+        "ChatGPT 일반·업무용 요금제에 적용되는 기능인지, API 고객 대상인지 범위가 불명확하다"
+      ],
+      "work_use": "기밀 문서·고객 정보를 AI에 넣어도 되는지 고민하는 사내 보안·도입 검토 장면"
+    },
+    {
+      "id": "b-02",
+      "title": "Anthropic, 코드 리뷰·수정·승인을 맡는 에이전트 묶음 'Claude Ship' 공개",
+      "summary": "Anthropic이 코드가 작성된 뒤의 과정을 돕는 에이전트 묶음 Claude Ship을 내놓았다고 TechCrunch가 보도했다. 코드 리뷰는 정식 제공이고, CI 실패와 병합 충돌을 손보는 에이전트와 팀이 자연어로 쓴 정책에 따라 단순 변경을 승인하는 에이전트는 베타다. Team·Enterprise 요금제의 GitHub 저장소용이며, 처음에는 관찰 전용 모드와 월 지출 한도로 시작하라고 권한다. 개발 직군 중심 소식이라 일반 직장인에게는 관련도가 낮다.",
+      "type_guess": "소식",
+      "tools": ["Claude"],
+      "url": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/",
+      "source_name": "TechCrunch",
+      "source_type": "언론",
+      "published": "2026-11-23",
+      "original_source_url": null,
+      "claims": [
+        "Claude Ship의 코드 리뷰는 정식 제공이고 PR Steward·Claude Approvals는 베타다",
+        "Claude Team·Enterprise 요금제의 GitHub 저장소에서 제공된다",
+        "승인 정책을 저장소 안 파일에 자연어 규칙으로 쓸 수 있다"
+      ],
+      "work_use": "개발팀의 코드 리뷰 대기와 반복적인 CI 수정 업무 (비개발 직군에는 거리가 있음)"
+    }
+  ],
+  "skipped": [
+    {"url": "https://www.aitimes.com/news/articleView.html?idxno=217394", "reason": "작성일 2026-11-13로 기간 밖. 페이지에 'AI학습 및 활용 금지' 표기가 있어 요약 재료로 쓰지 않음"},
+    {"url": "https://www.aitimes.com/news/articleView.html?idxno=216135", "reason": "작성일 2026-10-11로 기간 밖. AI학습 및 활용 금지 표기"},
+    {"url": "https://www.aitimes.com/news/articleView.html?idxno=216096", "reason": "작성일 2026-10-09로 기간 밖. AI학습 및 활용 금지 표기"},
+    {"url": "https://www.ddaily.co.kr/page/view/2026111917190446186", "reason": "제미나이4 네온 보도, 검색 결과상 11월 19일경으로 기간 밖(열어 보지 않음)"},
+    {"url": "https://techcrunch.com/2026/11/17/google-expands-access-to-gemini-tasks-which-can-help-with-calls-purchases/", "reason": "11월 17일자로 기간 밖. 소비자 기능 중심"},
+    {"url": "https://aiweekly.co/ai-news-today", "reason": "뉴스 모음 사이트, 언론 원기사가 아니어서 직접 항목으로 넣지 않고 원기사만 추적"},
+    {"url": "https://samonai.substack.com/p/ai-brief-november-24-2026", "reason": "개인 뉴스레터 요약. 인용된 TechCrunch 원기사만 사용"},
+    {"url": "https://dev.to/hiroki-ii-ai/ai-daily-digest-november-27-2026-gpt-56-gets-a-sunset-date-anthropic-rewrites-its-api-in-d86", "reason": "개인 다이제스트이고 검색 결과 요약상 내용이 불확실해 열어 보지 않음"},
+    {"url": "https://micjm.com/blog/openai-is-in-cost-control-mode/", "reason": "개인 블로그 분석글(관점 d 영역), 열어 보지 않음"},
+    {"url": "https://openai.com/index/introducing-shirudo", "reason": "공식 발표(관점 a 영역)이며 리눅스 보안 도구라 ChatGPT 업무 활용과 거리 있음"},
+    {"url": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps/", "reason": "공식 발표(관점 a 영역), 열어 보지 않음"}
+  ],
+  "notes": "기간(11/21~11/27) 안에서 열어 확인한 언론 기사는 2건뿐이다. 한국 매체(AI타임스·ZDNet Korea·디지털데일리·전자신문)는 이번 기간의 해당 기사를 검색에서 찾지 못했다. Gemini 관련 기간 내 언론 기사는 찾지 못해 도구 편중이 있다(ChatGPT 1, Claude 1, Gemini 0). 검색 결과에 GPT-6.2 출시와 GPT-5.6 종료(12/23) 이야기, Claude MCP Tasks 정식 제공 등이 뉴스레터 요약으로만 보였으나 원기사를 열지 못해 항목에 넣지 않았다. 이 부분은 관점 a가 공식 릴리스 노트로 확인할 가치가 있다. 웹 검색 도구가 reuters.com, theverge.com, arstechnica.com, mk.co.kr, chosun.com 도메인 지정을 허용하지 않아 해당 매체는 직접 탐색하지 못했다. AI타임스 기사는 페이지에 AI학습·활용 금지 표기가 있어 이후 단계에서도 요약 근거로 쓰지 않는 편이 안전하다. sulat 기사의 원출처는 X 게시물이라 로그인 없이 열리는지 확인하지 못했다."
+}
