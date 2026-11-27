@@ -1,0 +1,62 @@
+{
+  "perspective": "a",
+  "period": {"from": "2026-11-21", "to": "2026-11-27"},
+  "queries": [
+    "Anthropic Claude announcement November 2026",
+    "Google Workspace Updates Gemini November 2026",
+    "OpenAI ChatGPT business enterprise new feature announcement November 2026"
+  ],
+  "items": [
+    {
+      "id": "a-01",
+      "title": "구글 워크스페이스, AI 에이전트 접근 규칙 정비 (MCP 서버·CLI 정식 출시, 사용량 등급)",
+      "summary": "구글이 Gmail·드라이브·문서·시트·캘린더 등에 AI 에이전트가 붙을 때 쓰는 MCP 서버와 CLI를 약 2주 안에 정식 제공한다고 밝혔다. API 사용량은 무료 표준 등급과 한도가 높은 확장 등급으로 나뉘고, 2027년 2월 1일부터는 에이전트가 직접 REST 호출 대신 이 도구를 써야 한다. 관리자는 관리 콘솔에서 에이전트 접근 정책, 민감 작업 확인 규칙, 감사 로그를 설정할 수 있다.",
+      "type_guess": "주의할 점",
+      "tools": ["Gemini"],
+      "url": "http://workspaceupdates.googleblog.com/2026/11/mcp-servers-cli-standardized-usage-tiers-now-available.html",
+      "source_name": "Google Workspace Updates 블로그",
+      "source_type": "공식",
+      "published": "2026-11-24",
+      "original_source_url": null,
+      "claims": [
+        "Workspace MCP 서버와 CLI가 공지 후 약 2주 안에 정식 출시된다",
+        "2027년 2월 1일부터 AI 에이전트는 직접 REST API 호출 대신 MCP 서버 또는 CLI를 써야 한다",
+        "확장 등급 과금은 2027년 4월 1일부터 시작되며 일일 무료 허용량을 넘는 사용분에만 적용된다",
+        "활성 개발자의 99% 이상이 추가 비용 없는 표준 등급에 해당한다"
+      ],
+      "work_use": "사내에서 AI 에이전트·자동화로 Gmail·드라이브·캘린더를 연동하는 팀, 워크스페이스 관리자가 준비할 일정"
+    },
+    {
+      "id": "a-02",
+      "title": "구글 챗, 앱·에이전트 메시지에 표와 제목 서식 지원",
+      "summary": "구글 챗 API로 앱이나 에이전트가 보내는 메시지에 마크다운 표와 제목(3단계)을 넣을 수 있게 됐다. 옵션 비교나 진행 현황, 긴 보고서를 정리해 보여 주기 좋다. 사용자가 입력창에서 직접 표를 만들 수는 없고, 모바일에서는 '표 보기'를 눌러야 전체가 보인다.",
+      "type_guess": "소식",
+      "tools": ["Gemini"],
+      "url": "http://workspaceupdates.googleblog.com/2026/11/make-messages-in-google-chat-from-apps-and-agents-easier-to-read-with-tables-and-headings.html",
+      "source_name": "Google Workspace Updates 블로그",
+      "source_type": "공식",
+      "published": "2026-11-23",
+      "original_source_url": null,
+      "claims": [
+        "표·제목은 Chat API를 통해 앱과 에이전트만 보낼 수 있고 입력창에서는 만들 수 없다",
+        "모바일에서는 표 전체를 보려면 '표 보기'를 눌러야 한다",
+        "Rapid Release·Scheduled Release 도메인에 적용되며 개인 구글 계정 사용자도 대상이다"
+      ],
+      "work_use": "챗 봇·에이전트로 상태 보고나 비교표를 받는 팀 업무 (개발 요소가 있어 직장인 일반 관련도는 중간)"
+    }
+  ],
+  "skipped": [
+    {"url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes", "reason": "이미 제안·게시한 링크. 다만 열어 보니 2026-11-23 'GPT-6.2 챗 탭 적용(Plus·Pro·Business·Enterprise)' 항목이 새로 있음. 오케스트레이터 판단 필요"},
+    {"url": "https://support.claude.com/en/articles/12138966-release-notes", "reason": "이미 제안·게시한 링크. 다만 2026-11-24 새 항목 있음: 월간 회고(Reflect) 베타 종료, 아티팩트를 앱으로 설치(베타), 연결 앱과 파일 주고받기(베타). 오케스트레이터 판단 필요"},
+    {"url": "https://gemini.google/release-notes/", "reason": "이미 제안·게시한 링크. 기간 내(11-21~27) 새 항목 없음, 최신은 11-19"},
+    {"url": "https://openai.com/index/introducing-shirudo/", "reason": "OpenAI·Cisco 리눅스 보안 도구 발표(2026-11-23). 일반 직장인 업무와 무관"},
+    {"url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/", "reason": "과학 연구 발표, 업무 무관 (목록 제목만 확인)"},
+    {"url": "https://openai.com/index/searching-for-distant-planets-with-astra/", "reason": "과학 연구 발표, 업무 무관 (목록 제목만 확인)"},
+    {"url": "https://openai.com/index/perplexity-and-intelligence/", "reason": "연구 글, 내용 불명확하고 업무 무관 (목록 제목만 확인)"},
+    {"url": "http://workspaceupdates.googleblog.com/2026/11/google-meet-on-web-now-supports-sending-1080p-video-for-all-users-enabled-by-default.html", "reason": "AI 도구와 무관한 Meet 화질 변경 (목록만 확인)"},
+    {"url": "http://workspaceupdates.googleblog.com/2026/11/new-study-enhancements-for-flashcards-in-Gemini-Notebook.html", "reason": "학습용 기능, 직장인 업무와 거리 있음 (목록만 확인)"},
+    {"url": "http://workspaceupdates.googleblog.com/2026/11/rooms-more-actions-panel-reordering.html", "reason": "Meet 하드웨어 메뉴 순서 변경, AI 무관 (목록만 확인)"},
+    {"url": "https://www.anthropic.com/news", "reason": "기간(11-21~27) 안 게시글 없음. 최신은 11-20 IPO 마감 공지(업무 무관)"}
+  ],
+  "notes": "Anthropic 뉴스룸은 기간 안 새 글 없음. 이미 게시한 릴리스 노트 URL 2개(ChatGPT, Claude)에는 기간 안 새 항목이 있어 skipped에 내용을 남김: ChatGPT 11-23 GPT-6.2 챗 탭 적용, Claude 11-24 월간 회고 베타 종료·아티팩트 앱 설치·연결 앱 파일 전송. 같은 URL이라 항목으로 넣지 않았고, 쓸지는 오케스트레이터가 정함. 이 세 항목은 릴리스 노트 페이지만 열어 확인했고 개별 상세 문서는 열지 않음. support.google.com/gemini, blog.google 개별 글, openai.com/chatgpt/pricing은 열지 못하거나 기간 내 글을 확인하지 못함."
+}
