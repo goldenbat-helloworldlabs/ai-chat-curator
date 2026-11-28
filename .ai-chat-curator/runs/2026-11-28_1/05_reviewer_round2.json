@@ -1,0 +1,8 @@
+{"round":2,"drafts":[
+{"no":1,"verdict":"통과","failed":[],"reasons":"","fix_hint":""},
+{"no":2,"verdict":"반려","failed":["최신성"],"reasons":"근거가 OpenAI CFO 글(2026-08-10) 하나로 줄어 실행 기간(11-22~11-28)과 실무자 확장 기간(10-30~11-28) 밖이다. 교차 확인의 freshness_ok는 기간 안 GPTers 글 기준이었다. 사실·저작권은 통과.","fix_hint":"문안 2를 빼고 4건(1·3·4·5)으로 마무리. 살리려면 교차 확인에서 8월 글의 현재 유효성 확인 필요. 문안을 빼면 후보 목록 C04 추천 칸을 '원자료 작성일(8월)이 기간 밖, GPTers 정리 글은 광고'로 바꾸고 구성 줄도 고친다."},
+{"no":3,"verdict":"통과","failed":[],"reasons":"","fix_hint":""},
+{"no":4,"verdict":"통과","failed":[],"reasons":"","fix_hint":""},
+{"no":5,"verdict":"통과","failed":[],"reasons":"","fix_hint":""}],
+"run_level":{"fairness":"통과","fairness_note":"문안 2를 빼도 ChatGPT 1·Claude 1·Gemini 1·공통 1로 절반 초과 도구 없음. 문안 5(C10)는 유지.","candidates_doc":"반려","candidates_note":"(1) C09 행 링크는 문서 스스로 광고로 판정한 글이라 표에서 빼고 제외한 글로 옮긴다(링크 없이 '광고 1건'). (2) 제외 집계가 C09를 두 번 세었다. C09를 표에서 빼면 제외 7건(광고 2)이 맞고 후보 10건. 'C04 링크만 제외' 설명은 별개의 글로 적는다. (3) 문안 2를 빼면 C04 추천 칸과 구성 줄도 고친다."},
+"notes":"check-drafts 5건 형식 통과. 1회차 사유는 문안 3·4·5에서 해결 확인."}
