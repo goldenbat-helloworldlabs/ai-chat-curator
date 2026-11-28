@@ -1,0 +1,419 @@
+{
+  "run_id": "2026-11-28_1",
+  "feedback_applied": "반응 기록 없음 — 기본 비중 적용, 옵션 초점도 없음. 추천 6건 중 한 유형이 절반(3건)을 넘지 않게 구성",
+  "candidates": [
+    {
+      "cid": "C01",
+      "title": "ChatGPT 채팅·워크 사용량 한도 하나로 합쳐짐 — 헤비 유저는 더 빨리 닳을 수 있다",
+      "type": "주의할 점",
+      "tools": [
+        "ChatGPT"
+      ],
+      "primary": {
+        "url": "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits",
+        "source_type": "공식",
+        "name": "OpenAI 도움말(수집자는 언론 인용으로만 확인, 교차 확인 때 직접 열람 필요)",
+        "published": "unknown"
+      },
+      "secondary": [
+        {
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=217800",
+          "source_type": "언론",
+          "name": "AI타임스",
+          "published": "2026-11-26"
+        },
+        {
+          "url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
+          "source_type": "언론",
+          "name": "TechCrunch",
+          "published": "2026-11-25"
+        },
+        {
+          "url": "https://zdnet.co.kr/view/?no=20261127142417",
+          "source_type": "언론",
+          "name": "ZDNet Korea",
+          "published": "2026-11-27"
+        }
+      ],
+      "summary": "챗과 워크의 사용량 한도가 하나로 합쳐져 일부 Pro부터 적용 중이고 12월에 Plus·Pro·Business로 넓어질 예정. 고성능 모델·복잡한 작업일수록 한도가 빨리 줄고 Instant 대화는 제외. 별도로 GPT-6.2 출시 때 사용량이 적게 차감된 오류를 바로잡아 한도가 더 빨리 닳고 Plus·Pro·Business에 초기화 1회가 주어졌다는 보도(11-27)가 있어 같은 주제로 묶음.",
+      "claims": [
+        "챗·워크 한도 통합이 일부 Pro에 먼저 적용되고 12월 Plus·Pro·Business로 확대된다",
+        "GPT-6.2 사용량 과소 차감 오류가 수정돼 한도 소진이 25~40% 빨라졌다는 수치는 기사 인용",
+        "Plus·Pro·Business에 사용량 초기화 1회 제공(b-03 원출처는 OpenAI 제품 책임자 X 글)"
+      ],
+      "community_origin": false,
+      "needs_verification": true,
+      "relevance": "상",
+      "relevance_reason": "유료 ChatGPT로 문서·슬라이드 작업을 많이 돌리는 직장인의 한도 계획·요금제 선택",
+      "recommend": true,
+      "recommend_reason": "일상 업무에 직접 영향, 질문('요금제 어떻게 쓰세요')으로도 연결 가능. b-03은 별개 사건이나 한도 주제라 합쳤고 정리 단계 판단이므로 교차 확인이 분리 필요 여부 확인",
+      "from_items": [
+        "b-01",
+        "b-02",
+        "b-03"
+      ]
+    },
+    {
+      "cid": "C02",
+      "title": "ChatGPT 대화 탭 모델이 GPT-6.2로 순차 교체",
+      "type": "소식",
+      "tools": [
+        "ChatGPT"
+      ],
+      "primary": {
+        "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+        "source_type": "공식",
+        "name": "OpenAI 도움말 릴리스 노트",
+        "published": "2026-11-23"
+      },
+      "secondary": [],
+      "summary": "대화(Chat) 탭 모델이 GPT-6.2로 바뀌는 중. 복잡한 다단계 요청·웹 정보 찾기·후속 제안이 나아졌다고 안내. Work·Codex 탭은 대상 아님, 무료는 안내 대상에 없음.",
+      "claims": [
+        "2026-11-23부터 Plus·Pro·Business·Enterprise Chat 탭에 순차 제공",
+        "Enterprise는 관리자 설정에 따라 갈림",
+        "무료 요금제는 안내 대상 아님"
+      ],
+      "community_origin": false,
+      "needs_verification": true,
+      "relevance": "상",
+      "relevance_reason": "일상 대화 기본 모델이 바뀌어 보고서·조사 품질 체감에 영향",
+      "recommend": true,
+      "recommend_reason": "공식 원출처, 소식 유형 확보. posted.md의 11-23 릴리스 노트 링크는 음성 받아쓰기 항목이라 다른 내용(같은 URL 페이지지만 새 변경)으로 판단",
+      "from_items": [
+        "a-01"
+      ]
+    },
+    {
+      "cid": "C03",
+      "title": "ChatGPT에서 GPT-5.6 Sol이 12월 23일 종료된다는 공지",
+      "type": "소식",
+      "tools": [
+        "ChatGPT"
+      ],
+      "primary": {
+        "url": "https://twitter.com/ChatGPT/status/2124981905380569283",
+        "source_type": "공식",
+        "name": "ChatGPT 공식 X 계정(수집자 미열람)",
+        "published": "2026-11-24"
+      },
+      "secondary": [
+        {
+          "url": "https://news.ycombinator.com/item?id=50627400",
+          "source_type": "커뮤니티",
+          "name": "Hacker News",
+          "published": "2026-11-24"
+        }
+      ],
+      "summary": "해커뉴스에서 공유된 ChatGPT 공식 계정 공지로, GPT-5.6 Sol이 12월 23일 ChatGPT에서 내려간다는 내용. 대체 모델·적용 요금제는 확인되지 않음.",
+      "claims": [
+        "OpenAI가 ChatGPT에서 GPT-5.6 Sol을 2026-12-23에 종료한다",
+        "적용 요금제 범위와 대체 모델은 미확인"
+      ],
+      "community_origin": true,
+      "needs_verification": true,
+      "relevance": "중",
+      "relevance_reason": "특정 모델로 반복 업무를 돌리는 사용자가 종료 전 결과를 비교해 볼 계기",
+      "recommend": false,
+      "recommend_reason": "로그인 없이 원출처 확인이 될지 불확실하고 정보가 부족, 예비",
+      "from_items": [
+        "c-03"
+      ]
+    },
+    {
+      "cid": "C04",
+      "title": "OpenAI 사내 AI 활용 13건의 공통점: 초안은 에이전트, 승인은 사람 — 우리 팀은?",
+      "type": "질문거리",
+      "tools": [
+        "ChatGPT"
+      ],
+      "primary": {
+        "url": "https://openai.com/index/building-an-ai-native-finance-function/",
+        "source_type": "공식",
+        "name": "OpenAI(수집자 미열람, 인용 링크)",
+        "published": "unknown"
+      },
+      "secondary": [
+        {
+          "url": "https://www.gpters.org/ax-lab/post/13-cases-openai-inhouse",
+          "source_type": "실무자",
+          "name": "GPTers",
+          "published": "2026-11-20"
+        }
+      ],
+      "summary": "OpenAI 사내 사례를 한 실무자가 13건으로 묶어 '에이전트 초안, 사람 승인' 구조가 공통이라고 정리. 성과 수치는 자체 보고이고 권한을 단계적으로 넓히는 방식을 소개.",
+      "claims": [
+        "13건이 모두 '에이전트 초안, 사람 승인' 구조라는 정리가 원자료와 맞는지",
+        "성과 수치는 OpenAI 자체 보고, 측정 방식 불분명"
+      ],
+      "community_origin": false,
+      "needs_verification": true,
+      "relevance": "중",
+      "relevance_reason": "팀에 AI를 도입할 때 권한 범위·검토 단계를 정하는 기준",
+      "recommend": true,
+      "recommend_reason": "질문거리 요건 충족, '여러분 팀은 어디까지 맡기세요' 형태로 토론 유도 가능. GPTers 사이트 배너는 광고 아님으로 보나 재검토 요청",
+      "from_items": [
+        "d-04"
+      ]
+    },
+    {
+      "cid": "C05",
+      "title": "Claude 아티팩트를 데스크톱 앱으로 설치(베타) — 파일 접근 권한 주의",
+      "type": "주의할 점",
+      "tools": [
+        "Claude"
+      ],
+      "primary": {
+        "url": "https://support.claude.com/en/articles/18516354-install-an-artifact-as-an-app",
+        "source_type": "공식",
+        "name": "Claude 도움말",
+        "published": "2026-11-24"
+      },
+      "secondary": [],
+      "summary": "아티팩트를 Mac·Windows에서 독립 앱으로 설치. 허용 시 파일 읽기·프로그램 실행 등 OS 기능도 씀. Team은 관리자·Enterprise는 소유자 설정 필요, Anthropic은 설치 앱을 사전 검토하지 않음.",
+      "claims": [
+        "Claude Desktop 6.28899.0 이상 Mac·Windows에서만 된다",
+        "Team은 기본 켜짐이나 전체 접근은 관리자가 켜야 함",
+        "Enterprise는 소유자가 켜야 하며 기본 꺼짐",
+        "Anthropic은 앱을 사전 검토하지 않음"
+      ],
+      "community_origin": false,
+      "needs_verification": true,
+      "relevance": "중",
+      "relevance_reason": "사내 계산기·체크리스트를 앱으로 만들 때 권한 기준을 팀이 정해야 함",
+      "recommend": false,
+      "recommend_reason": "유용하나 posted.md의 Claude 컴퓨터 사용(11-24) 주의글과 주제가 겹쳐 보여 예비",
+      "from_items": [
+        "a-02"
+      ]
+    },
+    {
+      "cid": "C06",
+      "title": "Claude 월간 리캡 정식 출시 — 저장된 리캡 삭제 방법",
+      "type": "소식",
+      "tools": [
+        "Claude"
+      ],
+      "primary": {
+        "url": "https://support.claude.com/en/articles/15672559-see-your-monthly-recap",
+        "source_type": "공식",
+        "name": "Claude 도움말",
+        "published": "2026-11-24"
+      },
+      "secondary": [],
+      "summary": "지난 한 달 사용 주제·패턴을 정리해 주는 월간 리캡이 베타를 벗어났다. 클라우드 Claude Code·Cowork 작업도 포함, 저장된 리캡은 직접 삭제 가능. 메모리 켠 개인 요금제만 해당, Team·Enterprise 제외.",
+      "claims": [
+        "Free·Pro·Max·Ultra에서 베타 종료, Team·Enterprise 제외",
+        "메모리를 꺼도 저장된 리캡은 삭제되지 않고 숨겨짐"
+      ],
+      "community_origin": false,
+      "needs_verification": true,
+      "relevance": "하",
+      "relevance_reason": "습관 점검용으로 알아 두면 좋은 정도, 회사 계정은 대상 아님",
+      "recommend": false,
+      "recommend_reason": "관련도 하라 추천 제외",
+      "from_items": [
+        "a-03"
+      ]
+    },
+    {
+      "cid": "C07",
+      "title": "AI 글투가 느끼할 때: 맞춤 지침에 '간결하게' 한 줄 넣기",
+      "type": "업무 팁",
+      "tools": [
+        "공통"
+      ],
+      "primary": {
+        "url": "https://news.ycombinator.com/item?id=50634900",
+        "source_type": "커뮤니티",
+        "name": "Hacker News",
+        "published": "2026-11-24"
+      },
+      "secondary": [],
+      "summary": "Claude 말투가 훈계조·ChatGPT가 틀에 박혔다는 질문글에 맞춤 지침에 문체 규칙을 적고 '아주 간결하게'를 지시한다는 경험담이 달림. 개인 체감이며 검증된 비교 아님. Claude·ChatGPT 모두 맞춤 지침 기능이 있어 공통으로 분류.",
+      "claims": [
+        "최근 Claude 답변이 길고 단서가 많아졌다는 사용자 체감",
+        "맞춤 지침에 간결하게 쓰라는 한 줄을 넣으면 답이 짧아진다는 경험담"
+      ],
+      "community_origin": true,
+      "needs_verification": true,
+      "relevance": "상",
+      "relevance_reason": "메일·보고서 문장을 AI로 쓸 때 말투·길이 고정, 바로 써먹을 수 있음",
+      "recommend": true,
+      "recommend_reason": "바로 따라 할 수 있는 팁. 커뮤니티 출발이라 교차 확인 필수(두 도구 맞춤 지침 위치·명칭 확인)",
+      "from_items": [
+        "c-04"
+      ]
+    },
+    {
+      "cid": "C08",
+      "title": "Claude로 회의록: 결정과 논의를 나누고 액션아이템을 표로 뽑기",
+      "type": "업무 팁",
+      "tools": [
+        "Claude"
+      ],
+      "primary": {
+        "url": "https://www.gpters.org/nocode/post/nondeveloper-office-worker-shared",
+        "source_type": "실무자",
+        "name": "GPTers",
+        "published": "2026-11-12"
+      },
+      "secondary": [],
+      "summary": "녹취 텍스트에 역할·목표·작성 원칙·출력 형식을 정해 붙여 회의록 정리를 30~40분에서 3분 안쪽으로 줄였다는 경험담. 결정과 논의 중 안건을 나누지 않으면 검토 안이 확정처럼 전달되는 시행착오 포함.",
+      "claims": [
+        "회의록 작성 시간이 30~40분에서 3분 이내로 줄었다(개인 체감)",
+        "글이 전제한 Claude 3.5 Sonnet, Cowork가 현재 제공 중인지"
+      ],
+      "community_origin": false,
+      "needs_verification": true,
+      "relevance": "상",
+      "relevance_reason": "주간 회의록·액션아이템 정리에 바로 적용",
+      "recommend": false,
+      "recommend_reason": "좋은 팁이나 구형 모델 전제 가능성과 기간 외(11-12, 실무자 30일 기준 내) 신선도 문제로 예비. 팁은 C07이 있어 1건만 추천",
+      "from_items": [
+        "d-01"
+      ]
+    },
+    {
+      "cid": "C09",
+      "title": "AI 요약이 첨부 PDF는 안 읽고도 그럴듯했다 — 읽은 건수를 맨 위에 적게 하기",
+      "type": "주의할 점",
+      "tools": [
+        "Claude"
+      ],
+      "primary": {
+        "url": "https://www.gpters.org/dev/post/claude-code-organized-assignment",
+        "source_type": "실무자",
+        "name": "GPTers",
+        "published": "2026-11-20"
+      },
+      "secondary": [],
+      "summary": "여러 제출물을 Claude Code로 요약했더니 본문만 읽고 첨부 PDF는 열지 않은 채 완결된 문서처럼 나온 사례. 대조해 보니 고칠 곳이 10곳 넘었고, 결과 맨 위에 제출 건수·실제 열람 건수·못 연 파일을 적게 해 대응.",
+      "claims": [
+        "AI 요약이 첨부를 읽지 않고도 완결돼 보일 수 있다(필자 개별 사례)",
+        "읽은 원문 건수를 적게 하면 누락 발견이 쉬워진다(필자 대응법)"
+      ],
+      "community_origin": false,
+      "needs_verification": false,
+      "relevance": "상",
+      "relevance_reason": "여러 문서를 취합 요약하는 보고 업무의 누락 점검, 도구 무관하게 적용 가능",
+      "recommend": true,
+      "recommend_reason": "기능 주장이 아닌 사용 습관 사례라 확인 부담이 적고 즉시 써먹을 수 있음",
+      "from_items": [
+        "d-02"
+      ]
+    },
+    {
+      "cid": "C10",
+      "title": "구글 워크스페이스, AI 에이전트는 MCP 서버·CLI로만 접근 (2027-02 적용)",
+      "type": "주의할 점",
+      "tools": [
+        "Gemini"
+      ],
+      "primary": {
+        "url": "http://workspaceupdates.googleblog.com/2026/11/mcp-servers-cli-standardized-usage-tiers-now-available.html",
+        "source_type": "공식",
+        "name": "Google Workspace Updates 블로그",
+        "published": "2026-11-24"
+      },
+      "secondary": [],
+      "summary": "구글이 Workspace MCP 서버·공식 CLI를 정식 제공하고 외부 AI 에이전트의 접근 경로로 요구. 관리자에게 에이전트 접근 관리·DLP·감사 로그 기능이 생기고, 새 AI 도구 부속 약관은 데이터 장기 저장과 API 긁어가기를 금지. Gemini 직접 기능이 아니라 구글 업무 도구와 외부 AI 연동에 관한 소식이라 Gemini 쪽으로 분류.",
+      "claims": [
+        "2027-02-01부터 AI 에이전트가 Workspace API를 직접 호출하지 못하고 MCP·CLI를 써야 함",
+        "Standard(무료)·Scaled 등급 신설, Gmail·Calendar·Drive Scaled 과금은 2027-04-01 시작"
+      ],
+      "community_origin": false,
+      "needs_verification": true,
+      "relevance": "중",
+      "relevance_reason": "외부 AI 연동으로 구글 메일·드라이브를 쓰는 조직은 관리자 정책·연동 방식이 바뀔 수 있음",
+      "recommend": true,
+      "recommend_reason": "이번 기간 유일한 Gemini·구글 공식 후보라 공정성 확보용. 일반 직장인엔 관리자 쪽 이야기라 문안은 쉽게 풀어야 함",
+      "from_items": [
+        "a-04"
+      ]
+    },
+    {
+      "cid": "C11",
+      "title": "\"Claude가 몰래 코드를 방해한다\"는 SNS 주장, 사실일까",
+      "type": "팩트체크",
+      "tools": [
+        "Claude"
+      ],
+      "primary": {
+        "url": "https://www.dbreunig.com/2026/11/27/proactivity-can-read-as-sabotage.html",
+        "source_type": "커뮤니티",
+        "name": "dbreunig 블로그(개발자 개인 블로그)",
+        "published": "2026-11-27"
+      },
+      "secondary": [],
+      "summary": "X 등에서 Claude가 사용자 프로젝트를 조용히 망가뜨린다는 주장이 퍼짐. 한 개발자 블로그는 증거 부족, 요청 없는 변경을 하는 과잉 적극성이 방해처럼 보일 수 있다고 풀이. 신모델의 일부 연구 능력 제한 공지가 배경으로 언급됨.",
+      "claims": [
+        "Claude가 사용자 프로젝트를 고의로 방해한다는 SNS 주장에 재현 기록이 공개되지 않았다",
+        "Anthropic이 신모델 출시 글에서 일부 연구 능력을 제한했다고 밝혔다"
+      ],
+      "community_origin": true,
+      "needs_verification": true,
+      "relevance": "중",
+      "relevance_reason": "AI 결과물 검수 습관의 근거, 다만 ML 연구·코드 작업 중심이라 일반 직장인엔 간접적",
+      "recommend": false,
+      "recommend_reason": "팩트체크 유형 후보지만 업무 연결이 약하고 원출처가 개인 블로그뿐이라 예비",
+      "from_items": [
+        "c-02"
+      ]
+    }
+  ],
+  "dropped": [
+    {
+      "title": "Claude Ship — 코드 변경 검토·승인 에이전트",
+      "url": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/",
+      "reason": "업무 무관 (개발팀 전용 도구, 수집자도 관련도 낮음 표시)"
+    },
+    {
+      "title": "독일 소비자단체의 ChatGPT 구독 해지 소송",
+      "url": "https://maccus.fr/en/chatgpt-cancellation-lawsuit/",
+      "reason": "업무 관련도 낮음 (개인 구독 소비자 소송, 한국 적용 불명). ChatGPT 후보가 이미 4건이라 쏠림 방지로도 제외. 원출처는 Verbraucherzentrale Brandenburg 보도자료"
+    },
+    {
+      "title": "채용 업무 자동화: 사람은 직무 생성과 1차 커피챗만",
+      "url": "https://www.gpters.org/nocode/post/creating-recruitment-automation-only",
+      "reason": "Claude 후보가 이미 5건이라 도구 쏠림 방지로 제외 (채용 직무 한정, 관련도 중)"
+    },
+    {
+      "title": "구글 챗, 앱·에이전트 메시지에 표·제목 서식 지원",
+      "url": "https://workspaceupdates.googleblog.com/2026/11/make-messages-in-google-chat-from-apps-and-agents-easier-to-read-with-tables-and-headings.html",
+      "reason": "posted.md 중복 (2026-11-27 제안)"
+    },
+    {
+      "title": "Claude 연결 앱 파일 송수신(베타)",
+      "url": "https://support.claude.com/en/articles/18534325",
+      "reason": "posted.md 중복 (2026-11-25 제안, 같은 기능)"
+    }
+  ],
+  "distribution": {
+    "type": {
+      "주의할 점": 4,
+      "소식": 3,
+      "질문거리": 1,
+      "업무 팁": 2,
+      "팩트체크": 1
+    },
+    "tools": {
+      "ChatGPT": 4,
+      "Claude": 5,
+      "공통": 1,
+      "Gemini": 1
+    },
+    "recommend_type": {
+      "주의할 점": 3,
+      "소식": 1,
+      "질문거리": 1,
+      "업무 팁": 1
+    },
+    "recommend_tools": {
+      "ChatGPT": 3,
+      "공통": 1,
+      "Claude": 1,
+      "Gemini": 1
+    }
+  },
+  "notes": "수집 파일 4개 모두 존재. (1) Gemini 부족: 후보 중 Gemini는 C10 1건뿐(최소 2건 기준 미달). 수집 a·b·c 모두 기간 안 Gemini 항목을 못 찾음(b는 해외 매체 일부 접근 불가, a는 Gemini 릴리스 노트에 기간 내 새 항목 없음). 억지로 채우지 않았고 기간 밖 Gemini 채팅 기록·학습 분리 설정(2026-11-16 공식, 수집 c 메모)은 보강 수집 대상으로 제안. (2) 후보 11건, 추천 6건(최대 5보다 1건 여유). 추천 유형: 주의할 점3·소식1·업무 팁1·질문거리1, 질문거리 포함. (3) C01은 b-03(사용량 계산 오류·초기화)을 같은 한도 주제로 묶음 — 별개 사건일 수 있어 교차 확인 때 분리 검토. (4) C01·C03·C04의 공식 원출처 URL은 수집자가 직접 열지 않은 인용 링크이므로 교차 확인 때 열람 필요. (5) c-03 GPT-5.6 Sol 종료는 HN 경유, 원출처 X는 로그인 필요 여부 미확인(로그인 필요하면 수집 금지 경계). (6) d 관점은 기간(30일) 안 GPTers 4건뿐. GPTers 사이트에 기업교육 문의 배너가 있으나 글 자체는 판매 아님으로 판단, 검증 때 광고 배제 재확인. (7) C07은 Claude·ChatGPT 모두 해당해 '공통'으로 분류. (8) C02: posted.md에 같은 릴리스 노트 URL(음성 받아쓰기, 11-23)이 있으나 다른 변경이라 중복으로 보지 않음. C10은 Gemini 직접 기능이 아니라 구글 Workspace 정책이라 Gemini로 분류한 점 참고."
+}
