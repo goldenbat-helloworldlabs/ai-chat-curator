@@ -15,22 +15,7 @@ Plus·Pro·Business 대상이고, 일부는 12월 전에 먼저 바뀔 수 있�
 https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits
 ```
 
-### [2] OpenAI 재무팀은 AI에 초안, 사람에게 승인 — 우리 팀은 어디까지 맡기나요?
-- 후보: C04
-- 유형: 질문거리
-- 도구: ChatGPT
-- 원문: https://openai.com/index/building-an-ai-native-finance-function/
-- 검증: 부분 확인
-
-```kakao
-OpenAI 재무팀은 AI에 초안을 맡기고 최종 승인은 사람이 한대요(OpenAI CFO가 8월에 쓴 글)
-투자자 질문 답변은 승인된 자료만 보는 맞춤 GPT가 초안을 금방 쓰고, IR팀이 읽고 판단을 더해 마무리해요.
-결산 차이 설명도 AI가 초안과 확인할 항목까지 뽑고, 숫자 검증과 최종 승인은 재무팀이 맡는대요.
-여러분 팀은 ① 초안까지만 ② 사람 확인 후 발송 ③ 일부는 AI가 끝까지, 어디쯤이세요?
-https://openai.com/index/building-an-ai-native-finance-function/
-```
-
-### [3] AI 말투가 거슬릴 때, 계정 지침에 문체 규칙 넣어 보셨어요?
+### [2] AI 말투가 거슬릴 때, 계정 지침에 문체 규칙 넣어 보셨어요?
 - 후보: C07
 - 유형: 질문거리
 - 도구: 공통
@@ -45,7 +30,7 @@ AI 답 말투가 거슬릴 때, 계정 지침에 문체 규칙 넣어 보셨어�
 https://news.ycombinator.com/item?id=50634900
 ```
 
-### [4] 회의록을 AI로 정리할 때 '결정'과 '논의'부터 나누기
+### [3] 회의록을 AI로 정리할 때 '결정'과 '논의'부터 나누기
 - 후보: C08
 - 유형: 업무 팁
 - 도구: Claude
@@ -60,7 +45,7 @@ https://news.ycombinator.com/item?id=50634900
 https://www.gpters.org/nocode/post/nondeveloper-office-worker-shared
 ```
 
-### [5] 회사 Gmail·드라이브에 외부 AI를 연결해 쓴다면, 2027년 2월부터 연결 방식이 바뀔 수 있어요
+### [4] 회사 Gmail·드라이브에 외부 AI를 연결해 쓴다면, 2027년 2월부터 연결 방식이 바뀔 수 있어요
 - 후보: C10
 - 유형: 주의할 점
 - 도구: Gemini
