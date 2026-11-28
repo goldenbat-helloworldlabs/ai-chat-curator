@@ -1,0 +1,7 @@
+{"round":3,"drafts":[
+{"no":1,"verdict":"통과","failed":[],"reasons":"","fix_hint":""},
+{"no":2,"verdict":"통과","failed":[],"reasons":"","fix_hint":""},
+{"no":3,"verdict":"통과","failed":[],"reasons":"","fix_hint":""},
+{"no":4,"verdict":"통과","failed":[],"reasons":"","fix_hint":""}],
+"run_level":{"fairness":"통과","fairness_note":"문안 분포 ChatGPT 1·Claude 1·Gemini 1·공통 1.","candidates_doc":"통과","candidates_note":"2회차 지적 3건 해결."},
+"notes":"check-drafts 4건 형식 통과. 문안 본문은 2회차 3·4·5번과 동일(번호만 변경)."}
