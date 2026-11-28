@@ -1,0 +1,101 @@
+{
+  "perspective": "a",
+  "period": {"from": "2026-11-22", "to": "2026-11-28"},
+  "queries": [
+    "ChatGPT release notes November 2026",
+    "Claude new feature announcement November 2026 Anthropic",
+    "Gemini Workspace update November 2026"
+  ],
+  "items": [
+    {
+      "id": "a-01",
+      "title": "ChatGPT 대화 탭에 GPT-6.2 순차 적용",
+      "summary": "OpenAI가 ChatGPT의 대화(Chat) 탭 모델을 GPT-6.2로 바꾸는 중이다. 여러 단계가 필요한 복잡한 요청 처리, 웹 정보 찾기, 후속 제안(예: 가격 하락 알림)이 나아졌다고 안내한다. Work·Codex 탭의 모델은 이번 변경 대상이 아니다.",
+      "type_guess": "소식",
+      "tools": ["ChatGPT"],
+      "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+      "source_name": "OpenAI 도움말 ChatGPT 릴리스 노트",
+      "source_type": "공식",
+      "published": "2026-11-23",
+      "original_source_url": null,
+      "claims": [
+        "GPT-6.2가 2026-11-23부터 Plus·Pro·Business·Enterprise의 Chat 탭에 전 세계 순차 제공된다",
+        "Enterprise는 워크스페이스 관리자 설정에 따라 사용 가능 여부가 갈린다",
+        "무료 요금제는 이번 안내 대상에 포함되지 않았다"
+      ],
+      "work_use": "보고서 초안·자료 조사 등 일상 업무 대화에서 쓰는 기본 모델이 바뀌므로 결과 품질 변화를 체감할 수 있다"
+    },
+    {
+      "id": "a-02",
+      "title": "Claude 아티팩트를 데스크톱 앱으로 설치(베타) — 권한 주의",
+      "summary": "Claude가 만든 아티팩트를 Mac·Windows에서 독립 창과 아이콘이 있는 앱으로 설치할 수 있다. 원본 아티팩트를 고치면 앱에도 반영되고, 허용하면 파일 읽기·프로그램 실행 같은 OS 기능도 쓴다. 전체 접근 권한은 신뢰하는 앱에만 주고, Team은 관리자·Enterprise는 소유자가 켜야 쓸 수 있다.",
+      "type_guess": "주의할 점",
+      "tools": ["Claude"],
+      "url": "https://support.claude.com/en/articles/18516354-install-an-artifact-as-an-app",
+      "source_name": "Claude 도움말",
+      "source_type": "공식",
+      "published": "2026-11-24",
+      "original_source_url": "https://support.claude.com/en/articles/12138966-release-notes",
+      "claims": [
+        "아티팩트 앱 설치는 Mac·Windows의 Claude Desktop 6.28899.0 이상에서만 된다(웹·모바일·Linux 미지원)",
+        "Team 요금제는 기본 켜짐이지만 전체 컴퓨터 접근은 관리자가 켜기 전까지 꺼져 있다",
+        "Enterprise는 소유자가 조직 설정에서 켜야 하고 기본은 꺼짐이다",
+        "Anthropic은 설치되는 앱을 사전 검토하지 않으며, 출처가 다른 앱은 경고가 뜨고 전체 접근 요청이 제한된다",
+        "도움말 문서에는 작성일이 없고 '이번 주 업데이트'로만 표시돼 있다(날짜는 릴리스 노트 기준)"
+      ],
+      "work_use": "자주 쓰는 사내 계산기·체크리스트 등을 앱으로 만들어 쓸 수 있으나, 파일 접근 권한 부여 기준을 팀이 정해야 한다"
+    },
+    {
+      "id": "a-03",
+      "title": "Claude 월간 리캡 정식 출시 — 기억 기능과 삭제 방법",
+      "summary": "Claude가 지난 한 달 동안의 사용 주제와 패턴을 정리해 보여 주는 월간 리캡이 베타를 벗어났다. 이번에 클라우드에서 돈 Claude Code·Cowork 작업도 포함되고, 저장된 리캡은 직접 삭제할 수 있다. 메모리를 켜 둔 개인 요금제에서만 보이고 Team·Enterprise에는 제공되지 않는다.",
+      "type_guess": "소식",
+      "tools": ["Claude"],
+      "url": "https://support.claude.com/en/articles/15672559-see-your-monthly-recap",
+      "source_name": "Claude 도움말",
+      "source_type": "공식",
+      "published": "2026-11-24",
+      "original_source_url": "https://support.claude.com/en/articles/12138966-release-notes",
+      "claims": [
+        "월간 리캡은 Free·Pro·Max·Ultra에서 베타가 끝났고 Team·Enterprise는 제공 대상이 아니다",
+        "메모리가 켜져 있어야 리캡이 보이며, 메모리를 꺼도 저장된 리캡은 삭제되지 않고 숨겨질 뿐이다",
+        "시크릿 모드 대화와 건강·개인 금융 연동 대화는 리캡에서 제외된다",
+        "삭제 후에도 저장된 리캡이 한동안 남거나 데이터 내보내기에 포함될 수 있다"
+      ],
+      "work_use": "내가 Claude를 어떤 업무에 쓰는지 돌아보고 활용 습관을 점검할 수 있지만, 회사 계정이 Team·Enterprise면 해당되지 않는다"
+    },
+    {
+      "id": "a-04",
+      "title": "구글 워크스페이스, AI 에이전트는 MCP 서버·CLI로만 접근 (2027-02 적용)",
+      "summary": "구글이 Workspace MCP 서버와 공식 CLI를 정식 제공하고, 외부 AI 에이전트가 워크스페이스 데이터에 접근할 때 이 경로를 쓰도록 요구한다. 관리자는 에이전트 접근 관리, 민감 작업 확인 규칙, DLP 적용, 감사 로그 확인 기능을 얻는다. 새 AI 도구 부속 약관도 생겨 에이전트의 데이터 장기 저장과 API 긁어가기가 금지된다.",
+      "type_guess": "주의할 점",
+      "tools": ["Gemini", "공통"],
+      "url": "http://workspaceupdates.googleblog.com/2026/11/mcp-servers-cli-standardized-usage-tiers-now-available.html",
+      "source_name": "Google Workspace Updates 블로그",
+      "source_type": "공식",
+      "published": "2026-11-24",
+      "original_source_url": null,
+      "claims": [
+        "2027-02-01부터 AI 에이전트가 Workspace API를 직접 호출하지 못하고 MCP 서버 또는 CLI를 써야 한다",
+        "무료 Standard 등급과 상위 Scaled 등급이 생기며, Gmail·Calendar·Drive의 Scaled 등급 과금은 2027-04-01 시작이다",
+        "관리자 콘솔 보안 > API 컨트롤에서 에이전트 접근 정책과 감사 로그를 볼 수 있다",
+        "새 Workspace AI Tools Addendum이 에이전트의 데이터 장기 저장과 API 스크래핑을 금지한다",
+        "Rapid·Scheduled Release 도메인에는 약 2주 안에 적용된다"
+      ],
+      "work_use": "회사에서 외부 AI 에이전트·연동 도구로 구글 메일·드라이브·캘린더를 쓰고 있다면 관리자 정책과 연동 방식이 바뀔 수 있다"
+    }
+  ],
+  "skipped": [
+    {"url": "https://workspaceupdates.googleblog.com/2026/11/make-messages-in-google-chat-from-apps-and-agents-easier-to-read-with-tables-and-headings.html", "reason": "이미 제안한 링크 (posted.md 2026-11-27)"},
+    {"url": "https://support.claude.com/en/articles/18534325", "reason": "Claude 연결 앱 파일 송수신(베타)는 posted.md에 이미 제안한 항목 (2026-11-25)"},
+    {"url": "http://workspaceupdates.googleblog.com/2026/11/new-study-enhancements-for-flashcards-in-Gemini-Notebook.html", "reason": "학습용 플래시카드 기능이라 직장인 업무 관련도 낮음"},
+    {"url": "https://gemini.google/release-notes/", "reason": "기간(11-22~28) 안 새 항목 없음, 최신 항목은 11-19·11-17 (기간 밖, 11-17 Tasks는 이미 제안)"},
+    {"url": "https://www.anthropic.com/news", "reason": "기간 안 게시물 없음 (최신 11-20 IPO 마감)"},
+    {"url": "https://blog.google/products/gemini/", "reason": "목록에서 기간 안 글을 확인하지 못함"},
+    {"url": "https://openai.com/index/introducing-shirudo/", "reason": "목록 제목만 보고 본문은 열지 않음, 보안 분야 발표라 업무 연결 불명확"},
+    {"url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/", "reason": "과학 연구 발표, 직장인 업무와 무관"},
+    {"url": "https://openai.com/index/searching-for-distant-planets-with-astra/", "reason": "과학 연구 발표, 직장인 업무와 무관"},
+    {"url": "https://openai.com/index/perplexity-and-intelligence/", "reason": "연구 글, 본문 미확인, 업무 연결 불명확"}
+  ],
+  "notes": "ChatGPT 릴리스 노트 페이지는 28만 자 중 앞 10만 자만 읽었다. 최신순 정렬이라 11-23 항목은 상단에서 확인했으나 뒤쪽은 보지 않았다. 아티팩트 앱 도움말은 작성일이 없어 날짜는 릴리스 노트(11-24) 기준. openai.com/news는 제목·날짜 목록만 확인했고 본문은 열지 않았다. 검색 결과 중 11월 초·중순 항목(ChatGPT Wallet, Claude Meetings 등)은 기간 밖이라 제외."
+}
