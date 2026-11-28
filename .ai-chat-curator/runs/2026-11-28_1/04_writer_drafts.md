@@ -15,19 +15,19 @@ Plus·Pro·Business 대상이고, 일부는 12월 전에 먼저 바뀔 수 있�
 https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits
 ```
 
-### [2] OpenAI 사내 AI 사례 13건, 우리 팀은 어디까지 맡기나요?
+### [2] OpenAI 재무팀은 AI에 초안, 사람에게 승인 — 우리 팀은 어디까지 맡기나요?
 - 후보: C04
 - 유형: 질문거리
 - 도구: ChatGPT
-- 원문: https://www.gpters.org/ax-lab/post/13-cases-openai-inhouse
+- 원문: https://openai.com/index/building-an-ai-native-finance-function/
 - 검증: 부분 확인
 
 ```kakao
-OpenAI가 공개한 사내 AI 활용 사례 13건, 어디까지 AI에 맡겼을까요
-한 실무자 정리를 보면 재무·영업 등 다수는 AI가 초안을 쓰고 사람이 검토·승인하는 구조였어요.
-고객지원·IT 문의처럼 AI가 끝까지 처리하는 사례도 있었고, 신뢰가 쌓이면 맡기는 범위를 넓혔대요(성과 수치는 OpenAI 자체 발표).
+OpenAI 재무팀은 AI에 초안을 맡기고 최종 승인은 사람이 한대요(OpenAI CFO가 8월에 쓴 글)
+투자자 질문 답변은 승인된 자료만 보는 맞춤 GPT가 초안을 금방 쓰고, IR팀이 읽고 판단을 더해 마무리해요.
+결산 차이 설명도 AI가 초안과 확인할 항목까지 뽑고, 숫자 검증과 최종 승인은 재무팀이 맡는대요.
 여러분 팀은 ① 초안까지만 ② 사람 확인 후 발송 ③ 일부는 AI가 끝까지, 어디쯤이세요?
-https://www.gpters.org/ax-lab/post/13-cases-openai-inhouse
+https://openai.com/index/building-an-ai-native-finance-function/
 ```
 
 ### [3] AI 말투가 거슬릴 때, 계정 지침에 문체 규칙 넣어 보셨어요?
@@ -39,8 +39,8 @@ https://www.gpters.org/ax-lab/post/13-cases-openai-inhouse
 
 ```kakao
 AI 답 말투가 거슬릴 때, 계정 지침에 문체 규칙 넣어 보셨어요?
-해외 커뮤니티에서 "아주 간결하게 써" 한 줄이 꽤 도움됐다는 경험담이 나왔어요. 한 사람 체감이라 아직 공식 확인된 효과는 아니고, 첫 대화 뒤엔 잘 안 먹힌다는 반대 경험도 있었어요.
-위치는 ChatGPT 설정 > 개인 맞춤 설정 > 맞춤형 지침, Claude 설정 > Instructions예요(웹 기준, 회사 계정은 조직 설정이 앞설 수 있어요).
+해외 커뮤니티에서 "아주 간결하게 써" 한 줄이 도움됐다는 경험담이 나왔어요. 한 사람 체감이라 아직 공식 확인된 효과는 아니고, 대화가 길어지면(첫 답변 이후엔) 잘 안 먹힌다는 반대 경험도 있었어요.
+위치는 ChatGPT 설정 > 개인 맞춤 설정 > 맞춤형 지침, Claude 설정 > Your Claude > Instructions예요(웹 기준, 회사 계정은 조직 설정이 앞설 수 있어요).
 써 보신 분, ① 확실히 달라짐 ② 처음만 ③ 별 차이 없음, 어떠셨어요?
 https://news.ycombinator.com/item?id=50634900
 ```
@@ -54,13 +54,13 @@ https://news.ycombinator.com/item?id=50634900
 
 ```kakao
 회의록을 AI로 정리할 때 '결정'과 '논의'부터 나누게 하세요
-한 실무자가 녹취 텍스트로 Claude에 회의록을 맡겼다가, 검토 중인 안건이 확정처럼 정리되는 일을 겪고 지시를 이렇게 바꿨대요.
-"결정 사항과 논의 중인 사항을 나눠 정리하고, 할 일은 담당자·할 일·기한 표로. 기한이 없으면 '추후 논의'로 적어줘"
+한 실무자가 녹취 텍스트로 Claude에 회의록을 맡겼더니 중요한 결정이 빠지거나 흐릿한 줄글로 나와 손으로 고쳤대요. 나누지 않으면 검토 중인 안건이 확정처럼 읽힐 수도 있고요.
+"결정 사항과 논의 중인 사항을 나눠 정리하고, 할 일은 담당자·할 일·기한 표로. 기한이 없으면 '협의 필요'로 적어줘"
 지금 쓰는 Claude 채팅 창에서 바로 해 볼 수 있어요. 고객명 등 민감한 내용은 지우고 넣으세요.
 https://www.gpters.org/nocode/post/nondeveloper-office-worker-shared
 ```
 
-### [5] 회사 Gmail·드라이브에 외부 AI를 연결해 쓴다면, 2027년 2월부터 연결 방식이 바뀌어요
+### [5] 회사 Gmail·드라이브에 외부 AI를 연결해 쓴다면, 2027년 2월부터 연결 방식이 바뀔 수 있어요
 - 후보: C10
 - 유형: 주의할 점
 - 도구: Gemini
@@ -68,9 +68,9 @@ https://www.gpters.org/nocode/post/nondeveloper-office-worker-shared
 - 검증: 확인됨
 
 ```kakao
-회사 Gmail·드라이브에 외부 AI를 연결해 쓴다면, 2027년 2월부터 연결 방식이 바뀌어요
-구글이 AI 에이전트는 워크스페이스 공식 MCP 서버(AI 연결 통로)나 CLI로만 데이터에 접근하게 정했어요. Gemini 새 기능이 아니라 워크스페이스 정책이에요.
-관리자는 에이전트 접근을 관리하고 기록으로 확인할 수 있게 되고, 일반 사용자 화면은 그대로예요.
+회사 Gmail·드라이브에 외부 AI를 연결해 쓴다면, 2027년 2월부터 연결 방식이 바뀔 수 있어요
+구글이 AI 에이전트는 워크스페이스 공식 MCP 서버(AI 연결 통로)나 명령줄 도구(CLI)로만 데이터에 접근하게 정했어요. Gemini 새 기능이 아니라 워크스페이스 정책이에요.
+관리자가 에이전트 접근을 관리하고 기록으로 확인할 수 있게 되고, 민감한 작업은 사용자에게 확인을 받게 설정할 수도 있어요.
 Claude·ChatGPT 등을 회사 계정에 연결해 쓰고 있다면 IT 담당자에게 대응 계획을 한 번 물어보세요.
 https://workspaceupdates.googleblog.com/2026/11/mcp-servers-cli-standardized-usage-tiers-now-available.html
 ```
