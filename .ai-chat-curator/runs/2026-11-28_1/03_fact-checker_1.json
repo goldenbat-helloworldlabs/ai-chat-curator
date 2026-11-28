@@ -1,0 +1,120 @@
+{
+  "results": [
+    {
+      "cid": "C01",
+      "status": "부분 확인",
+      "evidence": [
+        {
+          "url": "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits",
+          "source_type": "공식",
+          "published": "unknown",
+          "what": "페이지에 '22시간 전 갱신'으로만 표시돼 정확한 날짜는 없음(열람 2026-11-28 기준 11-27 무렵). 12월부터 Plus·Pro·Business의 사용량이 ChatGPT와 Codex 사이에 공유된다고 안내함(Work의 에이전트 기능을 ChatGPT 본체로 합치는 과정이라는 설명). '소수 사용자는 12월 전에 먼저 변경을 볼 수 있다', 'Instant 채팅은 사용량에서 차감하지 않는다', '고급 모델·복잡한 작업일수록 사용량을 더 쓴다'는 문구도 있음. 'Pro 일부 먼저'라는 표현은 없음. GPT-6.2 차감 오류, 25~40% 수치, 초기화 1회는 이 페이지에 없음"
+        },
+        {
+          "url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
+          "source_type": "언론",
+          "published": "2026-11-25",
+          "what": "OpenAI 대변인에게 확인한 내용으로 보도함. Chat·Work가 사용량 하나를 같이 쓰고, 소수 Pro 구독자부터 적용하며, 12월에 넓힘. Instant는 차감하지 않고 한도를 다 써도 계속 쓸 수 있음. 대부분은 영향이 없고 가장 많이 쓰는 소수가 한도에 더 빨리 닿을 수 있다고 함. 출처는 제품 책임자 Tibo Sottiaux의 X 글. 차감 오류·초기화 1회 언급은 없음"
+        },
+        {
+          "url": "https://www.aitimes.com/news/articleView.html?idxno=217800",
+          "source_type": "언론",
+          "published": "2026-11-26",
+          "what": "한도 통합, 일부 Pro 먼저 적용, 12월 Plus·Pro·Business로 확대, Instant 제외, 헤비 유저는 일찍 소진될 수 있음을 보도. 남은 사용량은 설정 > 사용량(Usage)에서 확인할 수 있다고 함. 차감 오류 언급은 없음"
+        },
+        {
+          "url": "https://zdnet.co.kr/view/?no=20261127142417",
+          "source_type": "언론",
+          "published": "2026-11-27",
+          "what": "Tibo Sottiaux의 X 글(현지 시각 11-25)을 인용해 보도함. GPT-6.2 출시 때 Astra·Sol 사용량이 실제보다 적게 차감됐고, 이를 고친 뒤 지난주보다 Astra는 40%, Sol은 25% 더 빨리 한도에 닿음. 적게 차감된 만큼 추가 청구는 없고, Plus·Pro·Business 전원에게 사용량 초기화 1회를 적립함. 11-24에는 Business에 초기화 1회와 12-31까지 추가 요금 없는 패스트 모드를 따로 안내했다고 함"
+        }
+      ],
+      "freshness_ok": true,
+      "caveats": "(1) 한도 통합: 12월 Plus·Pro·Business 적용, 12월 전 소수 먼저 적용, Instant 제외까지는 OpenAI 공식 도움말로 확인함. '일부 Pro 먼저'는 언론 보도(OpenAI 대변인 확인)만 있음. 공식 도움말은 'ChatGPT와 Codex가 사용량 공유'라고 표현하므로 문안은 'Chat·Work·Codex가 한 사용량을 같이 씀' 정도로 쓰는 게 안전함. 무료·Go·Enterprise는 안내 대상에 없음. 요금제별 통합 사용량 규모는 공개되지 않음. (2) 차감 오류·25~40%·초기화 1회: 공식 페이지(도움말·릴리스 노트 11-22~28 항목)에서 찾지 못함. 원출처는 X 글이고 로그인 없이 열람하지 못해 ZDNet Korea 보도 하나에만 근거함. 영향을 받은 모델은 Work·Codex용 GPT-6.2 Astra·Sol이며, C02의 Chat 탭용 GPT-6.2와는 다름. 다른 모델은 영향이 없다고 보도됨.",
+      "corrected_claim": "통합 대상은 '일부 Pro 먼저'라기보다 '12월 전 소수 사용자 먼저'(공식 기준, Pro라는 점은 보도). 25~40%는 Astra 40%·Sol 25%로 모델별로 다르고, 적용 대상은 Work·Codex의 GPT-6.2 Astra·Sol뿐(Chat 탭 모델 아님).",
+      "note": "b-03(차감 오류·초기화)은 한도 통합(b-01·b-02)과 별개 사건이고 확인 수준도 다름(통합은 공식 일부 확인, 오류·초기화는 국내 매체 1건만). 분리하거나 문안에서 '보도에 따르면'을 붙이기를 권함. GPT-6.2 사용량 오류를 OpenAI 공식 페이지에서 따로 찾아봤으나 없었음(검색에서 나온 8월 Codex 사용량 오류·초기화 기사는 다른 사건)."
+    },
+    {
+      "cid": "C02",
+      "status": "확인됨",
+      "evidence": [
+        {
+          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+          "source_type": "공식",
+          "published": "2026-11-23",
+          "what": "11-23 항목에서 Chat 탭에 맞춘 GPT-6.2를 Plus·Pro·Business·Enterprise에 순차 적용한다고 안내함. Enterprise는 워크스페이스 관리자 설정에 따라 다르고, Work·Codex 모델은 이번 변경 대상이 아님. 무료 요금제는 언급이 없음. 11-22~28 사이 다른 항목이나 철회 공지는 없음"
+        }
+      ],
+      "freshness_ok": true,
+      "caveats": "유료(Plus·Pro·Business·Enterprise)만 해당하고 순차 적용이라 아직 안 바뀐 계정이 있을 수 있음. Enterprise는 관리자 설정에 따름. 무료는 안내 대상이 아님(무료 제외라고 명시한 것은 아니라 '무료 안 됨'으로 단정하지 말 것). Work·Codex 탭 모델은 그대로임. 11-17에 나온 Work·Codex용 GPT-6.2 Astra·Sol과 이름이 비슷하니 문안에서 섞지 말 것. 한국만 다르다는 언급은 없음.",
+      "corrected_claim": null,
+      "note": "롤백·연기 보도를 찾아봤으나 Chat 탭 GPT-6.2와 관련된 것은 없었음(검색된 연기·중단 보도는 GPT-6.1·GPT-6 Astra 등 다른 건). 릴리스 노트는 앞 10만 자(최신 항목 쪽)만 읽음."
+    },
+    {
+      "cid": "C04",
+      "status": "부분 확인",
+      "evidence": [
+        {
+          "url": "https://www.gpters.org/ax-lab/post/13-cases-openai-inhouse",
+          "source_type": "실무자",
+          "published": "2026-11-20",
+          "what": "OpenAI가 공개한 사내 사례 13건(마케팅·영업·법무·PM·고객지원 Presence·데이터·재무 IR-GPT·리서치·IT 에이전트·dot·Ultrafast·보안 스프린트)을 정리한 글. 원자료는 OpenAI 공식 글(2026-02~11), 웨비나, 2차 기사·뉴스레터임. 법무 원문과 PM 영상 자막은 확인하지 못했다고 글 스스로 밝힘. 본문 사례 가운데 고객지원 Presence(문의 75%를 사람 없이 해결), IT 에이전트(티켓 약 45%를 직접 처리), 보안 스프린트(패치 100% Codex 작성)는 '초안만 AI, 승인은 사람' 구조와 맞지 않음. 권한을 단계적으로 넓히는 방식(PM은 읽기→초안→외부 발송 승인 3단계, dot의 실행 규칙, 보안 스프린트)은 글에 나옴. 성과 수치는 모두 자체 보고이고 측정 방법·기간·정의가 빠진 게 많음"
+        },
+        {
+          "url": "https://openai.com/index/building-an-ai-native-finance-function/",
+          "source_type": "공식",
+          "published": "2026-08-10",
+          "what": "OpenAI CFO Sarah Friar 글. 재무 사례(IR-GPT, 결산, 예측 등)에서 AI가 초안·설명을 만들고 재무팀이 검토·최종 승인하는 구조를 확인함. '승인된 기준치를 바꾸려면 재무팀 승인이 있어야 한다'는 문구가 있음. 정량 성과는 '몇 시간 걸리던 IR 초안이 몇 초 만에 나온다' 정도이고 측정 방법은 없음. 권한을 단계적으로 넓혔다는 설명은 없음(통제 방안은 권고로 제시)"
+        }
+      ],
+      "freshness_ok": true,
+      "caveats": "OpenAI 공식 원자료는 2026-02~11에 흩어져 있고, 정리 글(11-20)은 실무자 관점 d의 30일 기간 안에 있음. 13건은 OpenAI가 공개한 자료에서만 골랐으므로 사내 전체를 대표하지 않음. 성과 수치는 OpenAI 자체 보고이고 독립 검증이 없음. GPTers 글에는 기업교육 문의·AX 시작하기 같은 B2B 교육 홍보 문구가 곳곳에 있음(본문에 판매 문구는 없음). 광고 배제 항목에서 검증자가 판단해야 함.",
+      "corrected_claim": "13건 '모두'가 에이전트 초안·사람 승인 구조인 것은 아님. 재무·영업·법무 답장 등 다수는 그 구조지만, 고객지원(75% 자동 해결)·IT 에이전트(약 45% 직접 처리)·보안 패치(Codex 100% 작성)처럼 AI가 끝까지 처리하는 사례도 있음. '대부분 사람 검토를 거치고, 신뢰가 쌓이면 맡기는 범위를 넓힌다'가 원자료에 더 가까움.",
+      "note": "공식 원자료는 재무 글 1건만 직접 열었음. 나머지 12건의 원문은 열지 않았고 정리 글에 기대어 판단함."
+    },
+    {
+      "cid": "C07",
+      "status": "아직 공식 확인 안 됨",
+      "evidence": [
+        {
+          "url": "https://news.ycombinator.com/item?id=50634900",
+          "source_type": "커뮤니티",
+          "published": "unknown",
+          "what": "'Ask HN: Least cringe AI for natural language?' 스레드. 페이지에는 '3일 전'으로만 표시됨(열람일 기준 약 11-25). 글쓴이는 Claude 답이 훈계조·거들먹거리는 말투가 됐고 ChatGPT는 틀에 박혔다고 함. 스타일 지시는 첫 턴이 지나면 무시된다는 회의도 적음. 댓글 1명(hawaiih1)이 'Be extremely concise. Sacrifice grammar for the sake of concision.' 한 줄이 '많이 도움된다'고 했고, 다른 1명은 자기 Claude 지침을 공유했으나 효과는 말하지 않음. '답이 길고 단서가 많아졌다'는 표현은 스레드에 없음(원문은 condescending)"
+        },
+        {
+          "url": "https://help.openai.com/en/articles/8096356-custom-instructions-for-chatgpt",
+          "source_type": "공식",
+          "published": "unknown",
+          "what": "ChatGPT 맞춤 지침 위치를 확인함. 웹·데스크톱은 설정 > 개인 맞춤 설정 > 맞춤형 지침, iOS·Android는 설정 > ChatGPT 맞춤 설정이고 '맞춤 설정 사용'을 켜야 함. 모든 요금제에서 되고, 글자 수는 Free·Go 1,500자, 유료 5,000자. 갱신일은 '지난달'로만 표시됨. 문체·길이 지시가 효과 있다는 공식 설명은 없음"
+        },
+        {
+          "url": "https://support.claude.com/en/articles/10185728-understanding-claude-s-personalization-features",
+          "source_type": "공식",
+          "published": "2026-10-23",
+          "what": "Claude 계정 전체 지침 위치를 확인함. 왼쪽 아래 이니셜 > 설정 > 'Your Claude'(예전 화면은 'Account')의 'Instructions'(예전 이름 'Instructions for Claude'). 요금제별 제공 범위는 페이지에 명시되지 않음. 말투·형식 조정은 스킬로도 할 수 있다고 안내함"
+        }
+      ],
+      "freshness_ok": true,
+      "caveats": "두 도구 모두 계정 전체에 적용되는 지침 기능이 있고 위치는 공식 도움말로 확인함(ChatGPT '맞춤형 지침', Claude 'Instructions'. Claude 쪽 메뉴 이름은 화면 버전에 따라 다름). '간결하게 한 줄을 넣으면 답이 짧아진다'는 HN 댓글 1명의 경험담일 뿐이고 공식 설명이나 비교 검증은 없음. 'Claude 답이 길어졌다'는 체감도 원문과 다름(원문은 훈계조라는 불만). 회사 계정(Team·Enterprise·Business)은 조직 지침이 개인 지침보다 앞설 수 있음(Claude 조직 지침 문서 검색 결과 기준, 직접 열람은 안 함).",
+      "corrected_claim": "원문 불만은 'Claude가 길어졌다'가 아니라 '훈계조·거들먹거린다', ChatGPT는 '틀에 박혔다'임. 효과 주장은 한 사람의 체감이고 글쓴이는 스타일 지시가 첫 턴 뒤에 안 먹힌다고 반대 경험을 적음.",
+      "note": "팁 자체(지침에 문체 규칙 넣기)는 공식 기능 범위 안이라 따라 해도 문제는 없음. 다만 효과는 확인되지 않았으므로 문안에 '한 사용자 경험담', '해 보고 맞는지 보세요' 같은 표현이 필요함."
+    },
+    {
+      "cid": "C10",
+      "status": "확인됨",
+      "evidence": [
+        {
+          "url": "https://workspaceupdates.googleblog.com/2026/11/mcp-servers-cli-standardized-usage-tiers-now-available.html",
+          "source_type": "공식",
+          "published": "2026-11-24",
+          "what": "AI 에이전트 같은 도구는 Workspace 데이터에 Workspace MCP 서버나 Workspace CLI로 접근해야 하고, 기술적 강제는 2027-02-01부터라고 함. Standard 등급(무료, 공개된 사용량 한도)과 Scaled 등급(더 높은 한도)이 Gmail·Drive·Calendar부터 시작하고, Scaled 과금은 2027-04-01부터 하루 무료 사용량을 넘는 부분만 청구함. 아무것도 안 하면 공개 한도로 속도가 제한될 수 있음. 관리자는 보안 > API 제어에서 에이전트 접근을 관리하고 사람 확인 규칙을 둘 수 있음. 기존 사용자 단위 DLP가 자동 적용되고, 감사 로그에 에이전트 작업과 사용자 확인이 남음. AI Tools 부속 약관은 Workspace API로 얻은 일부 데이터의 장기 저장과 AI 에이전트로 API를 긁어가는 것을 금지함. 모든 Workspace 고객·개발자 대상이고, Rapid·Scheduled Release 도메인에 2주 안에 배포됨"
+        }
+      ],
+      "freshness_ok": true,
+      "caveats": "관리자·개발자 쪽 변경이라 일반 사용자 화면이 바뀌는 것은 아님. 외부 AI 도구(Claude·ChatGPT 등)를 회사 Gmail·Drive에 연결해 쓰는 조직은 연결 방식이나 관리자 정책이 바뀔 수 있음. 조직 안에서만 쓰는 프로젝트는 '내부'로 지정하면 더 높은 한도가 Workspace 구독에 포함됨. 일부 데이터가 무엇인지는 공지에 정의돼 있지 않음. Gemini 기능 소식이 아니라 Google Workspace 정책이므로 문안에서 'Gemini 새 기능'처럼 쓰지 말 것.",
+      "corrected_claim": null,
+      "note": "'Standard(무료)'는 '무료이되 공개 사용량 한도가 있음'으로 쓰는 게 정확함."
+    }
+  ]
+}
